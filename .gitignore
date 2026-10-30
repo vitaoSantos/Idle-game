@@ -1,0 +1,16 @@
+# Segredos e chaves de assinatura das lojas
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+
+# Claude Code: configurações e memórias locais de cada pessoa
+.claude/settings.local.json
+.claude/agent-memory-local/
+
+# Sistema
+.DS_Store
+Thumbs.db
