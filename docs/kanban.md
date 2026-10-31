@@ -11,7 +11,7 @@ O painel é o projeto **Idle Game** no Linear. Cada card é uma issue do Linear.
 | Projeto | Idle Game (`P-VIC-1`) — https://linear.app/victor-santos-soares/project/idle-game-925c9e6b9c42 |
 | Fases | Marcos do projeto: "Fase 1 — Escopo e ideia" … "Fase 7 — Lojas" |
 | Equipes | Grupo de rótulos **Equipe**: Arquitetura, Criativa, Front-end, Back-end, Infra, Publicação, QA |
-| Outros rótulos | **Em QA** (provisório, ver abaixo), **Bloqueado** (precisa de você), e os padrões Feature, Improvement, Bug |
+| Outros rótulos | **Bloqueado** (precisa de você) e os padrões Feature, Improvement, Bug. O antigo rótulo provisório "Em QA" não é mais usado |
 | Prioridade | A do próprio Linear: Urgent, High, Medium, Low |
 
 ## Colunas
@@ -21,18 +21,23 @@ O painel é o projeto **Idle Game** no Linear. Cada card é uma issue do Linear.
 | **Backlog** | Backlog | você ou `/nova-tarefa` |
 | **Pronto** | Todo | **você** (o de maior prioridade é o próximo a executar) |
 | **Em andamento** | In Progress | Líder |
-| **Em QA** | Em QA (status a criar) — enquanto não existir: In Progress + rótulo **Em QA** | Líder |
+| **Em QA** | Em QA | Líder |
 | **Revisão** | In Review | Líder, com o relatório final comentado no card |
 | **Concluído** | Done | você, ao aprovar (ou a integração com o GitHub, no merge do PR) |
 
 Se você renomear os status no Linear (ex.: Todo → Pronto), atualize esta tabela: os comandos do Líder seguem o que está escrito aqui.
 
-## Ajustes recomendados no Linear (uma vez)
+## Ajustes feitos (2026-10-31)
 
-1. **Criar o status "Em QA":** Settings → Teams → Victor Santos Soares → Workflow → em *Started*, adicione "Em QA" entre In Progress e In Review. Depois disso, o Líder para de usar o rótulo provisório.
-2. **Integração com o GitHub:** Settings → Integrations → GitHub, conectando o repositório `vitaoSantos/Idle-game`. Assim, branches e PRs com o ID do card (ex.: `Closes VIC-12`) aparecem no card e o movem sozinhos.
-3. **App do Linear no celular**, para acompanhar e aprovar de qualquer lugar.
-4. Opcional: arquivar as issues de boas-vindas do Linear (VIC-1 a VIC-4). Elas estão fora do projeto e o Líder as ignora.
+- Status **Em QA** criado no fluxo do time, entre In Progress e In Review.
+- **Integração Linear ↔ GitHub** conectada: branches e PRs com o ID do card (ex.: `Closes VIC-12`) aparecem no card e o movem sozinhos.
+- `main` definida como branch padrão no GitHub.
+
+Opcionais: o app do Linear no celular, para acompanhar e aprovar de qualquer lugar, e arquivar as issues de boas-vindas (VIC-1 a VIC-4), que estão fora do projeto e são ignoradas pelo Líder.
+
+## Confirmações do conector
+
+O `.claude/settings.json` do projeto libera, sem pedir confirmação, as ferramentas do conector do Linear que leem, criam e atualizam cards, comentários, rótulos e marcos. As que apagam ou arquivam continuam pedindo confirmação. A regra vale para as sessões abertas depois que o arquivo chegou ao repositório.
 
 ## Uso no dia a dia
 

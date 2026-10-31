@@ -129,7 +129,7 @@ Use `/plugin` para navegar pelo catálogo completo, que muda com frequência.
 
 ## 6. Permissões recomendadas (opcional)
 
-Para liberar comandos de leitura do git sem confirmação e bloquear a leitura de segredos, você pode criar `.claude/settings.json` com o conteúdo abaixo. Revise antes de aplicar: este arquivo muda o que o Claude Code pode fazer sem perguntar. Para as ferramentas do conector do Linear, escolha "sempre permitir" quando o Claude Code pedir confirmação.
+O projeto já tem um `.claude/settings.json` que libera, sem confirmação, as ferramentas do conector do Linear que leem, criam e atualizam (as que apagam continuam pedindo confirmação). Se quiser, acrescente às listas desse arquivo as regras abaixo: leitura do git sem confirmação e bloqueio da leitura de segredos. Revise antes de aplicar: este arquivo muda o que o Claude Code pode fazer sem perguntar.
 
 ```json
 {
