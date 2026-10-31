@@ -4,7 +4,7 @@ Este arquivo é carregado por todas as sessões e por todos os agentes. Mantenha
 
 ## Visão
 
-Idle RPG com elementos de MMORPG (classes, evolução de habilidades, escolha de facção), sempre farmando, inclusive offline. Web primeiro, depois Google Play e App Store. Desenvolvido por equipes de agentes de IA orquestradas por um Líder Técnico.
+Idle RPG com elementos de MMORPG (classes, evolução de habilidades, montagem de grupos de heróis, PvP), sempre farmando, inclusive offline. Web primeiro, depois Google Play e App Store. Desenvolvido por equipes de agentes de IA orquestradas por um Líder Técnico.
 Briefing do usuário: `docs/gdd/briefing.md`. O conceito final sai da Fase 1 (`docs/gdd/`).
 
 ## Estado atual
