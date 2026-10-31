@@ -8,14 +8,14 @@
 
 ## Resumo executivo
 
-- **Magic Rush: Heroes** (Moonton, 2015) segue ativo, em manutenção (cerca de 43,5 mi de instalações no Google Play), mas exige jogo ativo: a stamina é a porta do farm, os pontos de habilidade enchem em 3 h 20 min (sem VIP) e há limites diários. Os botões Varrer e X10 repetem fases já vencidas sem jogar, mas só quando o jogador aperta o botão, e cada repetição gasta stamina.
-- **Na experiência do usuário** (relato e vídeo de 2026-10-31): zero anúncios, nenhuma facção escolhida pelo jogador (só grupos de heróis), 5 papéis de herói (Tanque, Atirador, Mago, Suporte e Canhão) e nenhuma grande frustração. O melhor era o **PvP** e **evoluir os heróis**.
+- **Magic Rush: Heroes** (Moonton, 2015) segue ativo, em manutenção (cerca de 43,5 mi de instalações no Google Play), mas exige jogo ativo: a stamina é a porta do farm, os pontos de habilidade enchem em 3 h 20 min (sem VIP) e há limites diários. Os botões Varrer e X10 repetem fases já vencidas sem jogar, mas só quando o jogador aperta o botão, e a tela de fase mostra o custo de stamina junto deles.
+- **Na experiência do usuário** (vídeo e respostas do usuário, 2026-10-31): zero anúncios, nenhuma facção escolhida pelo jogador (só grupos de heróis), 5 papéis de herói (Tanque, Atirador, Mago, Suporte e Canhão) e nenhuma grande frustração. O melhor era o **PvP** e **evoluir os heróis**.
 - O subgênero migrou para o modelo AFK: baú offline de até 12 h no AFK Arena (o teto sobe com o VIP) e tempo idle de 6 h (8 h com membership) no IdleMMO. O AFK Arena soma US$ 1,5 bi, e o MapleStory: Idle RPG fez US$ 164 mi em poucos meses.
-- MMO com classes já vende no idle (MapleStory: Idle RPG, Legend of Mushroom), e idle MMOs indie (IdleMMO, Idle Clans) usam mercado entre jogadores e VIP negociável. O **Dead Zone — Idle Arsenal RPG**, segunda referência do usuário, mostra esse pacote no navegador e em pt-BR: esquadrão em cartas com raridade, ondas e ciclos, base, expedições, árvore de melhorias e passe com trilha grátis e elite.
+- MMO com classes já vende no idle (MapleStory: Idle RPG, Legend of Mushroom), e idle MMOs indie (IdleMMO, Idle Clans) usam mercado entre jogadores e VIP negociável. O **Dead Zone — Idle Arsenal RPG**, segunda referência do usuário, é um idle RPG de navegador, em pt-BR, com esquadrão em cartas com raridade, ondas por zona e ciclos, base, expedições, árvore de melhorias e passe com trilha grátis e elite. Só temos o vídeo do usuário: não vimos guilda, mercado nem VIP (seção 2.12).
 - Monetização padrão: gacha, VIP, cartão mensal e passe. As fontes divergem sobre a principal queixa de monetização: a AppFollow aponta o anúncio forçado, e a Unstar, o pay-to-win. Nenhuma das duas publica o método.
 - O pay-to-win fatura, mas derruba as notas e concentra a receita. Por um erro de probabilidade, a Nexon ofereceu reembolso total das compras do MapleStory: Idle RPG feitas de 06/11/2025 a 28/01/2026 a quem pedisse (pedidos de 5 a 15/02/2026).
 - No Brasil, o ECA Digital (Lei 15.211/2025, em vigor desde 17/03/2026) veda caixas de recompensa em jogos direcionados a menores ou de acesso provável por eles, conforme a classificação indicativa (art. 20). O decreto que regulamenta a lei (Decreto 12.880/2026, art. 23, segundo a Nota Técnica 55/2026 do MJSP) exige medidas efetivas, como verificação de idade. Análises jurídicas estendem o cuidado à venda de itens e ao chat entre menores; a leitura ainda precisa ser validada no texto oficial.
-- **Oportunidade:** um "Magic Rush que farma sozinho", com classes e papéis, grupos de heróis como eixo da montagem de time, farm contínuo (inclusive offline), PvP assíncrono com faixas de poder, rankings de jogadores e de guildas por temporada (sem lados escolhidos), temporadas de 6 a 8 semanas e VIP negociável.
+- **Oportunidade:** um "Magic Rush que farma sozinho", com classes e papéis, grupos de heróis como eixo da montagem de time, farm contínuo (inclusive offline), PvP assíncrono com faixas de poder, rankings de jogadores e de guildas por temporada (sem lados escolhidos), temporadas de 6 a 8 semanas e VIP negociável (hipótese; a evidência de queda da venda externa é inicial e de atribuição incerta, seção 3.1).
 - **Riscos:** fraude na troca, custo do servidor autoritativo, pay-to-win no PvP (o modo de que o usuário mais gostava) e conformidade com lojas e leis.
 
 ## Como a pesquisa foi feita e limitações
@@ -24,9 +24,10 @@
 - **Limite de buscas:** o limite da sessão (200 buscas por turno, compartilhado entre os agentes) acabou no fim do trabalho. Ficaram sem confirmação: os modos de jogo detalhados do AFK Arena e do Idle Heroes, a presença de anúncios no IdleOn e a taxa de regeneração de stamina do Magic Rush. Esses pontos estão marcados no texto.
 - **Receitas** são estimativas de empresas de dados (AppMagic, Sensor Tower) ou de analistas (Naavik, Deconstructor of Fun), não balanços oficiais.
 - **Reddit:** o conteúdo foi visto por espelhos (redlib e similares) nos resultados de busca. Citamos a URL canônica do `reddit.com`, com o mesmo caminho.
-- **Magic Rush:** boa parte dos guias da comunidade tem até 10 anos. Os números podem ter mudado em versões recentes.
-- **Confiança:** **alta** para fonte oficial, imprensa especializada ou duas ou mais fontes concordantes. **Média** para guia ou wiki de comunidade. **Baixa** para agregador automático ou de IA, fonte única fraca ou cálculo nosso sobre dado incerto.
+- **Magic Rush:** boa parte dos guias da comunidade tem até 10 anos. Os números podem ter mudado em versões recentes. O usuário, que jogou por bastante tempo, confirmou ou corrigiu parte dos fatos (vídeo e respostas do usuário, 2026-10-31); onde isso vale, a linha traz [U1] ou [U2]. Ele não informou a versão nem o período em que jogou.
+- **Confiança:** **alta** para fonte oficial, imprensa especializada ou duas ou mais fontes concordantes. **Média** para guia ou wiki de comunidade. **Baixa** para agregador automático ou de IA, fonte única fraca ou cálculo nosso sobre dado incerto. **Relato do usuário** ([U1] a [U3]): alta para o que o vídeo mostra e média para o que só ele lembra, já que não sabemos a versão nem o período em que ele jogou.
 - **Cálculos nossos** estão marcados como tal e mostram a conta.
+- **Revisão pós-QA (2026-10-31, tarde):** feita **sem buscas na web**, só com o relatório de QA [Q1] e o briefing [U1] a [U3]. Por isso seguem sem abrir o texto oficial da Lei 15.211/2025 e do Decreto 12.880/2026 (a base jurídica vem da Nota Técnica 55/2026 [L19] e da checagem do QA) e o post "Bonds – One Week In" da Jagex. Seguem sem resposta o social do AFK Arena e do Idle Heroes, a taxa e o teto de stamina do Magic Rush e a regra da Wishing Pool (VIP 8).
 
 ---
 
@@ -44,6 +45,7 @@
 | Dono do estúdio | A ByteDance (via Nuverse) comprou a Moonton em mar/2021 por cerca de US$ 4 bi. Em mar/2026, a Savvy Games Group (fundo PIF) fechou acordo para comprar a Moonton da ByteDance por cerca de US$ 6 bi | Média | [M34] [M35] |
 | Situação atual | **Ativo, em modo de manutenção.** Atualização na App Store em 24/03/2026; versão 499 no Google Play em 30/10/2025; cerca de 43,5 milhões de instalações e nota 4,2 com cerca de 1,1 milhão de avaliações no Google Play (set/2025); subreddit com posts em 2025 e jan/2026. Não encontramos anúncio de encerramento nem notas de atualização oficiais de 2025 e 2026 | Média | [M7] [M8] [M27] [M28] |
 | Recepção | Sem nota da crítica no Metacritic; nota dos usuários 8,3 | Média | [M32] |
+| Experiência do usuário | Jogou por bastante tempo e gravou o jogo rodando no celular, em paisagem (vídeo e respostas do usuário, 2026-10-31). Não informou a versão nem o período em que jogou | Média | [U1] [U2] |
 
 ### 1.2 Core loop
 
@@ -65,10 +67,12 @@ Cristal -> tropas, castelo, academia
 
 Fontes: [M5] [M14] [M18] [M20] [M23] [M24].
 
+**No vídeo do usuário** (2026-10-31): a tela de fase mostra o custo de stamina (comida), o poder necessário, 3 estrelas e os botões **Varrer** e **X10**, que repetem fases já vencidas sem jogar. A batalha tem 3 ondas (1/3 a 3/3), botões Auto e velocidade x1 e os retratos dos 5 heróis com barras de vida e de energia para a habilidade especial [U2].
+
 ### 1.3 Heróis, classes e papéis
 
-- **Time de 5 heróis em três fileiras.** Tanques na frente, atiradores no meio e suportes atrás, protegidos pelas fileiras da frente [M11] [M22].
-- Um guia antigo fala em **cinco papéis** e recomenda um herói de cada [M21]. Os papéis confirmados nas fontes são Tanque, Atirador (Marksman), Mago e Suporte [M11].
+- **Time de 5 heróis em três fileiras.** Tanques na frente, atiradores no meio e suportes atrás, protegidos pelas fileiras da frente [M11] [M22]. O vídeo mostra os retratos dos 5 heróis na batalha [U2].
+- **Cinco papéis:** Tanque, Atirador, Mago, Suporte e Canhão, como mostra o filtro da seleção de heróis no vídeo e como o usuário confirma (vídeo e respostas do usuário, 2026-10-31) [U1] [U2]. Isso corrige a versão anterior deste documento, que dava 4 papéis a partir de um guia [M11]. Um guia antigo já falava em cinco papéis e recomendava um herói de cada [M21].
 - **Não encontramos contagem oficial atual de heróis.** O jogo recebe heróis novos por eventos (por exemplo, um herói de Natal) [M27].
 
 | Papel | Fileira típica | Função | Exemplos citados em guias [M11] |
@@ -77,7 +81,8 @@ Fontes: [M5] [M14] [M18] [M20] [M23] [M24].
 | Atirador (Marksman) | Meio, às vezes trás | Dano alto em alvo único; poucos têm dano em área | Zoe (a ultimate puxa inimigos para o centro), Ruby |
 | Mago | Trás | Dano mágico e controle | Theresa, Crabbie |
 | Suporte | Trás | Cura, bônus e controle; depende da proteção do tanque | (sem exemplo confirmado) |
-| Heróis de meio "anti-retaguarda" | Meio | Fortes contra a fileira de trás inimiga | Gearz, Torin |
+| Canhão | Não confirmada | Não detalhada nas fontes desta pesquisa; o papel aparece só no filtro do vídeo [U2] | (sem exemplo confirmado) |
+| Heróis de meio "anti-retaguarda" (subtipo do guia; não é um papel do filtro do vídeo) | Meio | Fortes contra a fileira de trás inimiga | Gearz, Torin |
 
 Também aparecem ultimates de controle em massa, como a de Blaine, que silencia o time inimigo inteiro [M11].
 
@@ -94,6 +99,8 @@ Também aparecem ultimates de controle em massa, como a de Blaine, que silencia 
 | Runas | Drops de fases e do Team Raid | Stamina | Média | [M20] [M23] |
 | Tropas e reino | Recursos das minas sobem tropas e prédios | Minas e aliança | Média | [M20] [M23] [M24] |
 
+**Relato do usuário:** evoluir os heróis era um dos pontos de que ele mais gostava (respostas do usuário, 2026-10-31) [U1]. Confiança média, por ser relato de memória.
+
 ### 1.5 Montagem de time
 
 - **Cinco heróis por batalha**, posicionados por fileira. Para passar de fase, o poder do time precisa superar o da fase [M22].
@@ -102,10 +109,10 @@ Também aparecem ultimates de controle em massa, como a de Blaine, que silencia 
 - **Defesa do castelo:** heróis posicionados no muro do reino; a aliança ajuda a defender [M5] [M23].
 - **Crystal Dungeon:** o VIP libera vagas extras na escalação [M16].
 
-### 1.6 Alianças, servidores e facções
+### 1.6 Alianças, servidores e lado escolhido pelo jogador
 
 - **Alianças (guildas):** chat; captura de minas e Mega Minas (no máximo 3 por aliança, com bônus de mineração); Alliance War, um torneio entre alianças do mesmo servidor; ajuda na defesa do castelo; bônus da academia para quem tem Mega Mina [M5] [M23] [M24] [M36]. Um guia de 2015 cita prêmio de até 9,2 milhões de ouro para as guildas do topo em alguns servidores [M26].
-- **Facções:** não encontramos sistema de facções. O "time" social é a aliança dentro de um servidor.
+- **Lado escolhido pelo jogador (como Aliança × Horda):** não encontramos nas fontes, e o usuário confirma que não existia: só grupos de heróis (vídeo e respostas do usuário, 2026-10-31) [U1]. O "time" social é a aliança dentro de um servidor.
 - **Servidores rotativos:** novos servidores abrem a cada 2 a 7 dias, ou quando lotam, sem aviso prévio. Fusões de servidores não seguem calendário e são avisadas por e-mail no jogo com 1 a 2 semanas de antecedência [M23]. As fusões foram criadas para manter interessantes os servidores esvaziados [M25].
 - **Leitura de design:** servidores novos frequentes dão um recomeço a quem chega tarde e reabrem a corrida no topo, que é onde o gasto se concentra. As fusões juntam a população quando ela cai.
 
@@ -122,6 +129,7 @@ Também aparecem ultimates de controle em massa, como a de Blaine, que silencia 
 | PvP | Arena global entre servidores | Ban/pick em turnos | [M5] |
 | PvP | Ataque a castelos | Rende Prata, Ferro, Medicamento e Cristal (não rende ouro) | [M23] |
 | PvP (grupo) | Alliance War e Mega Minas | Torneio do servidor e disputa de minas | [M24] |
+| Não confirmado | Guerra do Trono | Modo citado numa dica de carregamento do vídeo; tipo e regras não vistos (o nome sugere disputa entre jogadores). O usuário aponta o PvP como um dos melhores momentos do jogo [U1] | [U2] |
 
 ### 1.8 Economia e moedas
 
@@ -136,6 +144,8 @@ Também aparecem ultimates de controle em massa, como a de Blaine, que silencia 
 | Runas, poções de XP | Fases, Team Raid | Atributos e nível | [M20] [M23] |
 | Shadow Essence | Pacote pago "Fortnight Shadow Essence" | Uso exato não confirmado | [M5] |
 
+No vídeo, a barra de moedas mostra stamina (comida), ouro e gemas [U2]. As "gemas" devem ser os diamantes das fontes (não confirmado).
+
 ### 1.9 Monetização
 
 | Elemento | Detalhe | Confiança | Fontes |
@@ -144,11 +154,11 @@ Também aparecem ultimates de controle em massa, como a de Blaine, que silencia 
 | Preço por diamante | Cerca de 30 diamantes por dólar em todos os pacotes listados, sem desconto por volume (cálculo nosso: 30/0,99 = 30,3; 3.000/99,99 = 30,0). Bônus de recarga do VIP não entram na conta | Média | [M5] |
 | Passe mensal de stamina | "Stamina Month Card" por US$ 2,99 nos EUA e R$ 19,90 no Brasil (30 diamantes saem por R$ 6,90 no Brasil) | Média | [M5] [M6] |
 | Outros pacotes | SurprisePack (US$ 4,99) e Fortnight Shadow Essence (US$ 4,99) | Média | [M5] |
-| VIP por gasto acumulado | 15 níveis. O VIP 1 sai com 10 diamantes recarregados e o VIP 2 com 30 (libera sweep x10). Benefícios: mais compras de stamina por dia, teto maior de pontos de habilidade, compra de pontos, bônus em compras de diamantes que cresce de 20% a 100% conforme o nível (mecânica exata não confirmada), vagas extras na Crystal Dungeon e usos extras da "Golden Hand". A Wishing Pool de soul stones só abre a partir do VIP 8 | Média | [M16] [M17] [M23] |
+| VIP por gasto acumulado | 15 níveis. O VIP 1 sai com 10 diamantes recarregados e o VIP 2 com 30 (libera sweep x10). Benefícios: mais compras de stamina por dia, teto maior de pontos de habilidade, compra de pontos, bônus em compras de diamantes que cresce de 20% a 100% conforme o nível (mecânica exata não confirmada), vagas extras na Crystal Dungeon e usos extras da "Golden Hand". A Wishing Pool de soul stones só abre a partir do VIP 8 (incomum para um jogo com gacha; a confirmar com o usuário) | Média | [M16] [M17] [M23] |
 | Gacha | Wishing Pool com baús de ouro e de diamante (um baú de diamante grátis a cada 2 dias); roda de eventos (Magic Wheel), com giro extra a 100 diamantes; eventos de cartas da sorte ("Lucky Card") | Média | [M13] [M21] [M38] |
 | Herói lendário | A wiki da comunidade estima, em média, **15 mil diamantes** para juntar as 80 soul stones de um lendário. **Cálculo nosso:** 15.000 / 30 diamantes por dólar = **cerca de US$ 500 por lendário**, antes de bônus de recarga | Baixa | [M23] [M5] |
 | Resets pagos | Chance extra de sweep elite: 20 diamantes | Média | [M18] |
-| Anúncios | Um resumo de avaliações cita "anúncios para não pagantes" | Baixa | [M29] |
+| Anúncios | **Zero anúncios**, segundo o usuário (vídeo e respostas do usuário, 2026-10-31). Um resumo de avaliações de terceiros citava "anúncios para não pagantes"; vale o relato de quem jogou, que não informou versão nem período | Média | [U1] [U2] [M29] |
 | Passe de temporada | Não encontramos evidência de passe de temporada | — | — |
 
 ### 1.10 O que funcionava
@@ -159,15 +169,18 @@ Também aparecem ultimates de controle em massa, como a de Blaine, que silencia 
 4. **Arena com ban/pick**, que vende a ideia de PvP mais estratégico do que só poder bruto [M5].
 5. **Social com objetivo concreto:** minas, Mega Minas e Alliance War dão à aliança algo para disputar [M24].
 6. **Recomeço frequente** por servidores novos, mais **eventos** recorrentes (roda, cartas da sorte) [M13] [M23] [M38].
+7. **PvP e evolução dos heróis**, os dois melhores momentos do jogo para o usuário (respostas do usuário, 2026-10-31) [U1]. São os dois pontos a proteger no nosso jogo.
 
 ### 1.11 O que frustrava
 
+O usuário, que jogou por bastante tempo, **não teve grandes frustrações** (respostas do usuário, 2026-10-31) [U1]. As linhas abaixo vêm de terceiros (avaliações, fóruns e agregadores) e valem como risco a evitar, não como experiência confirmada de quem jogou.
+
 | Frustração | Evidência | Confiança | Fontes |
 |---|---|---|---|
-| Pay-to-win | Avaliações e resumos de terceiros descrevem o jogo como "free to play, pay to win", dizem que os lendários "são para quem gasta" e que os heróis gratuitos recebem pouca atenção (a atribuição exata entre páginas agregadoras não foi conferida) | Baixa | [M29] [M31] |
+| Pay-to-win | Avaliações e resumos de terceiros descrevem o jogo como "free to play, pay to win", dizem que os lendários "são para quem gasta" e que os heróis gratuitos recebem pouca atenção (a atribuição exata entre páginas agregadoras não foi conferida). O usuário não o citou como frustração [U1] | Baixa | [M29] [M31] |
 | Custo dos lendários e sorte na roda | Cerca de 15 mil diamantes por lendário; post de 2025 relata 30 giros sem nenhum fragmento; tópico "Have Devs gotten greedy?" (jun/2025) | Média | [M23] [M27] |
 | Lentidão no fim do jogo | "Upgrades demoram demais em níveis altos"; repetição com o tempo | Baixa | [M29] |
-| Anúncios para quem não paga | Citado em resumo de avaliações | Baixa | [M29] |
+| Anúncios para quem não paga | Citado em resumo de avaliações, mas **contradito pelo usuário (zero anúncios)** | Baixa (contradito) | [M29] [U1] |
 | Curva de aprendizado | Difícil no início, segundo resumo de avaliações | Baixa | [M29] |
 | Falta de pity e problemas de login | Auditoria automática de avaliações (amostra pequena) | Baixa | [M31] |
 
@@ -177,11 +190,12 @@ Este é o ponto que o briefing quer resolver. O farm do Magic Rush não acontece
 
 | Mecanismo | Por que obriga a voltar | Números | Fontes | Resposta proposta para o nosso jogo |
 |---|---|---|---|---|
-| Stamina como porta do farm | XP, equipamentos e soul stones só saem gastando stamina em fases (6 por fase normal, 12 por elite). Stamina cheia e parada é desperdício | Taxa de regeneração não encontrada | [M14] [M18] | Farm base contínuo, sem stamina. Energia, se existir, só para conteúdo bônus |
-| Pontos de habilidade com teto baixo | Regeneram em tempo real e param no teto | 1 ponto a cada 10 min, teto de 20: enche em 3 h 20 min. **Cálculo nosso:** em 8 h fora, o jogo gera 48 pontos e o jogador perde 28 (58%). O VIP 4 sobe o teto para 40 (6 h 40 min) | [M15] | Recursos de evolução acumulam com teto de pelo menos 8 a 12 h, ou sem teto |
-| Combate manual | Ultimates com mira manual; auto-fight só depois de 3 estrelas nas fases normais; tower defense exige posicionar heróis | — | [M5] [M18] | Combate automático por padrão; controle manual opcional, com bônus pequeno |
-| Limites diários e resets pagos | 3 sweeps por fase elite por dia; mais chances custam diamantes; sweep x10 só no VIP 2 | 20 diamantes por chance extra | [M17] [M18] | Limite diário só em conteúdo bônus, nunca no farm base |
-| Eventos e PvP com horário | Roda de eventos, Alliance War, minas disputadas | — | [M13] [M24] [M27] | Guerra de facção assíncrona, em que a produção idle conta pontos |
+| Stamina como porta do farm | XP, equipamentos e soul stones só saem gastando stamina em fases (6 por fase normal, 12 por elite). Stamina cheia e parada é desperdício | Taxa de regeneração não encontrada (o usuário não a informou). A tela de fase do vídeo mostra o custo de stamina | [M14] [M18] [U2] | Farm base contínuo, sem stamina. Energia, se existir, só para conteúdo bônus |
+| Pontos de habilidade com teto baixo | Regeneram em tempo real e param no teto | 1 ponto a cada 10 min, teto de 20 (sem VIP): enche em 3 h 20 min. **Cálculo nosso:** em 8 h fora, o jogo gera 48 pontos e o jogador perde 28 (58%). O VIP 4 sobe o teto para 40 (6 h 40 min) | [M15] | Recursos de evolução acumulam com teto de pelo menos 8 a 12 h, ou sem teto |
+| Combate manual | Ultimates com mira manual; auto-fight só depois de 3 estrelas nas fases normais; tower defense exige posicionar heróis | O vídeo mostra os botões Auto e velocidade x1 na batalha; a regra das 3 estrelas segue de guia | [M5] [M18] [U2] | Combate automático por padrão; controle manual opcional, com bônus pequeno |
+| Limites diários e resets pagos | 3 sweeps por fase elite por dia; mais chances custam diamantes; sweep x10 só no VIP 2 | 20 diamantes por chance extra. O X10 aparece na tela de fase do vídeo; não sabemos se o usuário tinha o VIP 2 | [M17] [M18] [U2] | Limite diário só em conteúdo bônus, nunca no farm base |
+| Varrer e X10 só rodam no toque | Repetem fases já vencidas sem jogar, mas só quando o jogador aperta o botão, e a tela de fase mostra o custo de stamina | Stamina: 6 por fase normal e 12 por elite, segundo guias; o custo exato de cada Varrer ou X10 não foi confirmado | [U2] [M14] [M18] | Repetição contínua de fases vencidas, sem botão e sem stamina no farm base |
+| Eventos e PvP com horário | Roda de eventos, Alliance War, minas disputadas | — | [M13] [M24] [M27] | Disputa assíncrona entre jogadores e guildas (sem lados escolhidos), em que a produção idle conta pontos |
 | Sem baú idle central | As minas do reino produzem com o tempo, mas eram fonte menor de ouro | Guia de 2015 | [M26] | Baú offline como fonte principal; o jogo ativo acelera |
 
 ### 1.13 Síntese: o que levar e o que evitar
@@ -190,8 +204,8 @@ Este é o ponto que o briefing quer resolver. O farm do Magic Rush não acontece
 
 - Time de 5 heróis com fileiras e papéis claros (tanque, dano, suporte).
 - Ultimates com momento de decisão, mas opcionais (automáticas por padrão).
-- Social com objetivo territorial (as minas viram territórios de facção).
-- PvP com algum elemento estratégico além do poder (ban/pick ou equivalente).
+- Social com objetivo concreto e territorial (as minas viram territórios disputados por guildas, sem lados escolhidos).
+- PvP com algum elemento estratégico além do poder (ban/pick ou equivalente). O PvP e a evolução dos heróis foram o que o usuário mais gostava no Magic Rush [U1].
 - Recomeços periódicos (temporadas, servidores novos e fusões) e calendário de eventos.
 
 **Evitar:**
@@ -199,7 +213,7 @@ Este é o ponto que o briefing quer resolver. O farm do Magic Rush não acontece
 - Stamina e pontos com teto baixo como porta do farm base.
 - Limites diários pagos no conteúdo principal.
 - Lendário de cerca de US$ 500 sem pity e com probabilidades opacas.
-- Anúncios forçados para quem não paga.
+- Anúncios forçados para quem não paga (o Magic Rush não tinha anúncios, segundo o usuário [U1]; a lição vem dos outros jogos, seção 3.4).
 
 ---
 
@@ -218,6 +232,7 @@ Este é o ponto que o briefing quer resolver. O farm do Magic Rush não acontece
 | Melvor Idle | Games by Malcs, publicado pela Jagex; 1.0 em 2021 | PC, iOS, Android | Offline até 24 h | Nenhum (single-player) | Compra única mais expansões, sem microtransações | Jogo base a US$ 9,99 [C68] |
 | IdleMMO | Galahad Creative (criadores do SimpleMMO); data exata não confirmada | Web, iOS, Android | Tempo idle de 6 h (8 h com membership) | Mercado com taxa, guildas, chefes mundiais | Membership de US$ 6,99 por 30 dias (negociável), tokens | "Mais de 300 mil jogadores" (App Store) [C72] |
 | Idle Clans | Isam Games (dev solo); ativo desde pelo menos 2023 | PC, iOS, Android | +6 h de tempo offline com Premium | Clãs com projetos comuns, mercado entre jogadores | Token Premium de US$ 9,99, negociável | Pico de 898 jogadores simultâneos na Steam [C85] |
+| Dead Zone — Idle Arsenal RPG | Não identificados (só o vídeo do usuário) | Web (desktop), em pt-BR; celular não informado | Ondas por zona, ciclos que reiniciam a campanha e expedições com tempo; ganho offline não visto | Não detalhado (nenhuma das 7 abas é social) | Passe por temporada com trilha grátis e trilha elite; o resto não foi visto | Sem dados de receita ou de jogadores [U3] |
 
 ### 2.2 AFK Arena (Lilith Games, abr/2019)
 
@@ -248,12 +263,13 @@ Este é o ponto que o briefing quer resolver. O farm do Magic Rush não acontece
 
 ### 2.5 MapleStory: Idle RPG (Nexon e AbleGames, 05–06/11/2025)
 
+- **Lançamento:** 5 de novembro de 2025, em celulares [C31]; o período do reembolso conta a partir de 06/11/2025 [C39] [C40].
 - **Números:** US$ 164 mi em IAP e 7,6 milhões de instalações em poucos meses, com pico mensal de US$ 44 mi no 4º mês. Os downloads caíram logo depois do lançamento, enquanto a receita mensal continuou subindo (AppMagic) [C33]. Nos EUA, a receita semanal foi de US$ 685 mil no início de novembro para cerca de US$ 2,2 mi no fim do mês (Sensor Tower) [C34]. A versão coreana passou de 3 milhões de usuários em cerca de 2 meses [C35]. Houve testes abertos em 4 países antes do lançamento [C32].
 - **O que faz bem:** prova que a fantasia de MMO com classes (8 a 10 classes, como Hero, Dark Knight, Night Lord, Arch Mage, Bowmaster e Shadower, sem troca de classe depois) funciona com progresso offline e em escala [C33] [C36].
 - **Farm idle e offline:** auto-battle e auto-growth; o personagem sobe de nível com o jogador offline [C32] [C37] [C38].
 - **Social:** guildas com missões e batalhas em larga escala [C37]. Atualizações adicionaram guerra de guildas, chefe de guilda e temporada de Colosseum [C97]. Há arena PvP.
 - **Monetização:** tickets de invocação e gacha; melhorias de atributo na loja; reroll pago de atributos [C38] [C39]. Agregador cita "presença esmagadora de anúncios" [C44].
-- **Crise de probabilidade:** um erro de sinal na fórmula do reroll pago deixou os melhores atributos **inalcançáveis por semanas**, e a correção foi feita sem aviso. Os co-CEOs da Nexon pediram desculpas em 26/01/2026. A empresa anunciou **reembolso total** das compras feitas entre o lançamento (06/11/2025) e 28/01/2026, o primeiro desse tipo na história da Nexon. O CEO assumiu a divisão [C39] [C40] [C42] [C43]. O Kotaku relata que pedir reembolso levaria ao banimento da conta; outra fonte diz que o banimento vale só para esse jogo [C41] [C43].
+- **Crise de probabilidade:** um erro de sinal na fórmula do reroll pago deixou os melhores atributos **inalcançáveis por semanas**, e a correção foi feita sem aviso. Os co-CEOs da Nexon pediram desculpas em 26/01/2026. A empresa **ofereceu reembolso total, a quem pedisse**, das compras feitas entre o lançamento (06/11/2025) e 28/01/2026, com pedidos de 5 a 15/02/2026 e devolução em até 1 mês (checagem do QA [Q1]). É o primeiro reembolso desse tipo na história da Nexon. O CEO assumiu a divisão [C39] [C40] [C42] [C43]. O Kotaku relata que pedir reembolso levaria ao banimento da conta; outra fonte diz que o banimento vale só para esse jogo [C41] [C43].
 - **Reclamações:** anúncios e pay-to-win (cerca de 53% de avaliações positivas num agregador) [C44]; a crise de probabilidade acima.
 
 ### 2.6 Legend of Mushroom (Joy Nice Games, do grupo 4399, 2024)
@@ -310,6 +326,20 @@ Este é o ponto que o briefing quer resolver. O farm do Magic Rush não acontece
 - **Mercado mobile em 2025:** receita +0,2% sobre 2024 (AppMagic). É um mercado maduro, em que crescer é tomar espaço dos outros [R1].
 - **Encerramentos em 2026:** Eversoul (idle RPG gacha da Kakao Games) fechou globalmente em 30/06/2026 [T21]; Journey of Monarch (idle RPG da NC) fechou em 12/08/2026 [T22]; Disney Heroes: Battle Mode fechou em 31/05/2026 [T23].
 
+### 2.12 Dead Zone — Idle Arsenal RPG (segunda referência do usuário)
+
+- **Fonte e limite:** só o vídeo do usuário (gravação de tela no navegador, 2026-10-31), com os quadros analisados pelo Líder e descritos no briefing [U3]. **Esta revisão não pesquisou o jogo na web:** estúdio, data de lançamento, receita e número de jogadores são desconhecidos. O que não aparece no vídeo está marcado como "não visto".
+- **Plataforma e interface:** idle RPG **web** (desktop), em pt-BR, com interface escura e moderna e sete abas: Combate, Esquadrão, Cartas, Base, Expedição, Árvore e Passe [U3].
+- **O que faz bem (pelo que se vê):** reúne num só jogo de navegador os elos de um idle RPG de coleção. O combate é lateral, em pixel art no estilo dos jogos de ação dos anos 90, com um esquadrão de soldados animais contra chefões. O esquadrão é montado com **cartas de soldados com raridade**. Há uma **base em corte, com salas** (estilo abrigo), uma **árvore de melhorias** e baús ao derrotar chefes [U3].
+- **Farm idle e offline:** a campanha avança por **ondas dentro de zonas** (por exemplo, Onda 30/30 e o chefe "O Leviatã do Cais") e por **ciclos que reiniciam a campanha**. As **expedições com tempo** são o elo idle mais claro [U3]. Ganho offline, teto de horas e baú de retorno: não vistos.
+- **Social:** não detalhado. Nenhuma das 7 abas é social (guilda, chat, ranking), e não sabemos se existe fora delas [U3].
+- **Monetização:** **passe de batalha por temporada, com trilha grátis e trilha elite** [U3]. Preços, moeda premium, anúncios, VIP e gacha: não vistos.
+- **Reclamações:** nenhuma coletada. O jogo não foi pesquisado, e o briefing não traz comentários do usuário sobre frustrações com ele.
+- **Leitura para o nosso jogo (hipóteses, leitura nossa):**
+  1. É prova de formato, e não de mercado: um idle RPG de navegador, em pt-BR, com cartas, esquadrão e passe, já existe, então o formato não é inédito (risco 6 da seção 5.2). No que vimos não há classes de MMO, PvP nem troca entre jogadores, que são o nosso diferencial.
+  2. As **expedições com tempo** e os **ciclos que reiniciam a campanha** casam com as oportunidades 8 e 9 da seção 5.1 (heróis farmando em paralelo; recomeços periódicos).
+  3. O estilo visual (pixel art lateral e interface escura) é tratado no estudo do VIC-7 (`docs/arte/estilo-pixel-vs-cartoon.md`), e não aqui.
+
 ---
 
 ## 3. Padrões de monetização do subgênero
@@ -321,14 +351,14 @@ Este é o ponto que o briefing quer resolver. O farm do Magic Rush não acontece
 | VIP por gasto acumulado (permanente) | Cada compra soma pontos; cada nível libera bônus | Magic Rush (15 níveis) [M16]; Idle Heroes (13) [C25]; AFK Arena [C3] | Incentiva gasto contínuo e premia baleias | É opaco, cria castas e não é uma assinatura |
 | Cartão mensal | Pagamento único por 30 dias, com recompensa diária que exige login | AFK Arena (normal e deluxe) [C5]; AFK Journey (Esperia Monthly) [C19]; Magic Rush (stamina, US$ 2,99) [M5] | Melhor custo-benefício para o casual e cria hábito diário | Não renova sozinho |
 | Assinatura ou membership | Período com benefícios de conveniência (tempo idle, taxas, créditos) | IdleMMO (US$ 6,99 por 30 dias: idle de 6 para 8 h, taxa de 10% em vez de 13%) [C72] [C73] [C74]; Idle Clans (US$ 9,99: +6 h offline, +25% créditos de clã) [C87] [C89] [C90] | Receita previsível; combina com "VIP remove anúncios" | A Apple exige valor contínuo, período mínimo de 7 dias e acesso em todos os dispositivos do usuário (diretriz 3.1.2) [L4] |
-| VIP negociável (token) | Quem paga compra o token e pode vendê-lo no mercado por ouro; quem não paga compra com ouro | IdleMMO [C78] [C79]; Idle Clans, com limite de compra por 24 h e uma única troca [C88] [C90]; Old School RuneScape (Bonds) [T10] | O F2P consegue VIP jogando, e a demanda do comércio externo vai para a venda oficial. No OSRS, a Jagex relata **queda de 61% no comércio por dinheiro real** em uma semana e de 81% no ouro movimentado por ele [T10] | Exige antifraude. Precisa de validação com as lojas, embora o IdleMMO venda a membership negociável via compra no app da iOS [C72] |
+| VIP negociável (token) | Quem paga compra o token e pode vendê-lo no mercado por ouro; quem não paga compra com ouro | IdleMMO [C78] [C79]; Idle Clans, com limite de compra por 24 h e uma única troca [C88] [C90]; Old School RuneScape (Bonds) [T10] | O F2P consegue VIP jogando, e a demanda do comércio externo vai para a venda oficial. **Evidência inicial e de atribuição incerta:** uma semana depois do lançamento dos Bonds, a Jagex relatou −61% na quantidade de trocas por dinheiro real, −63% no volume de riqueza negociada e −81% na riqueza injetada por farmers de ouro (a wiki descreve o −81% como "moedas transferidas por comércio por dinheiro real") [T10] [Q1]. Não está claro se a análise é do RuneScape ou do Old School RuneScape, e a Jagex a chama de resultados iniciais | Exige antifraude. Precisa de validação com as lojas, embora o IdleMMO venda a membership negociável via compra no app da iOS [C72] |
 
 **Leitura para o nosso jogo:** o briefing exige VIP obrigatório que remova anúncios e dê benefícios. O padrão que melhor combina com "troca entre jogadores" é a **assinatura mensal mais um token VIP negociável** como segunda via. A decisão é do usuário e precisa de validação do especialista-lojas.
 
 ### 3.2 Passe de temporada e temporadas
 
 - **Prevalência:** relatórios da GameRefinery mostram passe de batalha em mais de 40% dos 100 jogos de maior receita nos EUA (+20 pontos percentuais em um ano); no Japão, de 74% para 86% dos 100 maiores; e em cerca de 60% dos 20% de maior receita na iOS americana, contra 14% fora desse grupo [P8] [P9] [P10] [P11]. Os dados são de 2020 a 2022. Não encontramos números de 2025 e 2026.
-- **Nos idle RPGs:** AFK Journey (passe clássico e premium; temporadas de cerca de 4 meses com reset sazonal) [C11] [C13]; Legend of Mushroom (passes como alavanca principal ao lado do gacha) [C45]; MapleStory: Idle RPG (temporada de Colosseum e chefe de guilda) [C37].
+- **Nos idle RPGs:** AFK Journey (passe clássico e premium; temporadas de cerca de 4 meses com reset sazonal) [C11] [C13]; Legend of Mushroom (passes como alavanca principal ao lado do gacha) [C45]; MapleStory: Idle RPG (temporada de Colosseum e chefe de guilda) [C37]; Dead Zone — Idle Arsenal RPG (passe de batalha por temporada, com trilha grátis e trilha elite, num idle de navegador) [U3].
 - **Lição:** o passe é a compra natural do público casual descrito no briefing. A duração deve casar com a temporada; para a meta de 2 a 3 meses, temporadas de 6 a 8 semanas fazem sentido, com trilha gratuita que valha a pena. As temporadas também servem para conter o power creep, como no AFK Journey. Mas cortar recompensas de temporada gera revolta [C14].
 
 ### 3.3 Moeda premium e gacha
@@ -341,9 +371,12 @@ Este é o ponto que o briefing quer resolver. O farm do Magic Rush não acontece
   - **Coreia do Sul:** lei em vigor desde 22/03/2024. Até jul/2024, foram encontrados 266 jogos em violação, 60% deles estrangeiros [L9] [L10]. Um estudo de 2025 achou loot box paga em 90 dos 100 jogos de maior receita no iPhone, e só 84,4% deles divulgavam as chances [L11]. Há proposta de multa de até 3% da receita [L12].
 - **Casos que mostram o risco:**
   - A KFTC (órgão de defesa da concorrência da Coreia) multou a Nexon em ₩ 11,6 bilhões (cerca de US$ 8,9 mi) em jan/2024. Durante anos, a empresa alterou sem aviso as chances dos "cubos" do MapleStory, zerando algumas opções. Os cubos renderam ₩ 550 bilhões entre 2010 e 2021 [L13] [L14].
-  - O MapleStory: Idle RPG teve reembolso total por erro de probabilidade em jan/2026 [C39] [C40].
-- **Brasil (ECA Digital, Lei 15.211/2025):**
-  - Em vigor desde 17/03/2026. O art. 20 proíbe "caixas de recompensa" em jogos direcionados a crianças e adolescentes **ou de provável acesso por eles** [L15] [L16] [L17].
+  - No MapleStory: Idle RPG, um erro de probabilidade levou a Nexon a oferecer reembolso total, a quem pedisse, em jan/2026 (pedidos de 5 a 15/02/2026) [C39] [C40] [Q1].
+- **Brasil (ECA Digital, Lei 15.211/2025, e o decreto que a regulamenta, Decreto 12.880/2026):**
+  - **Base legal**, segundo a checagem do QA em resumos de busca [Q1] e a Nota Técnica 55/2026 do MJSP [L19]. **O texto oficial da lei e do decreto não foi aberto.**
+    - **Lei 15.211/2025, art. 20:** veda caixas de recompensa em jogos direcionados a crianças e adolescentes **ou de acesso provável por eles**, conforme a classificação indicativa. A lei vale desde 17/03/2026 [L15] [L16] [L17] [Q1].
+    - **Decreto 12.880, de 18/03/2026, art. 23:** a exigência de medidas efetivas, como a verificação de idade, vem do decreto, segundo a Nota Técnica 55/2026 [L19] e o QA [Q1]; não conferimos se a própria lei também a prevê. O que o decreto considera "medida efetiva" não está detalhado aqui; análises jurídicas (abaixo) dizem que a autodeclaração de idade não basta.
+    - **Pendente:** o `especialista-lojas` (ou o jurídico) valida no texto oficial, por exemplo no portal do Planalto, antes de o usuário decidir as perguntas 2 e 4 da seção 5.4.
   - A Blizzard retirou as loot boxes pagas do Overwatch no Brasil antes da vigência [L18]. O Ministério da Justiça pediu à ANPD que monitore jogos com caixas de recompensa sem verificação de idade [L19].
   - Análises jurídicas dizem que a autodeclaração de idade não basta [L20] e que a venda de itens em jogos depende de verificação etária e, quando for o caso, de consentimento dos pais [L21]. As multas chegam a R$ 50 mi por infração [L22].
   - Reação do setor: a Riot passou a exigir verificação de idade no Brasil [L23], e o Roblox limitou o chat conforme a idade verificada [L24]. Parte da imprensa de games lê a lei como restrição também ao chat, áudio e vídeo entre usuários menores [L25].
@@ -352,7 +385,7 @@ Este é o ponto que o briefing quer resolver. O farm do Magic Rush não acontece
 
 - **Dados do setor:** RPGs tendem a usar mais anúncios recompensados, mas ganham menos com anúncios no total, porque o foco é a compra no app (Unity, 2022) [P12]. A monetização híbrida dá ARPU no D90 de 15% a quase 2 vezes o de jogos só com anúncios, mas na prática costuma ser desbalanceada: cerca de 80% da receita vem de um dos lados [P13]. Um estudo de fornecedor cita ROAS no D90 de 146% no modelo híbrido, contra 93% só com compras e 58% só com anúncios, em mid-core no Android (fonte comercial) [P14].
 - **Nos idle RPGs:** pesam mais nos títulos casuais. O Legend of Mushroom tem anúncios recompensados e compra de "sem anúncios" [C53]. O MapleStory: Idle RPG é criticado pelo volume de anúncios [C44].
-- **Reclamações:** o anúncio forçado é a reclamação de monetização nº 1 nas avaliações monitoradas pela AppFollow em 2026 [P15]. A Unstar lista anúncios recompensados que "não pagam nada" e botões falsos de fechar [P16]. No Legend of Mushroom, a recompensa nem sempre é entregue, e o "sem anúncios" fica preso a um personagem [C53].
+- **Reclamações:** as fontes divergem sobre a principal queixa de monetização. A AppFollow, que monitora avaliações em 2026, aponta o anúncio forçado [P15]. A Unstar põe o "matchmaking pay-to-win" à frente e lista anúncios recompensados que "não pagam nada" e botões falsos de fechar [P16]. Nenhuma das duas publica o método. No Legend of Mushroom, a recompensa nem sempre é entregue, e o "sem anúncios" fica preso a um personagem [C53].
 - **Boas práticas que as reclamações sugerem:** anúncio só recompensado e opcional; recompensa garantida e validada no servidor; o VIP remove anúncios **e** entrega a recompensa sem assistir; o "sem anúncios" vale para a conta inteira, em todos os servidores e personagens.
 
 ### 3.5 Troca e mercado entre jogadores
@@ -363,7 +396,7 @@ Este é o ponto que o briefing quer resolver. O farm do Magic Rush não acontece
 | Troca livre, depois restringida | RuneScape | Troca livre removida em 2007 contra bots e venda de ouro, com teto de 10.000 moedas a cada 15 min para não pagantes. Voltou em 01/02/2011, depois de votação com 1,23 milhão de votos (91% a favor), com bloqueio de trocas muito desequilibradas. Desde nov/2011, contas F2P novas que nunca assinaram têm teto de 25.000 moedas por dia | [T7] [T8] [T9] |
 | Mercado com duplicação | New World (2021) | Exploits de duplicação de ouro levaram a Amazon a **desligar todas as transferências de riqueza** (troca, tesouro de guilda, posto de comércio). O desligamento abriu outro exploit, corrigido no patch 1.0.5 | [T4] [T5] [T6] |
 | Token de tempo de jogo | WoW Token (2015) | Lançado para combater a venda de ouro. Meses depois, a venda ilegal não tinha acabado: os vendedores baixaram o preço e migraram para outros jogos | [T12] [T13] |
-| Bond negociável | Old School RuneScape | Único item comprado com dinheiro que entra no jogo; fica intransferível depois da primeira troca, e destravar de novo custa 10% do valor. A Jagex relata −61% no comércio por dinheiro real em uma semana | [T10] [T11] |
+| Bond negociável | Old School RuneScape | Único item comprado com dinheiro que entra no jogo; fica intransferível depois da primeira troca, e destravar de novo custa 10% do valor. A Jagex relatou resultados iniciais (−61% na quantidade de trocas por dinheiro real, −63% no volume e −81% na riqueza injetada por farmers de ouro, em uma semana), de atribuição incerta entre RuneScape e Old School; ver 3.1 | [T10] [T11] [Q1] |
 | Mercado com taxa como sumidouro | IdleMMO | Taxa de 10% a 13% é a principal saída de ouro; anúncios expiram em 90 dias | [C74] [C75] [C77] |
 | Troca com limite de frequência | Industry Idle (idle com troca) | O servidor aceita uma troca a cada 30 s (10 s para quem tem a expansão) para não sobrecarregar; cancelar uma troca devolve só 75% do recurso | [T15] |
 
@@ -376,11 +409,11 @@ Este é o ponto que o briefing quer resolver. O farm do Magic Rush não acontece
 | Caso | O que aconteceu | Lição | Fontes |
 |---|---|---|---|
 | Diablo Immortal (2022) | Nota dos usuários no Metacritic caiu para 0,2 no PC, contra 81 da crítica; acusação de que equipar um personagem por completo custaria até US$ 110 mil; não foi lançado na Bélgica nem na Holanda por causa das mecânicas. Mesmo assim, faturou US$ 24 mi em 2 semanas, cerca de US$ 49 mi no 1º mês e mais de US$ 1 mi por dia. Uma estimativa posterior fala em US$ 6 a 7 mi por mês em 2026, contra pico acima de US$ 70 mi (confiança baixa) | O pay-to-win fatura no lançamento, mas destrói a reputação e fecha mercados | [P1] [P2] [P3] [P4] [P5] [P6] [P7] |
-| MapleStory: Idle RPG (2025–2026) | Downloads em queda e receita mensal em alta até US$ 44 mi, depois a crise de probabilidade e o reembolso total | Receita concentrada em poucos pagantes; um erro no gacha pago pode custar meses de receita | [C33] [C39] [C40] |
+| MapleStory: Idle RPG (2025–2026) | Downloads em queda e receita mensal em alta até US$ 44 mi, depois a crise de probabilidade e a oferta de reembolso total | Receita concentrada em poucos pagantes; um erro no gacha pago pode custar meses de receita | [C33] [C39] [C40] |
 | AFK Journey | Cortes nas recompensas de temporada geraram revolta e foram revertidos. Ao mesmo tempo, D60 de 7% contra 4% do mercado, com temporadas que reduzem o power creep | Temporadas ajudam; cortar recompensas não | [C11] [C14] |
 | AFK Arena | Heróis Dimensionais vistos como pay-to-win "ruim até para quem paga" | Conteúdo exclusivo pago alimenta o power creep | [C6] |
 | Idle Heroes | "Muito pay-to-win para competir no servidor" | Competição por servidor amplia a percepção de pay-to-win | [C28] [C29] |
-| Magic Rush | "Free to play, pay to win"; lendários para quem gasta | Mesmo padrão no jogo de referência | [M29] [M31] |
+| Magic Rush | "Free to play, pay to win"; lendários para quem gasta | Mesmo padrão no jogo de referência, segundo terceiros (confiança baixa); o usuário, que jogou muito, não o apontou como frustração | [M29] [M31] [U1] |
 
 **O que a pesquisa acadêmica diz:**
 
@@ -389,7 +422,7 @@ Este é o ponto que o briefing quer resolver. O farm do Magic Rush não acontece
 - Estudo com 869 jogadores de freemium: o valor percebido explica a intenção de compra e de continuar jogando (Hamari, Hanner e Koivisto, 2020) [P18].
 - Experimento em jogos MOBA: diferenças de competência entre personagens reduzem a justiça percebida, o que pode prejudicar compras [P20].
 
-**Avaliações nas lojas (análises de fornecedores, sem método publicado):** o anúncio forçado é a reclamação de monetização nº 1 [P15]. O "matchmaking pay-to-win" lidera uma lista de 2026, e uma versão do mesmo relatório atribui 34% das avaliações negativas a "monetização agressiva e pay-to-win" [P16].
+**Avaliações nas lojas (análises de fornecedores, sem método publicado):** as fontes divergem sobre a principal queixa de monetização: a AppFollow aponta o anúncio forçado [P15], e a Unstar põe o "matchmaking pay-to-win" à frente de uma lista de 2026, com uma versão do mesmo relatório atribuindo 34% das avaliações negativas a "monetização agressiva e pay-to-win" [P16].
 
 **Conclusão:** não encontramos estudo público que meça a relação causal entre pay-to-win e a retenção D30 de idle RPGs. As evidências indicam que:
 
@@ -409,7 +442,7 @@ Para o nosso público (casual, 2 a 3 meses), a hipótese é que o pay-to-win dev
 | Token VIP negociável | IdleMMO, Idle Clans, OSRS | Fraude e estorno | Segunda via do VIP, com limites e trava de troca única |
 | Passe de temporada | Muito alta no topo de receita | Revolta se as recompensas forem cortadas | Passe por temporada de 6 a 8 semanas, com trilha F2P forte |
 | Moeda premium | Universal | Inflação e compras opacas | Diamantes com usos claros e preço com desconto por volume |
-| Gacha pago | Universal nos RPGs | Leis (ECA Digital, Coreia) e erro de probabilidade | Odds e pity publicados, testes automatizados; no Brasil, verificação de idade ou alternativa sem loot box paga |
+| Gacha pago | Universal nos RPGs | Leis (ECA Digital, Coreia) e erro de probabilidade | Odds e pity publicados, testes automatizados; no Brasil, verificação de idade ou alternativa sem loot box paga (base legal e pendência em 3.3) |
 | Anúncios recompensados | Alta nos idle casuais | Anúncio forçado e recompensa não entregue | Só opcionais; o VIP pula o anúncio e ganha a recompensa |
 | Troca e mercado | Idle MMOs e MMOs | Venda por dinheiro real, bots, duplicação | Mercado só no servidor, com taxa, limites e itens pagos presos à conta |
 
@@ -417,25 +450,36 @@ Para o nosso público (casual, 2 a 3 meses), a hipótese é que o pay-to-win dev
 
 ## 4. Reclamações comuns dos jogadores
 
-| # | Reclamação | Jogos e exemplos | Fontes | Implicação para nós |
-|---|---|---|---|---|
-| 1 | Pay-to-win e distância entre baleias e F2P | Magic Rush ("free to play, pay to win"); Idle Heroes (competir no servidor); AFK Arena (Dimensionais); AFK Journey (PvP); MapleStory: Idle RPG; Diablo Immortal | [M29] [C28] [C29] [C6] [C23] [C44] [P1] [P3] | Faixas de poder no PvP; vantagem paga em velocidade, não em exclusividade |
-| 2 | Paredes de progressão ("fiquei preso") | AFK Arena (F2P preso dias ou semanas); AFK Journey (paredes); Magic Rush (upgrades lentos no fim) | [C7] [C17] [M29] | Metas de ritmo sem zonas mortas; paredes documentadas e curtas |
-| 3 | Gacha: sorte, falta de pity e probabilidade errada | Magic Rush (30 giros sem fragmento, pedido de pity); MapleStory: Idle RPG (atributos inalcançáveis); MapleStory (cubos) | [M27] [M31] [C39] [C40] [L13] | Pity publicado; teste automatizado das chances no servidor |
-| 4 | Anúncios forçados ou que não pagam | Legend of Mushroom (recompensa não entregue); MapleStory: Idle RPG (excesso); Magic Rush (anúncios para não pagantes); geral (nº 1 em 2026) | [C53] [C44] [M29] [P15] [P16] | Só anúncios recompensados opcionais, com entrega validada |
-| 5 | Corte de recompensas e "devs gananciosos" | AFK Journey (corte de temporada revertido; aniversário pago; "perderam credibilidade"); Magic Rush ("Have Devs gotten greedy?") | [C14] [C20] [C21] [M27] | Recompensas de temporada previsíveis e anunciadas com antecedência |
-| 6 | Power creep e conteúdo novo que anula o antigo | Idle Heroes; AFK Arena; AFK Journey (heróis que não passam na temporada nova) | [C28] [C29] [C6] [C22] | Reset sazonal com progresso permanente preservado; nerfs só com compensação |
-| 7 | Compra presa a personagem ou servidor | Legend of Mushroom ("sem anúncios" por personagem) | [C53] | Compras valem para a conta, em todos os servidores |
-| 8 | Monetização que cresce num jogo que começou justo | IdleOn | [C62] | Comprometer-se com limites públicos de monetização |
-| 9 | Social fraco nos idle MMOs | IdleMMO (sem chat) | [C78] | Chat, facção e guilda desde o MVP, com salvaguardas do ECA Digital |
-| 10 | Offline muito mais lento que o ativo | IdleOn | [C60] | O farm offline rende perto do farm automático ativo; o jogo ativo dá bônus, não é requisito |
-| 11 | Problemas técnicos e de login | Magic Rush (agregador) | [M31] | Login e save robustos; status público de serviço |
+**Critério para "comum":** a queixa aparece em **3 ou mais fontes**, de mais de um jogo ou contexto (seção 4.1). As que têm uma fonte só ficam em "Outras queixas" (seção 4.2), como sinal fraco. A coluna **Confiança** é própria desta tabela e vai pelo número de fontes: **alta** com 5 ou mais, entre elas imprensa especializada; **média** com 3 ou 4; **baixa** com 1 ou 2, ou só agregador automático. **A ordem das linhas não indica frequência.**
+
+Sobre o Magic Rush: o usuário não relata grandes frustrações com o jogo [U1]; as queixas dele na tabela vêm de terceiros. O exemplo "Magic Rush (anúncios para não pagantes)", que vinha de um agregador [M29], saiu da queixa 4, porque o usuário informa zero anúncios no jogo [U1].
+
+### 4.1 Queixas recorrentes (3 ou mais fontes)
+
+| # | Reclamação | Jogos e exemplos | Fontes | Nº de fontes | Confiança | Implicação para nós |
+|---|---|---|---|---|---|---|
+| 1 | Pay-to-win e distância entre baleias e F2P | Magic Rush (segundo terceiros: "free to play, pay to win"; o usuário não o citou como frustração); Idle Heroes (competir no servidor); AFK Arena (Dimensionais); AFK Journey (PvP); MapleStory: Idle RPG; Diablo Immortal | [M29] [C28] [C29] [C6] [C23] [C44] [P1] [P3] | 8 | Alta | Faixas de poder no PvP; vantagem paga em velocidade, não em exclusividade |
+| 2 | Paredes de progressão ("fiquei preso") | AFK Arena (F2P preso dias ou semanas); AFK Journey (paredes); Magic Rush (upgrades lentos no fim) | [C7] [C17] [M29] | 3 | Média | Metas de ritmo sem zonas mortas; paredes documentadas e curtas |
+| 3 | Gacha: sorte, falta de pity e probabilidade errada | Magic Rush (30 giros sem fragmento, pedido de pity); MapleStory: Idle RPG (atributos inalcançáveis); MapleStory (cubos) | [M27] [M31] [C39] [C40] [L13] | 5 | Alta | Pity publicado; teste automatizado das chances no servidor |
+| 4 | Anúncios forçados ou que não pagam | Legend of Mushroom (recompensa não entregue); MapleStory: Idle RPG (excesso); geral (a AppFollow aponta o anúncio forçado como a queixa mais citada; a Unstar põe o pay-to-win à frente) | [C53] [C44] [P15] [P16] | 4 | Média | Só anúncios recompensados opcionais, com entrega validada |
+| 5 | Corte de recompensas e "devs gananciosos" | AFK Journey (corte de temporada revertido; aniversário pago; "perderam credibilidade"); Magic Rush ("Have Devs gotten greedy?") | [C14] [C20] [C21] [M27] | 4 | Média | Recompensas de temporada previsíveis e anunciadas com antecedência |
+| 6 | Power creep e conteúdo novo que anula o antigo | Idle Heroes; AFK Arena; AFK Journey (heróis que não passam na temporada nova) | [C28] [C29] [C6] [C22] | 4 | Média | Reset sazonal com progresso permanente preservado; nerfs só com compensação |
+
+### 4.2 Outras queixas (fonte única, sinal fraco)
+
+| # | Reclamação | Jogos e exemplos | Fontes | Nº de fontes | Confiança | Implicação para nós |
+|---|---|---|---|---|---|---|
+| 7 | Compra presa a personagem ou servidor | Legend of Mushroom ("sem anúncios" por personagem) | [C53] | 1 | Baixa | Compras valem para a conta, em todos os servidores |
+| 8 | Monetização que cresce num jogo que começou justo | IdleOn | [C62] | 1 | Baixa | Comprometer-se com limites públicos de monetização |
+| 9 | Social fraco nos idle MMOs | IdleMMO (sem chat) | [C78] | 1 | Baixa | Chat e guilda desde o MVP, com salvaguardas do ECA Digital |
+| 10 | Offline muito mais lento que o ativo | IdleOn | [C60] | 1 | Baixa | O farm offline rende perto do farm automático ativo; o jogo ativo dá bônus, não é requisito |
+| 11 | Problemas técnicos e de login | Magic Rush (agregador) | [M31] | 1 | Baixa | Login e save robustos; status público de serviço |
 
 ---
 
 ## 5. Oportunidades e riscos para o nosso conceito
 
-Conceito avaliado: **idle RPG com cara de MMO**, com classes, evolução de habilidades, facções, farm contínuo (inclusive offline), web primeiro, público casual de celular com retenção de 2 a 3 meses e monetização F2P com pay-to-win assumido e troca entre jogadores (`docs/gdd/briefing.md`).
+Conceito avaliado: **idle RPG com cara de MMO**, com classes, evolução de habilidades, grupos de heróis (sem lado escolhido pelo jogador), farm contínuo (inclusive offline), web primeiro, público casual de celular com retenção de 2 a 3 meses e monetização F2P com pay-to-win assumido e troca entre jogadores (`docs/gdd/briefing.md`).
 
 ### 5.1 Oportunidades
 
@@ -443,24 +487,24 @@ Conceito avaliado: **idle RPG com cara de MMO**, com classes, evolução de habi
 |---|---|---|---|
 | 1 | Resolver a dor do Magic Rush: farmar exige estar presente | Seção 1.12 | Farm base contínuo, sem stamina; baú offline como fonte principal; o jogo ativo acelera |
 | 2 | A fantasia de MMO com classes já é comprovada no idle | MapleStory: Idle RPG, US$ 164 mi [C33]; Legend of Mushroom com evolução de classe [C50] [C51] e US$ 270 mi [C46] [C47] | Classes com árvore de evolução e marcos de classe como momentos de MMO |
-| 3 | Facções são pouco exploradas | Na amostra, o social é guilda, aliança ou clã (Magic Rush, AFK Journey, MapleStory: Idle RPG, Idle Clans); nenhum usa facções como eixo central | 2 ou 3 facções; guerra de facção assíncrona alimentada pela produção idle (as minas do Magic Rush viram territórios de facção) |
-| 4 | Temporadas curtas alinhadas à meta de 2 a 3 meses | AFK Journey: temporadas de cerca de 4 meses com reset [C11] [C13]; passe em cerca de 60% do topo de receita [P8] [P9] | Temporadas de 6 a 8 semanas com passe, ranking de facção e recompensas próprias |
-| 5 | VIP negociável e mercado já são aceitos por jogadores e lojas | IdleMMO, Idle Clans, OSRS Bonds [C72] [C86] [T10] | Assinatura mais token VIP; mercado por ouro com taxa |
-| 6 | Web primeiro tem precedente no idle MMO | IdleMMO na web e no app [C72] [C81] [C96] | Link jogável sem instalar e a mesma conta no celular |
+| 3 | Competição entre jogadores e guildas, assíncrona e sem lados escolhidos | O PvP foi um dos dois melhores momentos do usuário no Magic Rush [U1]. Na amostra, o social é guilda, aliança ou clã, com disputa entre elas (Alliance War e Mega Minas [M24]; Battle Drills [C15]; guerra de guildas [C97]; ranking entre servidores [C52]). Não achamos jogo da amostra com um lado escolhido pelo jogador como eixo central, mas o social do AFK Arena e do Idle Heroes ficou "não detalhado", então a amostra é incompleta | PvP assíncrono por faixas de poder; rankings de jogadores e de guildas por temporada; disputa de territórios por guildas, alimentada pela produção idle (as minas do Magic Rush viram territórios disputados por guildas); sem lados escolhidos pelo jogador, com os grupos de heróis como eixo da montagem de time |
+| 4 | Temporadas curtas alinhadas à meta de 2 a 3 meses | AFK Journey: temporadas de cerca de 4 meses com reset [C11] [C13]; passe em cerca de 60% do topo de receita [P8] [P9] | Temporadas de 6 a 8 semanas com passe, ranking de jogadores e de guildas e recompensas próprias |
+| 5 | VIP negociável e mercado já são aceitos por jogadores e lojas | IdleMMO, Idle Clans, OSRS Bonds [C72] [C86] [T10]; os números de queda da venda externa são iniciais e de atribuição incerta (3.1) | Assinatura mais token VIP; mercado por ouro com taxa |
+| 6 | Web primeiro tem precedente no idle MMO | IdleMMO na web e no app [C72] [C81] [C96]; o Dead Zone, referência do usuário, é um idle RPG de navegador em pt-BR [U3] | Link jogável sem instalar e a mesma conta no celular |
 | 7 | Transparência como diferencial | Casos Nexon [C39] [L13]; lei coreana [L9]; ECA Digital [L15] | Odds, pity e histórico de tiragens visíveis; no Brasil, possibilidade de "sem loot box paga" |
-| 8 | Vários heróis farmando em paralelo | IdleOn (vários personagens AFK ao mesmo tempo) [C56] | Expedições paralelas de heróis em zonas diferentes |
-| 9 | Recomeços periódicos | Servidores rotativos e fusões do Magic Rush [M23] [M25] | Temporadas e servidores ou ligas novas para quem chega tarde |
+| 8 | Vários heróis farmando em paralelo | IdleOn (vários personagens AFK ao mesmo tempo) [C56]; o Dead Zone tem expedições com tempo [U3] | Expedições paralelas de heróis em zonas diferentes |
+| 9 | Recomeços periódicos | Servidores rotativos e fusões do Magic Rush [M23] [M25]; o Dead Zone tem ciclos que reiniciam a campanha [U3] | Temporadas e servidores ou ligas novas para quem chega tarde |
 
 ### 5.2 Riscos e mitigação
 
 | # | Risco | Evidência | Impacto no conceito | Mitigação proposta |
 |---|---|---|---|---|
 | 1 | **Troca de itens e fraude** (venda por dinheiro real, bots, contas roubadas, duplicação, estornos) | Diablo III RMAH fechado [T1] [T2]; New World desligou as transferências [T4] [T5]; RuneScape restringiu e depois limitou as trocas [T7] [T8] [T9] | Itens pay-to-win viram moeda do comércio por dinheiro real. Se os diamantes forem negociáveis, abre espaço para o golpe de comprar com cartão roubado, transferir e estornar (risco conhecido; sem fonte específica nesta pesquisa) | Inventário e trocas só no servidor, com transação atômica e registro; ID único por item; itens comprados com dinheiro presos à conta, exceto o token VIP; limites para contas novas (idade e nível); taxa de mercado como sumidouro [C74]; limite de compra de tokens por 24 h [C88]; carência para itens caros; detecção de bots; termos que proíbem a venda por dinheiro real |
-| 2 | **Pay-to-win** afastando F2P e derrubando a nota | Seção 3.6 | Nota baixa reduz a aquisição orgânica; a saída dos F2P esvazia servidores e o pagante fica sem com quem competir | Vantagem paga em velocidade e conveniência; PvP por faixas de poder; reset sazonal; servidores ou ligas novas e fusões planejadas; trilha F2P garantida no passe |
-| 3 | **Custo de servidor** | Industry Idle rodou o servidor numa máquina em casa para evitar uma VPS de €10, e o primeiro servidor mandava todas as trocas a todos os clientes [T14]; estimativa da comunidade de cerca de CAD 0,63 por conexão simultânea por mês num MMO em Unreal (muito mais pesado que um idle) [T16]; custos de Firebase que disparam [T17]; encerramentos de idle RPGs em 2026 [T21] [T22] | Servidor autoritativo desde o MVP (troca, facções, ranking); o custo cresce com chat, mercado e PvP | Progresso offline calculado sob demanda a partir de timestamps, sem simular cada tick [T20]; PvP assíncrono; mercado com ordens processadas em lote; limites de taxa (como 1 troca a cada 30 s no Industry Idle [T15]); orçamento com teto e alertas |
-| 4 | **Políticas das lojas e leis sobre itens aleatórios** | Apple e Google exigem odds [L1] [L6]; moeda virtual só pode ser usada no app em que foi comprada (Google) [L8]; presentes comprados no app não podem ser trocados (Apple) [L3]; assinaturas precisam de valor contínuo (Apple 3.1.2) [L4]; Coreia [L9] [L10]; Nexon [L13] [C39]; ECA Digital [L15] a [L25] | Gacha pago e baús pagos precisam de odds; no Brasil, também de verificação de idade, controle parental e salvaguardas no chat (o art. 21 trata da interação entre jogadores) [L20] [L21] | Publicar odds e pity; teste automatizado das probabilidades no servidor (o caso Nexon foi um erro de sinal); verificação de idade confiável no Brasil antes de vender itens aleatórios e de liberar chat e troca; alternativa sem loot box paga (loja direta, passe, cosméticos com preço fixo); especialista-lojas valida assinatura, anúncios e token negociável |
+| 2 | **Pay-to-win** afastando F2P e derrubando a nota | Seção 3.6 | Nota baixa reduz a aquisição orgânica; a saída dos F2P esvazia servidores e o pagante fica sem com quem competir. O PvP é o modo de que o usuário mais gostava [U1], e é onde o pay-to-win mais pesa | Vantagem paga em velocidade e conveniência; PvP por faixas de poder; reset sazonal; servidores ou ligas novas e fusões planejadas; trilha F2P garantida no passe |
+| 3 | **Custo de servidor** | Industry Idle rodou o servidor numa máquina em casa para evitar uma VPS de €10, e o primeiro servidor mandava todas as trocas a todos os clientes [T14]; estimativa da comunidade de cerca de CAD 0,63 por conexão simultânea por mês num MMO em Unreal (muito mais pesado que um idle) [T16]; custos de Firebase que disparam [T17]; encerramentos de idle RPGs em 2026 [T21] [T22] | Servidor autoritativo desde o MVP (troca, guildas, PvP, ranking); o custo cresce com chat, mercado e PvP | Progresso offline calculado sob demanda a partir de timestamps, sem simular cada tick [T20]; PvP assíncrono; mercado com ordens processadas em lote; limites de taxa (como 1 troca a cada 30 s no Industry Idle [T15]); orçamento com teto e alertas |
+| 4 | **Políticas das lojas e leis sobre itens aleatórios** | Apple e Google exigem odds [L1] [L6]; moeda virtual só pode ser usada no app em que foi comprada (Google) [L8]; presentes comprados no app não podem ser trocados (Apple) [L3]; assinaturas precisam de valor contínuo (Apple 3.1.2) [L4]; Coreia [L9] [L10]; Nexon [L13] [C39]; ECA Digital [L15] a [L25] | Gacha pago e baús pagos precisam de odds; no Brasil, o art. 20 da lei veda caixas de recompensa em jogo de acesso provável por menores e o art. 23 do decreto exige medidas efetivas, como verificação de idade [L19] [Q1]; análises acrescentam controle parental e salvaguardas no chat (o art. 21 trata da interação entre jogadores) [L20] [L21] | Publicar odds e pity; teste automatizado das probabilidades no servidor (o caso Nexon foi um erro de sinal); verificação de idade confiável no Brasil antes de vender itens aleatórios e de liberar chat e troca (a validar no texto oficial da lei e do decreto); alternativa sem loot box paga (loja direta, passe, cosméticos com preço fixo); especialista-lojas valida assinatura, anúncios e token negociável |
 | 5 | **Manipulação do relógio no offline** | Adiantar o relógio do aparelho rende progresso falso [T18] [T20] | Ganho offline falso quebra o mercado e o ranking | Tempo do servidor, teto offline, verificação de sanidade e validação no servidor para ranking e troca [T18] [T19] [T20] |
-| 6 | **Saturação e custo de aquisição** | IPs grandes com mídia paga pesada [C92]; mercado parado em 2025 [R1]; encerramentos em 2026 [T21] [T22] [T23] | Um estúdio pequeno não compete em mídia paga | Web primeiro com links compartilháveis, comunidade (Discord), conteúdo sazonal e nicho pt-BR e inglês |
+| 6 | **Saturação e custo de aquisição** | IPs grandes com mídia paga pesada [C92]; mercado parado em 2025 [R1]; encerramentos em 2026 [T21] [T22] [T23]; o formato de idle de navegador em pt-BR, com cartas e passe, já é ocupado pelo Dead Zone [U3] | Um estúdio pequeno não compete em mídia paga | Web primeiro com links compartilháveis, comunidade (Discord), conteúdo sazonal e nicho pt-BR e inglês |
 | 7 | **Retenção abaixo da meta** | RPG com D30 de cerca de 3,5% (dados da Mistplay) [R3]; retenção caiu de novo em 2025 [R4]; o top 1% chega a 10% no D30 [R5]; nos idles, os 25% melhores têm cerca de 42% de D1 [R2]; a retenção de idles cai quando timers longos dominam a progressão [P21] | A meta de 2 a 3 meses é ambiciosa para o casual | Metas por temporada; eventos curtos; evitar timers longos como eixo; medir a retenção por coorte desde o protótipo |
 
 ### 5.3 Hipóteses para validar no protótipo
@@ -472,23 +516,23 @@ As hipóteses abaixo são propostas. Os números entram como ponto de partida e 
 | H1 | **"Sempre farmando":** quem faz 3 sessões de até 5 min por dia progride sem desperdiçar recursos | Nenhum recurso do farm base com teto abaixo de 8 h; simulação de jornada com 3 sessões por dia |
 | H2 | **O jogo ativo acelera, mas não é obrigatório** | Razão entre o ganho ativo e o idle por hora dentro de uma faixa a definir (por exemplo, de 1,5 a 2 vezes) |
 | H3 | Temporadas de 6 a 8 semanas sustentam 2 a 3 meses de retenção | Parcela dos jogadores ativos ao fim da 1ª e da 2ª temporada |
-| H4 | Guerra de facção assíncrona gera engajamento social sem horário fixo | Participação semanal na guerra; mensagens e ações sociais por usuário ativo |
+| H4 | Disputa assíncrona entre guildas, com ranking por temporada, gera engajamento social sem horário fixo | Participação semanal na disputa; mensagens e ações sociais por usuário ativo |
 | H5 | O token VIP negociável aumenta o número de VIPs ativos e reduz a venda externa | VIPs obtidos pelo mercado contra VIPs comprados; volume de venda externa detectado |
 | H6 | Pay-to-win com faixas de poder mantém o F2P no PvP | Taxa de vitória dos F2P dentro da própria faixa; saída de F2P depois de derrotas no PvP |
 
 ### 5.4 Perguntas para o usuário
 
 1. **Venda de itens entre jogadores:** por ouro (moeda gratuita) ou por diamantes (moeda paga)? Por diamantes, a venda vira na prática um mercado de dinheiro real, com mais risco de fraude e de estorno e mais exposição regulatória.
-2. **Gacha pago no Brasil:** aceitar verificação de idade obrigatória, exigida pelo ECA Digital, ou usar no Brasil uma alternativa sem loot box paga (loja direta, passe, cosméticos com preço fixo)?
+2. **Gacha pago no Brasil:** aceitar a verificação de idade que o Decreto 12.880/2026 (art. 23) exige como medida efetiva, segundo a Nota Técnica 55/2026 do MJSP, ou usar no Brasil uma alternativa sem loot box paga (loja direta, passe, cosméticos com preço fixo)? O `especialista-lojas` valida a leitura no texto oficial antes da decisão.
 3. **VIP negociável:** o modelo de token (o pagante compra e revende no mercado por ouro) é aceitável?
-4. **Classificação etária-alvo:** qual faixa mínima? Ela afeta chat, troca e gacha, por causa do ECA Digital e das lojas.
-5. **Facções:** fixas e permanentes (2 ou 3) ou por temporada?
+4. **Classificação etária-alvo:** qual faixa mínima? Ela afeta chat, troca e gacha, por causa do ECA Digital (o art. 20 liga a proibição das caixas de recompensa à classificação indicativa) e das lojas.
+5. **Grupos de heróis e competição:** o que forma um grupo de heróis no nosso jogo, e ele dá bônus de sinergia? E a disputa entre guildas será por ranking de temporada ou por guerra assíncrona? (A decisão de que "facção" é grupo de heróis, sem lado escolhido, já está tomada.)
 
 ---
 
 ## 6. Fontes
 
-Todas acessadas em **2026-10-31** pelo mecanismo de busca. As páginas não foram abertas diretamente (veja "Como a pesquisa foi feita"). As URLs do Reddit são as canônicas; o conteúdo foi visto por espelhos.
+Todas acessadas em **2026-10-31** pelo mecanismo de busca. As páginas não foram abertas diretamente (veja "Como a pesquisa foi feita"). As URLs do Reddit são as canônicas; o conteúdo foi visto por espelhos. As fontes U e Q (seção 6.7) não são páginas da web: são o relato do usuário e um relatório do repositório.
 
 ### 6.1 Magic Rush: Heroes
 
@@ -711,7 +755,7 @@ Todas acessadas em **2026-10-31** pelo mecanismo de busca. As páginas não fora
 | L16 | Confidata: o que muda com o ECA Digital | https://confidata.com.br/blog/eca-digital-o-que-muda-empresas | 2026-10-31 |
 | L17 | Mattos Filho: ECA Digital sancionado | https://www.mattosfilho.com.br/unico/eca-digital-sancionada-lei/ | 2026-10-31 |
 | L18 | Canaltech: Overwatch remove loot boxes pagas no Brasil | https://canaltech.com.br/games/overwatch-remove-loot-boxes-pagas-no-brasil-lei-felca-pode-ser-o-motivo/ | 2026-10-31 |
-| L19 | MJSP: nota técnica pedindo à ANPD monitoramento de jogos com caixas de recompensa | https://www.gov.br/mj/pt-br/assuntos/noticias-1/mjsp-pede-a-anpd-que-monitore-jogos-eletronicos-com-caixas-de-recompensa-que-nao-implementaram-verificacao-de-idade/NotaTcnican55.pdf | 2026-10-31 |
+| L19 | MJSP: Nota Técnica 55/2026, que pede à ANPD monitoramento de jogos com caixas de recompensa sem verificação de idade (base do art. 23 do Decreto 12.880/2026, segundo o QA) | https://www.gov.br/mj/pt-br/assuntos/noticias-1/mjsp-pede-a-anpd-que-monitore-jogos-eletronicos-com-caixas-de-recompensa-que-nao-implementaram-verificacao-de-idade/NotaTcnican55.pdf | 2026-10-31 |
 | L20 | Migalhas: verificação de idade obrigatória nos games | https://www.migalhas.com.br/depeso/461777/verificacao-de-idade-obrigatoria-nos-games-e-agora | 2026-10-31 |
 | L21 | ConJur: impactos do ECA Digital nos jogos eletrônicos | https://www.conjur.com.br/2025-out-22/impactos-do-eca-digital-no-segmento-de-jogos-eletronicos/ | 2026-10-31 |
 | L22 | Olhar Digital: ECA Digital começa a valer | https://olhardigital.com.br/2026/03/16/internet-e-redes-sociais/eca-digital-comeca-a-valer-na-terca-feira-17-saiba-o-que-muda-nas-redes/ | 2026-10-31 |
@@ -728,3 +772,14 @@ Todas acessadas em **2026-10-31** pelo mecanismo de busca. As páginas não fora
 | R3 | Segwise: retenção por gênero em 2026 | https://segwise.ai/blog/mobile-gaming-app-user-retention-strategies.md | 2026-10-31 |
 | R4 | GameAnalytics: benchmarks de retenção em 2026 (PDF) | https://investgame.net/wp-content/uploads/2026/01/2026-01-20-Mobile_retention_benchmarks_2026.pdf | 2026-10-31 |
 | R5 | GameAnalytics: benchmarks de mobile e PC em 2026 | https://gameindustrylibrary.com/documents/gameanalytics-mobile-and-pc-game-benchmarks-in-2026-sponsored-by-pwn-games | 2026-10-31 |
+
+### 6.7 Relato do usuário e relatório de QA
+
+Não são páginas da web: são o relato do usuário (respostas e vídeos) e um relatório do repositório. Os vídeos não ficam no repositório, por serem capturas de jogos de terceiros; o que consta é a descrição dos quadros feita pelo Líder no briefing.
+
+| Código | Fonte | Onde está | Data |
+|---|---|---|---|
+| U1 | Relato do usuário sobre o Magic Rush: Heroes (só grupos de heróis, sem lado escolhido; zero anúncios; nenhuma grande frustração; melhores momentos: PvP e evoluir os heróis) e a decisão de que "facção" quer dizer grupo de heróis | `docs/gdd/briefing.md`, seções "Respostas e referências em vídeo" e "Decisões do usuário" | 2026-10-31 |
+| U2 | Vídeo do usuário: Magic Rush: Heroes, gravado no celular, em paisagem (5 papéis de herói, batalha com Auto e velocidade x1, tela de fase com custo de stamina, Varrer e X10, moedas visíveis, "Guerra do Trono") | `docs/gdd/briefing.md`, seção "Respostas e referências em vídeo" (quadros analisados pelo Líder) | 2026-10-31 |
+| U3 | Vídeo do usuário: Dead Zone — Idle Arsenal RPG, gravação de tela no navegador (7 abas, ondas por zona e ciclos, cartas com raridade, base, expedições, árvore, passe com trilha grátis e elite) | `docs/gdd/briefing.md`, seção "Respostas e referências em vídeo" (quadros analisados pelo Líder) | 2026-10-31 |
+| Q1 | Relatório de QA do VIC-6, ciclo 1, com as checagens na web do QA (reembolso da Nexon, ECA Digital e Decreto 12.880/2026, Bonds do RuneScape) | `docs/tarefas/VIC-6-idle-rpg-referencias/relatorio-qa.md` | 2026-10-31 |
