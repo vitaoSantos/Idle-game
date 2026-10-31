@@ -1,0 +1,145 @@
+entradas (sha256 parcial): docs/pesquisa/top5-categorias.md 6f4964c5ae50 | docs/gdd/briefing.md e69ddfbd245e | docs/pesquisa/idle-rpg-referencias.md 27ac3253b37a
+
+== (1) notas do ranking: lidas do documento e recalculadas (peso 0,4/0,3/0,3) ==
+Puzzle (match-3, merge-2, blocos)    calculado=4.700 declarado=4.7 OK
+Estratégia 4X casual                 calculado=4.200 declarado=4.2 OK
+Sandbox social / UGC (Roblox e afins calculado=3.750 declarado=3.8 OK
+Híbrido-casual                       calculado=3.500 declarado=3.5 OK
+Jogos web instantâneos (HTML5 e mini calculado=3.200 declarado=3.2 OK
+Cassino e coin looter/tabuleiro      calculado=3.000 declarado=3.0 OK
+Shooter                              calculado=3.000 declarado=3.0 OK
+RPG (inclui idle RPG)                calculado=2.500 declarado=2.5 OK
+Simulação casual                     calculado=1.850 declarado=1.9 OK
+categorias lidas: 9 (esperado 9)
+
+== (2) sensibilidade ==
+pesos iguais: Puzzle (match-3, merge-2, blocos)    4.67
+pesos iguais: Estratégia 4X casual                 4.33
+pesos iguais: Sandbox social / UGC (Roblox e afins 3.83
+pesos iguais: Híbrido-casual                       3.33
+pesos iguais: Jogos web instantâneos (HTML5 e mini 3.17
+pesos iguais: Cassino e coin looter/tabuleiro      3.17
+pesos iguais: Shooter                              3.00
+pesos iguais: RPG (inclui idle RPG)                2.67
+pesos iguais: Simulação casual                     1.83
+web x cassino com pesos iguais: 3.167 3.167 (documento: empate em 5º, 3,2)
+quatro primeiras iguais com pesos iguais: True
+
+tabela 'Sensibilidade às notas sem número' do documento, linha a linha:
+  C2 do shooter    valor=2 -> nota 3.00 (documento 3.00) OK | posição do alvo=7, web=5, híbrido=4 | efeito citado: 'fica fora do top 5' -> OK
+  C2 do shooter    valor=3 -> nota 3.30 (documento 3.30) OK | posição do alvo=5, web=6, híbrido=4 | efeito citado: 'passa o web (3,20), que sai do top 5' -> OK
+  C2 do shooter    valor=4 -> nota 3.60 (documento 3.60) OK | posição do alvo=4, web=6, híbrido=5 | efeito citado: 'passa o web e o híbrido-casual (3,50): shooter em 4º, híbrido-casual em 5º, web fora' -> OK
+  C2 do cassino    valor=3 -> nota 2.70 (documento 2.70) OK | posição do alvo=7, web=5, híbrido=4 | efeito citado: 'fica fora do top 5' -> OK
+  C2 do cassino    valor=4 -> nota 3.00 (documento 3.00) OK | posição do alvo=6, web=5, híbrido=4 | efeito citado: 'fica fora do top 5' -> OK
+  C2 do cassino    valor=5 -> nota 3.30 (documento 3.30) OK | posição do alvo=5, web=6, híbrido=4 | efeito citado: 'passa o web, que sai do top 5' -> OK
+Resumo/Leitura: shooter com 1 ponto a mais de escala -> web na posição 6 (fora do top 5 se > 5)
+Resumo/Leitura: cassino com 1 ponto a mais de escala -> web na posição 6 (fora do top 5 se > 5)
+Shooter com C2=5: nota 3.90 (documento: 3,90), posição 3; UGC = 3.75 (passa o UGC se > UGC)
+Shooter pela receita: 20,6 - 9,3 - 6,1 = 5.2 bi no semestre; x2 = 10.4 bi por ano (documento: abaixo de cerca de 10 bi)
+Cassino C2=5 exige US$ 15 bi/ano ou mais (escala da 1.3); só crescimento (C1): [(5.0, 'Puzzle (match-3, mer'), (5.0, 'Híbrido-casual'), (3.5, 'Jogos web instantâne'), (3.0, 'Shooter'), (3.0, 'Sandbox social / UGC'), (3.0, 'Estratégia 4X casual')]
+
+== (3) fontes ==
+tags usadas: 98 | definidas: 98
+usadas e NÃO definidas: []
+definidas e NÃO usadas: []
+[7] e [25] aparecem no corpo ou na lista (esperado False, False, False, False): False False False False
+IDs definidos = 1..99 menos 7 e 25, mais B: True
+classes das fontes: {'P': 29, 'I': 44, 'S': 22, 'P e I': 1, 'I e P': 1} | sem classe: []
+URLs: 102 | hosts: 52 | top: [('www.pocketgamer.biz', 16), ('sensortower.com', 7), ('www.gamerefinery.com', 6), ('gamedevreports.substack.com', 5), ('wnhub.io', 4), ('respawn.outlookindia.com', 4)]
+
+== (4) marcas e lacunas ==
+[secundária]               corpo=31
+[antigo]                   corpo=8
+[sem data]                 corpo=7
+[hipótese]                 corpo=7
+estimativa                 corpo=56
+reportado pela empresa     corpo=8
+pesquisa (amostra)         corpo=2
+'Não encontrei' no corpo (esperado 0): 0
+'sem levantamento' no corpo (esperado 0): 0
+ocorrências de lacuna declarada e se a mesma linha registra a busca:
+  L36: busca na linha=sim | - **Marcas usadas:** **[secundária]** = todas as fontes do número são de classe S (critério na 1.1); **[a
+  L62: busca na linha=NAO | | — | Shooter | 3 | 2\* | 4 | 3,0 | sem total de gênero confiável; sinais mistos [26] |
+  L66: busca na linha=sim | \* Nota de escala sem total de gênero no documento: é estimativa pela presença dos títulos nos rankings. 
+  L180: busca na linha=sim | - D60 e D90 do 4X: sem dado público (busca em 2026-10-31 por D60 e D90 do Last War, do Whiteout Survival 
+  L231: busca na linha=sim | **Público típico.** Sem dado público de idade e gênero para o segmento nem para os títulos da Habby (busc
+  L238: busca na linha=sim | **Retenção.** Sem benchmark público de D1, D7 ou D30 do segmento (busca em 2026-10-31 por benchmarks de r
+  L276: busca na linha=sim | - D7 e D30 de jogos web: sem dado público (busca em 2026-10-31 em materiais da Poki, da CrazyGames, da Pl
+  L288: busca na linha=sim | | Cassino e coin looter/tabuleiro (3,0): Monopoly GO!, Coin Master, Dice Dreams | grande e presente nos r
+  L289: busca na linha=sim | | Shooter (3,0): PUBG Mobile, Free Fire, Delta Force | muito presente em downloads, mas sem total de gêne
+  L361: busca na linha=NAO | | Web (CrazyGames) | jogos fortes com D1 de cerca de 10% a 15%; D7 e D30 sem dado público **[sem data]** 
+  L362: busca na linha=sim | | D60 e D90 por gênero | sem dado público (busca em 2026-10-31 por benchmarks de D60 e D90 do GameAnalyti
+  L386: busca na linha=NAO | | D90 | ≥ 2% | ≥ 4% | sem benchmark público |
+  L441: busca na linha=sim | - **"Sem dado público" não prova que o dado não exista.** Quer dizer que as buscas registradas no texto n
+  L448: busca na linha=NAO | | Público do híbrido-casual | nenhum dado de idade ou gênero do segmento nem dos títulos da Habby; só ind
+  L450: busca na linha=NAO | | Retenção do 4X | estratégia (Mistplay, 2022) e Last War × Whiteout Survival (Sensor Tower via Naavik, j
+  L451: busca na linha=NAO | | Retenção da web | só o D1 de referência da CrazyGames | D7 e D30 sem dado público (4.5) |
+  L452: busca na linha=NAO | | Retenção do híbrido-casual | nenhum benchmark; só a afirmação, sem números, de que supera o hiper-casua
+  L454: busca na linha=NAO | | D60 e D90 por gênero | nenhum benchmark público | sem dado público (7.1) |
+
+== (4b) critério da marca [secundária]: só leva a marca se TODAS as fontes do número são de classe S ==
+linhas de tabela com coluna só de tags: ok=74 | só fontes S sem a marca=0 | com fonte P ou I e com a marca=2 (revisar: marca ao lado de número de fonte S)
+  mista: (196, 'Recordes de jogadores simultâneos', [('53', 'I'), ('54', 'S'), ('55', 'S')])
+  mista: (289, 'Shooter (3,0): PUBG Mobile, Free Fire, Delta Force', [('23', 'I'), ('26', 'S')])
+prosa: só fontes S e sem marca=1 | marca sem nenhuma fonte S na linha=0
+  PROSA SEM MARCA: (248, ['66'], '**Exemplos.** Subway Surfers e Moto X3M (Poki); Bloxd.io e Smash Karts (CrazyGam')
+cabeçalho e seção 10 usam 'acessadas'? False | usam 'consultadas por resumo de busca'? True
+
+== (5) contas derivadas ==
+  H1 2026 IAP 39,8/40,6 (%): calculado=-1.970 documento=-2 OK
+  AppMagic puzzle 6,3 -> 7,6 (%): calculado=20.635 documento=20 OK
+  Sensor Tower: estratégia 9,3 - puzzle 8,1: calculado=1.200 documento=1.2 OK
+  RPG 11,6/13,7 (%; documento -15,4, diferença de arredondamento): calculado=-15.328 documento=-15.4 OK
+  downloads por minuto: 95.000 x 525.600 / 1e9: calculado=49.932 documento=49.9 OK
+  merge-2: 1,24 / 0,636 (%): calculado=94.969 documento=95 OK
+  Roblox 2025: bookings 6,8 (+55%) -> base 2024: calculado=4.387 documento=4.39 OK
+  temporada de 6 a 8 semanas em 2 a 3 meses (8,7 a 13 semanas): ciclos 1.1 a 2.2 (documento: 1 a 2 ciclos completos); 6 sem = D42, 8 sem = D56: 42 56
+
+  metas de retenção (7.3), lidas do documento:
+   {'D1': (30.0, 40.0), 'D7': (10.0, 15.0), 'D30': (4.0, 7.0), 'D60': (3.0, 5.0), 'D90': (2.0, 4.0)}
+  marcos presentes D1..D90: True
+  mínimo e meta estritamente decrescentes: True | meta >= mínimo: True
+  perda D7->D30 da versão do ciclo 1 (8% -> 6%), documento 25%: calculado=25.000 documento=25 OK
+  perda D7->D30 Whiteout (17 -> 8), documento 53%: calculado=52.941 documento=53 OK
+  perda D7->D30 GameAnalytics 2026 (4 -> 0,7), documento 'mais de 80%': calculado=82.500 documento=82.5 OK
+  perda D7->D30 do mínimo: calculado=60.000 documento=60 OK
+  perda D7->D30 da meta: calculado=53.333 documento=53 OK
+  perda D7->D30 Last War (11 -> 4): 64% | D30->D60 mínimo/meta: 25% / 29% | D60->D90 mínimo/meta: 33% / 20%
+  8.3 nº 3 igual à tabela 7.3: True
+  resumo cita 'D60 de 7% do AFK Journey' e 7.3 usa 7% [81]: True | True
+
+== (6) fontes por linha de sinal (tabelas com coluna Fonte) ==
+linhas de sinais: 60 | com 2+ fontes: 28 | com 1 fonte: 32
+
+== (7) sinais sem fonte e números soltos na prosa ==
+linhas de sinais: 60 | com tag de fonte: 60
+linhas de prosa com número de mercado e sem tag [n] ou [B]:
+  L8: - Ranking (crescimento 40%, escala 30%, presença nos rankings 30%): **1. Puzzle** · **2. Estratégia 4X casual*
+  L85: - **Cassino:** a nota 5 exigiria US$ 15 bi por ano ou mais (nível 5 da escala da seção 1.3), e não há total do
+  L105: **Leitura:** a receita está parada e os downloads caem. Crescer agora significa tirar participação de alguém, 
+  L268: - onde jogam: em casa no tempo livre (80%), em pausas curtas (34%), no trajeto (22%) e na escola ou no trabalh
+  L269: - por que jogam: 58% por ser grátis e 56% pela facilidade de acesso;
+  L270: - frequência e gasto: 37% jogam várias vezes por dia, e 27% gastam mais de US$ 50 por mês com jogos;
+  L271: - 28% dizem que o tempo de jogo na web cresce à custa das redes sociais.
+  L427: - **Metas iniciais:** as da seção 7.3. Mínimo para seguir: D1 30%, D7 10%, D30 4%, D60 3% e D90 2%. Meta: D1 4
+total sinalizadas: 8
+
+== (8) consistência com o briefing atual e com o VIC-6 ==
+briefing: 'Não há facção escolhida pelo jogador': True | decisão 'dia 60 e no dia 90': True | 'PvP' no briefing: 4
+linhas do documento que usam 'facção/facções' (cada uma assume facção escolhida pelo jogador, salvo negação): 0
+linhas com 'PvP' no documento: [11, 15, 169, 184, 280, 327, 335, 400, 416, 417, 418, 419, 425]
+7.2 diz que 'a escolha é do usuário' e 8.4 ainda pergunta o que 'reter 2 a 3 meses' quer dizer: False | False
+fontes trazidas do VIC-6 (código lá) e a URL no VIC-6 aparece na linha da fonte do VIC-5:
+  [99] = VIC-6 R2: URL no VIC-6=achada | presente na linha do VIC-5=True
+  [98] = VIC-6 C33: URL no VIC-6=achada | presente na linha do VIC-5=True
+  [96] = VIC-6 L15: URL no VIC-6=achada | presente na linha do VIC-5=True
+  [97] = VIC-6 L17: URL no VIC-6=achada | presente na linha do VIC-5=True
+  [81] = VIC-6 C11: URL no VIC-6=achada | presente na linha do VIC-5=True
+  [73] = VIC-6 R5: URL no VIC-6=achada | presente na linha do VIC-5=True
+VIC-6 contém os fatos citados pelo VIC-5: {'MapleStory US$ 164 mi': True, '7,6 milhões de instalações': True, 'reembolso total': True, 'H3 (temporadas 6 a 8 semanas)': True, 'ECA art. 20 e 17/03/2026': True, 'risco 7: D30 do RPG ~3,5%, top 1% 10%, idle D1 42%': True}
+VIC-6 seção 5.4 (numeração hoje; o VIC-5 cita facções nº 5, idade nº 2 e nº 4, troca nº 1 e nº 3):
+   1. **Venda de itens entre jogadores:** por ouro (moeda gratuita) ou por diamantes (moeda p
+   2. **Gacha pago no Brasil:** aceitar a verificação de idade que o Decreto 12.880/2026 (art
+   3. **VIP negociável:** o modelo de token (o pagante compra e revende no mercado por ouro) 
+   4. **Classificação etária-alvo:** qual faixa mínima? Ela afeta chat, troca e gacha, por ca
+   5. **Grupos de heróis e competição:** o que forma um grupo de heróis no nosso jogo, e ele 
