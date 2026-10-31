@@ -1,0 +1,209 @@
+== (1) tags de fonte ==
+família M: esperadas 38 | definidas 38 | usadas 38
+família C: esperadas 97 | definidas 97 | usadas 97
+família P: esperadas 21 | definidas 21 | usadas 21
+família T: esperadas 23 | definidas 23 | usadas 23
+família L: esperadas 25 | definidas 25 | usadas 25
+família R: esperadas 5 | definidas 5 | usadas 5
+família U: esperadas 3 | definidas 3 | usadas 3
+família Q: esperadas 1 | definidas 1 | usadas 1
+usadas e NÃO definidas: []
+definidas e NÃO usadas: []
+total definidas: 213
+
+== (2) campos por jogo comparável (seções 2.2 a 2.12) ==
+2.1 Tabela comparativa                         campos=0/4 social_sem_detalhe_ou_inexistente=False
+2.2 AFK Arena (Lilith Games, abr/2019)         campos=4/4 social_sem_detalhe_ou_inexistente=True
+2.3 AFK Journey (Farlight Games / Lilith, 2024 campos=4/4 social_sem_detalhe_ou_inexistente=False
+2.4 Idle Heroes (DHGames, nov/2016)            campos=4/4 social_sem_detalhe_ou_inexistente=False
+2.5 MapleStory: Idle RPG (Nexon e AbleGames, 0 campos=4/4 social_sem_detalhe_ou_inexistente=False
+2.6 Legend of Mushroom (Joy Nice Games, do gru campos=4/4 social_sem_detalhe_ou_inexistente=False
+2.7 Legends of IdleOn (LavaFlame2, desenvolved campos=3/4 social_sem_detalhe_ou_inexistente=False
+2.8 Melvor Idle (Games by Malcs, publicado pel campos=4/4 social_sem_detalhe_ou_inexistente=True
+2.9 IdleMMO (Galahad Creative, criadores do Si campos=4/4 social_sem_detalhe_ou_inexistente=False
+2.10 Idle Clans (Isam Games, desenvolvedor solo campos=4/4 social_sem_detalhe_ou_inexistente=False
+2.12 Dead Zone — Idle Arsenal RPG (segunda refe campos=4/4 social_sem_detalhe_ou_inexistente=True
+
+== (3) fontes por reclamação (seção 4) ==
+# 1 fontes= 8  Pay-to-win e distância entre baleias e F2P | nº declarado=8 OK | confiança=Alta (regra pelo nº: Alta) OK
+# 2 fontes= 3  Paredes de progressão ("fiquei preso") | nº declarado=3 OK | confiança=Média (regra pelo nº: Média) OK
+# 3 fontes= 5  Gacha: sorte, falta de pity e probabilidade errada | nº declarado=5 OK | confiança=Alta (regra pelo nº: Alta) OK
+# 4 fontes= 4  Anúncios forçados ou que não pagam | nº declarado=4 OK | confiança=Média (regra pelo nº: Média) OK
+# 5 fontes= 4  Corte de recompensas e "devs gananciosos" | nº declarado=4 OK | confiança=Média (regra pelo nº: Média) OK
+# 6 fontes= 4  Power creep e conteúdo novo que anula o antigo | nº declarado=4 OK | confiança=Média (regra pelo nº: Média) OK
+# 7 fontes= 1  Compra presa a personagem ou servidor | nº declarado=1 OK | confiança=Baixa (regra pelo nº: Baixa) OK
+# 8 fontes= 1  Monetização que cresce num jogo que começou justo | nº declarado=1 OK | confiança=Baixa (regra pelo nº: Baixa) OK
+# 9 fontes= 1  Social fraco nos idle MMOs | nº declarado=1 OK | confiança=Baixa (regra pelo nº: Baixa) OK
+#10 fontes= 1  Offline muito mais lento que o ativo | nº declarado=1 OK | confiança=Baixa (regra pelo nº: Baixa) OK
+#11 fontes= 1  Problemas técnicos e de login | nº declarado=1 OK | confiança=Baixa (regra pelo nº: Baixa) OK
+
+== (4) marcas de confiança e ressalvas ==
+confiança baixa        7
+Confiança              9
+| Alta |               5
+| Média |              27
+| Baixa |              10
+não verificado         3
+não confirmad          7
+atribuição provável    0
+cálculo nosso          3
+Cálculo nosso          2
+Não encontramos        4
+não encontramos        2
+não detalhad           3
+
+== (5) hosts ==
+URLs: 209 | hosts: 138
+fontes definidas sem URL (não são páginas da web): ['Q1', 'U1', 'U2', 'U3']
+   apps.apple.com 5
+   play.google.com 0
+   reddit.com 15
+   sensortower.com 3
+   toucharcade.com 3
+   supercheats.com 4
+   support.google.com 2
+   developer.apple.com 1
+
+== (6) contagens ==
+jogos na tabela 2.1: 10
+oportunidades (5.1): 9
+riscos (5.2): 7
+hipóteses (5.3): 6 | perguntas (5.4): 5
+
+== (7) contas citadas ==
+pontos de habilidade: 20 x 10 min = 200 min = (3, 20) | VIP 4 (40): (6, 40)
+8 h fora: gera 48 | perde 28 (58%)
+  30 diamantes por US$ 0.99: 30.30 por dólar
+  150 diamantes por US$ 4.99: 30.06 por dólar
+  300 diamantes por US$ 9.99: 30.03 por dólar
+  600 diamantes por US$ 19.99: 30.02 por dólar
+  3000 diamantes por US$ 99.99: 30.00 por dólar
+lendário: 15.000 / 30 = 500.0 dólares | por soul stone (80): 187.5 diamantes
+Nexon KFTC: ₩ 11,6 bi ~ US$ 8,9 mi => câmbio implícito 1303 ₩/US$
+ECA Digital: 17/03/2026 cai numa terça (fontes: 'terça-feira, 17')
+
+== (8) revalidação (commit d12eb4a): checagens dirigidas aos defeitos D1 a D7 ==
+D1 (Resumo x corpo)
+  [OK] termos antigos 'devolveu' ou '100% das compras' (esperado 0): 0 linha(s) []
+  [OK] 'ofereceu' ou 'oferecer reembolso total' (Resumo, 2.5, 3.3): 3 linha(s) [16, 272, 374]
+  [OK] afirmação de devolução sem 'ofer' (oferta/ofereceu) na mesma linha (esperado 0): 0 linha(s) []
+  [OK] 'monetização nº 1' ou 'nº 1 nas avaliações' (esperado 0): 0 linha(s) []
+  [OK] 'fontes divergem sobre a principal queixa' (Resumo, 3.4, 3.6): 3 linha(s) [15, 388, 425]
+  [OK] '12 a 24 h' (esperado 0): 0 linha(s) []
+  [OK] 'até 12 h no AFK Arena' (Resumo): 1 linha(s) [13]
+D2 (ECA Digital)
+  [OK] 'Decreto 12.880' no corpo (Resumo, 3.3, 5.2, 5.4): 5 linha(s) [17, 30, 375, 378, 526]
+  [OK] 'art. 20' e 'art. 23' no corpo: 6 linha(s) [17, 377, 378, 505, 526, 528]
+  [OK] 'classificação indicativa' no corpo: 3 linha(s) [17, 377, 528]
+  [OK] 'Nota Técnica 55/2026' (corpo e fonte L19): 6 linha(s) [17, 30, 376, 378, 526, 758]
+  [OK] fonte oficial 'planalto' em qualquer parte (esperado 0: pendência declarada, sem busca): 0 linha(s) []
+  [OK] pendência declarada: 'texto oficial': 6 linha(s) [17, 30, 376, 379, 505, 526]
+D3 (Magic Rush: respostas e vídeo do usuário)
+  [OK] rótulo 'vídeo e respostas do usuário': 6 linha(s) [12, 27, 48, 75, 115, 161]
+  [OK] papel 'Canhão': 3 linha(s) [12, 75, 84]
+  [OK] 'zero anúncios' (Resumo, 1.9): 4 linha(s) [12, 161, 183, 455]
+  [OK] Wishing Pool VIP 8: 'a confirmar com o usuário': 1 linha(s) [157]
+  [OK] '4 papéis' só na frase que corrige a versão anterior (esperado 1): 1 linha(s) [75]
+D4 (seção 4)
+  [OK] subseções 4.1 e 4.2: 2 linha(s) [457, 468]
+  [OK] critério para 'comum' declarado: 1 linha(s) [453]
+  [OK] 'A ordem das linhas não indica frequência': 1 linha(s) [453]
+D5 (facção)
+  [OK] definição de 'Facção' no cabeçalho: 1 linha(s) [7]
+  [OK] todas as linhas com 'facç' (cabeçalho, Resumo, 5.4 nº 5 e U1: esperado 4): 4 linha(s) [7, 12, 529, 782]
+  [OK] 'facç' sem 'grupo', 'lado escolhido' ou 'sem lado' na linha (esperado 0): 0 linha(s) []
+D6 (Bonds do RuneScape)
+  [OK] '−63%' (3.1 e 3.5): 2 linha(s) [354, 399]
+  [OK] 'atribuição incerta' (3.1, 3.5, Resumo, 5.1): 4 linha(s) [18, 354, 399, 492]
+  [OK] termos antigos 'queda de 61%', '81% no ouro' ou '−61% no comércio' (esperado 0): 0 linha(s) []
+D7 (fonte C31 e '(sem VIP)')
+  [OK] '[C31]' citada no corpo: 1 linha(s) [266]
+  [OK] '(sem VIP)' junto de '3 h 20 min' (Resumo e 1.12): 2 linha(s) [11, 194]
+Fontes novas (seção 6.7)
+  [U1] citada 21x no corpo | definida em 6.7: True
+  [U2] citada 13x no corpo | definida em 6.7: True
+  [U3] citada 15x no corpo | definida em 6.7: True
+  [Q1] citada 10x no corpo | definida em 6.7: True
+Fatos novos do Magic Rush x briefing (trecho presente no briefing? presente no documento?)
+  briefing=True  documento=True   Varrer
+  briefing=True  documento=True   X10
+  briefing=True  documento=True   Tanque, Atirador, Mago, Suporte e Canhão
+  briefing=True  documento=True   zero anúncios
+  briefing=True  documento=True   1/3 a 3/3
+  briefing=True  documento=True   Guerra do Trono
+  briefing=True  documento=True   stamina (comida)
+  briefing=True  documento=True   ouro e gemas
+  briefing=True  documento=True   evoluir os heróis
+  briefing=True  documento=True   PvP
+  briefing=True  documento=True   paisagem
+  briefing=True  documento=True   Auto e velocidade x1
+  briefing=True  documento=True   3 estrelas
+  briefing=True  documento=True   bastante tempo
+  briefing=True  documento=True   grupo de heróis
+Seção 2.12 (Dead Zone) e linha da tabela 2.1 x briefing (cada trecho está no briefing?)
+  briefing=True  2.12 ou 2.1=True   idle rpg web (desktop)
+  briefing=True  2.12 ou 2.1=True   em pt-br
+  briefing=True  2.12 ou 2.1=True   interface escura e moderna
+  briefing=True  2.12 ou 2.1=True   combate, esquadrão, cartas, base, expedição, árvore e passe
+  briefing=True  2.12 ou 2.1=True   pixel art no estilo dos jogos de ação dos anos 90
+  briefing=True  2.12 ou 2.1=True   esquadrão de soldados animais contra chefões
+  briefing=True  2.12 ou 2.1=True   cartas de soldados com raridade
+  briefing=True  2.12 ou 2.1=True   base em corte
+  briefing=True  2.12 ou 2.1=True   estilo abrigo
+  briefing=True  2.12 ou 2.1=True   árvore de melhorias
+  briefing=True  2.12 ou 2.1=True   baús ao derrotar chefes
+  briefing=True  2.12 ou 2.1=True   onda 30/30
+  briefing=True  2.12 ou 2.1=True   o leviatã do cais
+  briefing=True  2.12 ou 2.1=True   ondas por zona
+  briefing=True  2.12 ou 2.1=True   ciclos que reiniciam a campanha
+  briefing=True  2.12 ou 2.1=True   expedições com tempo
+  briefing=True  2.12 ou 2.1=True   passe de batalha por temporada
+  briefing=True  2.12 ou 2.1=True   trilha grátis
+  briefing=True  2.12 ou 2.1=True   elite
+  Frases de leitura (não literais do briefing) na 2.12 e nas tabelas 5.1 e 5.2:
+    linha 333: ...reúne num só jogo de navegador os elos de um idle RPG de coleção. O combate é lateral, em pixel art no estilo dos jogos de ação dos an...
+    linha 334: ...ampanha**. As **expedições com tempo** são o elo idle mais claro [U3]. Ganho offline, teto de horas e baú de retorno: não vistos....
+    linha 339: ...  1. É prova de formato, e não de mercado: um idle RPG de navegador, em pt-BR, com cartas, es...
+    linha 340: ...o** e os **ciclos que reiniciam a campanha** casam com as oportunidades 8 e 9 da seção 5.1 (heróis farmando em paralelo; recomeços periódicos...
+    linha 493: ...| 6 | Web primeiro tem precedente no idle MMO | IdleMMO na web e no app [C72] [C81] [C96]; o Dead Zone, referência ...
+    linha 495: ...agens AFK ao mesmo tempo) [C56]; o Dead Zone tem expedições com tempo [U3] | Expedições paralelas de heróis em zonas diferentes |...
+    linha 496: ...usões do Magic Rush [M23] [M25]; o Dead Zone tem ciclos que reiniciam a campanha [U3] | Temporadas e servidores ou ligas novas para quem ch...
+    linha 507: ...e de navegador em pt-BR, com cartas e passe, já é ocupado pelo Dead Zone [U3] | Um estúdio pequeno não compete em mídia paga | ...
+Pontos que originam defeitos novos (cosméticos): linhas para conferir
+  N1 (2.5): data de lançamento 5/11 x 'o lançamento (06/11/2025)':
+    linha 264: ...### 2.5 MapleStory: Idle RPG (Nexon e AbleGames, 05–06/11/2025)...
+    linha 266: ...- **Lançamento:** 5 de novembro de 2025, em celulares [C31]; o período do reembolso conta a partir de...
+    linha 272: ..., a quem pedisse**, das compras feitas entre o lançamento (06/11/2025) e 28/01/2026, com pedidos de 5 a 15/02/2026 e devolução em até 1 mês ...
+  N2 (fonte L19): 'base do art. 23':
+    linha 758: ...ixas de recompensa sem verificação de idade (base do art. 23 do Decreto 12.880/2026, segundo o QA) | https://www.gov.br/mj/pt-br/a...
+  N3 (1.3): 'o usuário confirma' os 5 papéis:
+    linha 75: ...tra o filtro da seleção de heróis no vídeo e como o usuário confirma (vídeo e respostas do usuário, 2026-10-31) [U1] [U2]. Isso corrige a ...
+  N4: PvP 'o modo de que o usuário mais gostava' x 'dois melhores momentos':
+    linha 12: ...porte e Canhão) e nenhuma grande frustração. O melhor era o **PvP** e **evoluir os heróis**....
+    linha 19: ... servidor autoritativo, pay-to-win no PvP (o modo de que o usuário mais gostava) e conformidade com lojas e leis....
+    linha 172: ...7. **PvP e evolução dos heróis**, os dois melhores momentos do jogo para o usuário (respostas do usuário, 2026-10-31) [U1]. São o...
+    linha 490: ...ssíncrona e sem lados escolhidos | O PvP foi um dos dois melhores momentos do usuário no Magic Rush [U1]. Na amostra, o social é guilda, aliança...
+    linha 503: ...agante fica sem com quem competir. O PvP é o modo de que o usuário mais gostava [U1], e é onde o pay-to-win mais pesa | Vantagem paga em velocidade e...
+Tabelas: células por linha x células do cabeçalho
+  linhas fora do padrão (linha, esperado, obtido): nenhuma
+Resumo x corpo: números, datas e nomes do Resumo que também aparecem no corpo
+  '43,5 mi'                    Resumo=1 corpo=1
+  '3 h 20 min'                 Resumo=1 corpo=1
+  'até 12 h'                   Resumo=1 corpo=2
+  '6 h (8 h com membership)'   Resumo=1 corpo=1
+  'US$ 1,5 bi'                 Resumo=1 corpo=3
+  'US$ 164 mi'                 Resumo=1 corpo=3
+  '06/11/2025'                 Resumo=1 corpo=4
+  '28/01/2026'                 Resumo=1 corpo=1
+  '5 a 15/02/2026'             Resumo=1 corpo=2
+  '15.211/2025'                Resumo=1 corpo=3
+  '17/03/2026'                 Resumo=1 corpo=1
+  'art. 20'                    Resumo=1 corpo=3
+  '12.880/2026'                Resumo=1 corpo=5
+  'art. 23'                    Resumo=1 corpo=4
+  '55/2026'                    Resumo=1 corpo=5
+  '6 a 8 semanas'              Resumo=1 corpo=4
+  'AppFollow'                  Resumo=1 corpo=5
+  'Unstar'                     Resumo=1 corpo=4
+  'Canhão'                     Resumo=1 corpo=2
+  'Dead Zone'                  Resumo=1 corpo=8

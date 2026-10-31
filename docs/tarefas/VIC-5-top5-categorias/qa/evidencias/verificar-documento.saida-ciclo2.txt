@@ -1,4 +1,4 @@
-entradas (sha256 parcial): docs/pesquisa/top5-categorias.md 1b2438d36717 | docs/gdd/briefing.md e69ddfbd245e | docs/pesquisa/idle-rpg-referencias.md 1df337222f27
+entradas (sha256 parcial): docs/pesquisa/top5-categorias.md 1b2438d36717 | docs/gdd/briefing.md e69ddfbd245e | docs/pesquisa/idle-rpg-referencias.md 27ac3253b37a
 
 == (1) notas do ranking: lidas do documento e recalculadas (peso 0,4/0,3/0,3) ==
 Puzzle (match-3, merge-2, blocos)    calculado=4.700 declarado=4.7 OK
@@ -151,7 +151,7 @@ fontes trazidas do VIC-6 (código lá) e a URL no VIC-6 aparece na linha da font
 VIC-6 contém os fatos citados pelo VIC-5: {'MapleStory US$ 164 mi': True, '7,6 milhões de instalações': True, 'reembolso total': True, 'H3 (temporadas 6 a 8 semanas)': True, 'ECA art. 20 e 17/03/2026': True, 'risco 7: D30 do RPG ~3,5%, top 1% 10%, idle D1 42%': True}
 VIC-6 seção 5.4 (numeração hoje; o VIC-5 cita facções nº 5, idade nº 2 e nº 4, troca nº 1 e nº 3):
    1. **Venda de itens entre jogadores:** por ouro (moeda gratuita) ou por diamantes (moeda p
-   2. **Gacha pago no Brasil:** aceitar verificação de idade obrigatória, exigida pelo ECA Di
+   2. **Gacha pago no Brasil:** aceitar a verificação de idade que o Decreto 12.880/2026 (art
    3. **VIP negociável:** o modelo de token (o pagante compra e revende no mercado por ouro) 
    4. **Classificação etária-alvo:** qual faixa mínima? Ela afeta chat, troca e gacha, por ca
-   5. **Facções:** fixas e permanentes (2 ou 3) ou por temporada?
+   5. **Grupos de heróis e competição:** o que forma um grupo de heróis no nosso jogo, e ele 
