@@ -1,4 +1,4 @@
-# Relatório de QA — #<issue> <título>
+# Relatório de QA — <ID> <título>
 
 - **Veredito:** APROVADO | REPROVADO
 - **Ciclo de QA:** <1, 2 ou 3>

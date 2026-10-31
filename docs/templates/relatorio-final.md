@@ -1,4 +1,4 @@
-# Relatório final — #<issue> <título>
+# Relatório final — <ID> <título>
 
 - **Status:** pronto para revisão | entregue parcialmente | bloqueado
 - **PR:** <link>
@@ -25,11 +25,11 @@
 - Critérios de aceite: <x de y atendidos>
 - Testes: <n novos, suíte com n passando>
 - Defeitos corrigidos durante o QA: <n>
-- Relatório completo: `docs/tarefas/<issue>-<slug>/relatorio-qa.md`
+- Relatório completo: `docs/tarefas/<ID>-<slug>/relatorio-qa.md`
 
 ## Pendências e riscos
 
-- <defeitos menores registrados como novos cards (#…), débitos técnicos, riscos>
+- <defeitos menores registrados como novos cards (VIC-…), débitos técnicos, riscos>
 
 ## Precisa de você
 

@@ -1,9 +1,9 @@
 # Tarefas
 
-Cada card executado ganha uma pasta `docs/tarefas/<issue>-<slug>/` com o histórico completo:
+Cada card executado ganha uma pasta `docs/tarefas/<ID>-<slug>/`, com o ID do card no Linear e o histórico completo:
 
 ```text
-docs/tarefas/12-compra-de-geradores/
+docs/tarefas/VIC-12-compra-de-geradores/
 ├── plano.md              plano do Líder (subtarefas, donos, dependências)
 ├── qa/
 │   ├── plano-testes.md   matriz de testes do qa-analista

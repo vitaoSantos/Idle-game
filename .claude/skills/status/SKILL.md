@@ -5,16 +5,16 @@ description: Mostra o estado do projeto — Kanban por coluna, tarefas em andame
 
 # Status do projeto
 
-1. Rode `scripts/kanban.sh listar`.
+1. Liste as issues do projeto "Idle Game" no Linear e agrupe pelas colunas de `docs/kanban.md` (Backlog, Todo/Pronto, In Progress, Em QA, In Review, Done).
 2. Reconcilie o board, contando ao usuário o que mudou:
-   - issues fechadas que não estão em Concluído → `scripts/kanban.sh mover <n> concluido`;
-   - issues abertas com o rótulo `tarefa` que não estão no board (`gh issue list --label tarefa --state open`) → `scripts/kanban.sh adicionar <n>`.
-3. Leia a fase atual no `CLAUDE.md` e o gate correspondente em `docs/fases.md`.
-4. Para cards em Em andamento, Em QA e Revisão, leia o `plano.md`, o `relatorio-qa.md` ou o `relatorio-final.md` em `docs/tarefas/`.
+   - cards em In Review cujo PR já foi mergeado na `main` → Done;
+   - cards com o rótulo **Bloqueado** → seção "Precisa de você".
+3. Leia a fase atual no `CLAUDE.md`, o gate correspondente em `docs/fases.md` e o progresso do marco da fase (`list_milestones`).
+4. Para cards em In Progress, Em QA e In Review, leia o `plano.md`, o `relatorio-qa.md` ou o `relatorio-final.md` em `docs/tarefas/`.
 5. Responda de forma curta:
    - **Fase atual** e o que falta para o gate;
    - **Board:** quantidade por coluna e os títulos em andamento, QA e revisão;
-   - **Precisa de você:** PRs para revisar, perguntas abertas, cards com `bloqueado`;
-   - **Próximos passos:** até 3 sugestões de cards para mover para Pronto.
+   - **Precisa de você:** revisões, perguntas abertas, cards bloqueados;
+   - **Próximos passos:** até 3 sugestões de cards para mover para Todo (Pronto).
 
-Se `scripts/kanban.sh` disser que o Kanban não está configurado, explique como configurar com `docs/kanban.md`.
+Se o conector do Linear não estiver disponível na sessão, avise o usuário para conectá-lo em claude.ai → Configurações → Conectores.

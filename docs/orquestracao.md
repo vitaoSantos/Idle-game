@@ -30,9 +30,9 @@
 
 ```mermaid
 flowchart TD
-    U([Você]) -->|cria e prioriza cards| K[(Kanban<br/>GitHub Projects)]
+    U([Você]) -->|cria e prioriza cards| K[(Kanban<br/>Linear)]
     U -->|/executar-tarefa| L{{Líder Técnico<br/>sessão principal}}
-    K <-->|lê e move cards<br/>scripts/kanban.sh| L
+    K <-->|lê, move e comenta cards<br/>conector do Linear| L
     L --> ARQ
     L --> CRI
     L --> FRONT
@@ -78,7 +78,7 @@ sequenceDiagram
     participant L as Líder Técnico
     participant E as Equipes
     participant Q as Equipe de QA
-    U->>K: cria o card e move para Pronto
+    U->>K: cria o card e move para Todo (Pronto)
     U->>L: /executar-tarefa proxima
     L->>K: Em andamento
     L->>L: plano + branch da tarefa
@@ -92,9 +92,9 @@ sequenceDiagram
         E-->>L: entregas
         L->>Q: reteste + regressão
     end
-    L->>K: Revisão
+    L->>K: In Review + relatório comentado no card
     L-->>U: PR + relatório final
-    U->>K: aprova e faz o merge → Concluído
+    U->>K: aprova e faz o merge → Done
 ```
 
 O passo a passo completo que o Líder segue está em `.claude/skills/executar-tarefa/SKILL.md`.

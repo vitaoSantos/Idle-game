@@ -10,6 +10,9 @@ Este guia mostra o que cada equipe usa, o que você já tem e o que vale instala
 |---|---|
 | **Figma** | Wireframes e telas, design system, protótipos, motion, diagramas no FigJam, geração de imagens |
 | **Canva** | Arte de marketing e de loja, geração de imagem, remoção de fundo, redimensionar screenshots para cada tamanho de loja |
+| **Linear** | Kanban do projeto: cards, status, dependências e comentários do Líder (ver `docs/kanban.md`) |
+| **Slack** | Opcional: avisos e resumos do andamento num canal |
+| **Notion**, **Asana** | Conectados, mas fora do fluxo atual (o Kanban fica no Linear) |
 
 **Skills da sua conta do claude.ai**
 
@@ -42,7 +45,7 @@ Este guia mostra o que cada equipe usa, o que você já tem e o que vale instala
 
 | Equipe / agente | Skills | Conectores e plugins |
 |---|---|---|
-| Líder Técnico | `/executar-tarefa`, `/nova-tarefa`, `/status`, `/iniciar-fase`, `engineering:standup` | GitHub CLI (Kanban), `session-report` |
+| Líder Técnico | `/executar-tarefa`, `/nova-tarefa`, `/status`, `/iniciar-fase`, `engineering:standup` | Linear (Kanban), `session-report` |
 | `arquiteto` | `engineering:architecture`, `engineering:system-design` | `context7` |
 | `game-designer` | `xlsx`, `deep-research` | — |
 | `ui-ux-designer` | `to-wireframe`, `img-to-html`, `design:*`, `figma:figma-generate-design` | Figma |
@@ -112,7 +115,7 @@ Opcionais: `skill-creator` (criar skills do projeto), `hookify` (criar hooks des
 | Monetização e live ops | `stripe` ou `mercadopago` (pagamentos na versão web), `growthbook` (feature flags e testes A/B de balanceamento) |
 | Segurança extra | `semgrep`, `claude-security` |
 | Vídeo e mídia | `runway-api` (trailer e vídeo de loja), `cloudinary` (CDN e otimização de imagens) |
-| Kanban alternativo | `linear`, `notion` (se preferir a outro painel que não o GitHub Projects). O Jira aparece na lista de conectores com o nome **Atlassian** |
+| Kanban | Em uso: conector do Linear. Alternativas: GitHub Projects, Notion. O Jira aparece na lista de conectores com o nome **Atlassian** |
 
 Use `/plugin` para navegar pelo catálogo completo, que muda com frequência.
 
@@ -126,16 +129,13 @@ Use `/plugin` para navegar pelo catálogo completo, que muda com frequência.
 
 ## 6. Permissões recomendadas (opcional)
 
-Para o Líder mexer no Kanban sem pedir confirmação a cada comando, e para bloquear a leitura de segredos, você pode criar `.claude/settings.json` com o conteúdo abaixo. Revise antes de aplicar: este arquivo muda o que o Claude Code pode fazer sem perguntar.
+Para liberar comandos de leitura do git sem confirmação e bloquear a leitura de segredos, você pode criar `.claude/settings.json` com o conteúdo abaixo. Revise antes de aplicar: este arquivo muda o que o Claude Code pode fazer sem perguntar. Para as ferramentas do conector do Linear, escolha "sempre permitir" quando o Claude Code pedir confirmação.
 
 ```json
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
   "permissions": {
     "allow": [
-      "Bash(scripts/kanban.sh *)",
-      "Bash(gh issue view *)",
-      "Bash(gh issue list *)",
       "Bash(git status)",
       "Bash(git diff *)",
       "Bash(git log *)"

@@ -1,8 +1,8 @@
-# Plano — #<issue> <título>
+# Plano — <ID> <título>
 
-- **Card:** <link da issue>
+- **Card:** <ID e link do card no Linear>
 - **Fase:** <n — nome>
-- **Branch:** `tarefa/<issue>-<slug>`
+- **Branch:** `tarefa/<id>-<slug>`
 - **Data de início:** <AAAA-MM-DD>
 
 ## Objetivo
