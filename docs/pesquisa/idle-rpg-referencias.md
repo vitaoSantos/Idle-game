@@ -1,19 +1,22 @@
 # Referências de mercado: idle RPG, AFK RPG e idle MMO
 
 > **Card:** VIC-6 · **Fase:** 1 (Escopo e ideia) · **Autor:** game-designer · **Pesquisa feita em:** 2026-10-31
+> **Revisão:** 2026-10-31 (tarde), depois do QA: correção dos defeitos D1 a D7, respostas e vídeos do usuário sobre o Magic Rush e inclusão do Dead Zone — Idle Arsenal RPG (seção 2.12).
 > **Entrada:** `docs/gdd/briefing.md` · **Serve de base para:** conceito e GDD (`docs/gdd/`), especialista-lojas, arquiteto e qa-seguranca.
-> **Como ler as citações:** os códigos entre colchetes (por exemplo, [M5], [C11]) apontam para a seção 6 (Fontes).
+> **Como ler as citações:** os códigos entre colchetes (por exemplo, [M5], [C11]) apontam para a seção 6 (Fontes). Os códigos [U1] a [U3] são o relato e os vídeos do usuário, e [Q1] é o relatório de QA (seção 6.7).
+> **"Facção", neste documento:** por decisão do usuário (2026-10-31), quer dizer **grupo de heróis**, que o jogador junta em times. Não existe lado escolhido pelo jogador, como Aliança × Horda. Quando o texto fala desse outro sentido, escreve "lado escolhido pelo jogador".
 
 ## Resumo executivo
 
-- **Magic Rush: Heroes** (Moonton, 2015) segue ativo, em manutenção (cerca de 43,5 mi de instalações no Google Play), mas exige jogo ativo: stamina, pontos de habilidade que enchem em 3 h 20 min e limites diários.
-- O subgênero migrou para o modelo AFK, com baú offline de 12 a 24 h: o AFK Arena soma US$ 1,5 bi e o MapleStory: Idle RPG fez US$ 164 mi em poucos meses.
-- MMO com classes já vende no idle (MapleStory: Idle RPG, Legend of Mushroom), e idle MMOs indie (IdleMMO, Idle Clans) usam mercado entre jogadores e VIP negociável.
-- Monetização padrão: gacha, VIP, cartão mensal e passe. O anúncio forçado é a reclamação de monetização nº 1.
-- O pay-to-win fatura, mas derruba as notas e concentra a receita. A Nexon devolveu 100% das compras do MapleStory: Idle RPG por erro de probabilidade (jan/2026).
-- No Brasil, o ECA Digital (desde 17/03/2026) proíbe loot box em jogo de provável acesso por menores e exige verificação de idade, o que afeta gacha, troca e chat.
-- **Oportunidade:** um "Magic Rush que farma sozinho", com classes, facções em guerra assíncrona, temporadas de 6 a 8 semanas e VIP negociável.
-- **Riscos:** fraude na troca, custo do servidor autoritativo e conformidade com lojas e leis.
+- **Magic Rush: Heroes** (Moonton, 2015) segue ativo, em manutenção (cerca de 43,5 mi de instalações no Google Play), mas exige jogo ativo: a stamina é a porta do farm, os pontos de habilidade enchem em 3 h 20 min (sem VIP) e há limites diários. Os botões Varrer e X10 repetem fases já vencidas sem jogar, mas só quando o jogador aperta o botão, e cada repetição gasta stamina.
+- **Na experiência do usuário** (relato e vídeo de 2026-10-31): zero anúncios, nenhuma facção escolhida pelo jogador (só grupos de heróis), 5 papéis de herói (Tanque, Atirador, Mago, Suporte e Canhão) e nenhuma grande frustração. O melhor era o **PvP** e **evoluir os heróis**.
+- O subgênero migrou para o modelo AFK: baú offline de até 12 h no AFK Arena (o teto sobe com o VIP) e tempo idle de 6 h (8 h com membership) no IdleMMO. O AFK Arena soma US$ 1,5 bi, e o MapleStory: Idle RPG fez US$ 164 mi em poucos meses.
+- MMO com classes já vende no idle (MapleStory: Idle RPG, Legend of Mushroom), e idle MMOs indie (IdleMMO, Idle Clans) usam mercado entre jogadores e VIP negociável. O **Dead Zone — Idle Arsenal RPG**, segunda referência do usuário, mostra esse pacote no navegador e em pt-BR: esquadrão em cartas com raridade, ondas e ciclos, base, expedições, árvore de melhorias e passe com trilha grátis e elite.
+- Monetização padrão: gacha, VIP, cartão mensal e passe. As fontes divergem sobre a principal queixa de monetização: a AppFollow aponta o anúncio forçado, e a Unstar, o pay-to-win. Nenhuma das duas publica o método.
+- O pay-to-win fatura, mas derruba as notas e concentra a receita. Por um erro de probabilidade, a Nexon ofereceu reembolso total das compras do MapleStory: Idle RPG feitas de 06/11/2025 a 28/01/2026 a quem pedisse (pedidos de 5 a 15/02/2026).
+- No Brasil, o ECA Digital (Lei 15.211/2025, em vigor desde 17/03/2026) veda caixas de recompensa em jogos direcionados a menores ou de acesso provável por eles, conforme a classificação indicativa (art. 20). O decreto que regulamenta a lei (Decreto 12.880/2026, art. 23, segundo a Nota Técnica 55/2026 do MJSP) exige medidas efetivas, como verificação de idade. Análises jurídicas estendem o cuidado à venda de itens e ao chat entre menores; a leitura ainda precisa ser validada no texto oficial.
+- **Oportunidade:** um "Magic Rush que farma sozinho", com classes e papéis, grupos de heróis como eixo da montagem de time, farm contínuo (inclusive offline), PvP assíncrono com faixas de poder, rankings de jogadores e de guildas por temporada (sem lados escolhidos), temporadas de 6 a 8 semanas e VIP negociável.
+- **Riscos:** fraude na troca, custo do servidor autoritativo, pay-to-win no PvP (o modo de que o usuário mais gostava) e conformidade com lojas e leis.
 
 ## Como a pesquisa foi feita e limitações
 
