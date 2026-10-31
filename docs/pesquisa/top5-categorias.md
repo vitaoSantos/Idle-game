@@ -1,6 +1,6 @@
 # Top 5 categorias de jogos em alta (celular e web) e onde entra o nosso idle RPG
 
-Card VIC-5 · Fase 1 (Escopo e ideia) · Autor: `game-designer` · 2026-10-31, revisado no mesmo dia para o ciclo 2 de QA · Período analisado: 2025 completo e 2026 até setembro · Fontes consultadas por resumo de busca em 2026-10-31, sem abrir as páginas (lista e classe de cada fonte na seção 10).
+Card VIC-5 · Fase 1 (Escopo e ideia) · Autor: `game-designer` · 2026-10-31, revisado no mesmo dia para os ciclos 2 e 3 de QA (o ciclo 3 foi só de texto, sem buscas novas) · Período analisado: 2025 completo e 2026 até setembro · Fontes consultadas por resumo de busca em 2026-10-31, sem abrir as páginas (lista e classe de cada fonte na seção 10).
 
 ## Resumo executivo
 
@@ -8,11 +8,11 @@ Card VIC-5 · Fase 1 (Escopo e ideia) · Autor: `game-designer` · 2026-10-31, r
 - Ranking (crescimento 40%, escala 30%, presença nos rankings 30%): **1. Puzzle** · **2. Estratégia 4X casual** · **3. Sandbox social/UGC (Roblox)** · **4. Híbrido-casual** · **5. Jogos web instantâneos (HTML5 e mini-games)**. As três primeiras posições são estáveis nos cenários plausíveis. O 4º e o 5º lugares são frágeis: com um ponto a mais na nota de escala, que não tem total de gênero no documento, o shooter ou o cassino tiraria o web do top 5 (seção 2).
 - **Puzzle e híbrido-casual** são as categorias que mais aceleram no 1º sem. 2026: puzzle com cerca de +20% e híbrido-casual com +19% a +23%, ambas com nota máxima em crescimento. Dentro do puzzle, o merge-2 cresceu de 74% a 95%, conforme a leitura do mesmo relatório. O 4X é o maior gênero, mas perdeu fôlego em 2026 [10][12][14][17][29][30].
 - O RPG, gênero do nosso jogo, está em queda: −15% nos 12 meses até out/2025 **[secundária]** e −14% no 1º sem. 2026. Por isso ficou fora do top 5 [9][14]. O idle RPG com classes ainda vende: o MapleStory: Idle RPG fez US$ 164 mi em IAP em poucos meses [98].
-- Nosso idle RPG encaixa melhor como **híbrido-casual (4/5)**, com **camada social do 4X casual (3/5)** e **lançamento web (4/5)**. Puzzle (2/5) e UGC (2/5) servem de referência, não de alvo.
+- Nosso idle RPG encaixa melhor como **híbrido-casual (4/5)**, com **camada social do 4X casual (3/5)**, ou seja, PvP, ranking e temporadas, e **lançamento web (4/5)**. Puzzle (2/5) e UGC (2/5) servem de referência, não de alvo.
 - Oportunidade: o público casual paga por progressão profunda quando o núcleo é simples (híbrido-casual +20% em 2025), e o "sempre progredindo" bateu recordes (Grow a Garden, cerca de 22 mi de jogadores simultâneos **[secundária]**) [5][40][55].
 - Público e retenção: o 4X é adulto e majoritariamente masculino (cerca de 75% de homens no Last War) [86], e não há dado público de idade e gênero para o híbrido-casual. No iOS dos EUA, o D30 do 4X vai de 4% (Last War) a 8% (Whiteout Survival) [89]. A web retém menos no 1º dia: 10% a 15% de D1 nos jogos fortes da CrazyGames, contra mediana mobile de cerca de 22% [72][73][94]. As metas da seção 7 vão até o D90; D60 e D90 não têm benchmark público, salvo o D60 de 7% do AFK Journey [81].
 - Riscos: mercado concentrado (nenhum lançamento de 2026 entre os 20 de maior receita **[secundária]**), aquisição paga cara, RPG em queda, custo de MMO e regulação de menores. A Roblox cortou cerca de US$ 900 mi da previsão anual por causa da verificação de idade, e no Brasil o ECA Digital proíbe, desde 17/03/2026, caixas de recompensa em jogos de provável acesso por menores [12][15][48][96][97].
-- Recomendações: (1) idle RPG casual com facções e temporadas no estilo 4X, sem mapa em tempo real; (2) web instantâneo com conta e loja próprias, testando portais; (3) temporadas de 6 a 8 semanas com passe e ranking de facção, com metas de retenção do D1 ao D90 medidas desde o protótipo.
+- Recomendações: (1) idle RPG casual de grupos de heróis, com PvP assíncrono por faixas de poder e temporadas no estilo 4X, sem mapa em tempo real; (2) web instantâneo com conta e loja próprias, testando portais; (3) temporadas de 6 a 8 semanas com passe e ranking de jogadores, com metas de retenção do D1 ao D90 medidas desde o protótipo.
 
 ## 1. Método
 
@@ -181,7 +181,7 @@ A fórmula "casual" existe justamente para ampliar esse público [38]. O engajam
 
 **Complexidade de produção para equipe pequena com IA: 5/5 (muito alta).** Exige servidor autoritativo em tempo real, mapa compartilhado, alianças, batalhas, eventos entre servidores, antifraude e um calendário pesado de eventos. O topo é concentrado nos mesmos dois títulos, que já faturavam cerca de US$ 1 bi cada em 2024 [21]. A aquisição paga é de escala bilionária: estratégia fica com 21% do gasto com anúncios [12].
 
-**Encaixe com o briefing: 3/5.** É o gênero que já tem o "MMO" que o usuário quer: facções e alianças, ranking, temporadas, VIP e vantagem paga, que o briefing assume [B]. Os timers de construção e de pesquisa também correm com o jogador fora. Perde pontos em viabilidade (complexidade 5/5) e na web (cliente pesado, mapa em tempo real). Uso recomendado: fonte de sistemas sociais e de monetização, não gênero para entrar de frente.
+**Encaixe com o briefing: 3/5.** É o gênero que já tem o "MMO" que o usuário quer: PvP, ranking, temporadas, VIP e vantagem paga, que o briefing cita ou assume [B]. No 4X, a competição entre jogadores sustenta o gasto com vantagem paga, e o PvP foi um dos melhores momentos do usuário no Magic Rush [B]. O que aproveitamos é essa competição, em PvP assíncrono por faixas de poder e ranking por temporada, sem lado escolhido pelo jogador e sem mapa compartilhado. Os timers de construção e de pesquisa também correm com o jogador fora. Perde pontos em viabilidade (complexidade 5/5) e na web (cliente pesado, mapa em tempo real). Uso recomendado: fonte de sistemas sociais e de monetização, não gênero para entrar de frente.
 
 ### 4.3 #3 Sandbox social / UGC (Roblox e afins): nota 3,8 · encaixe 2/5
 
@@ -277,7 +277,7 @@ Hipótese a validar: público amplo, do casual ao midcore leve, porque o modelo 
 
 Leitura: o D1 de referência da web (10% a 15%) fica abaixo da mediana mobile, de cerca de 22% [72][73]. Por isso, conta e save na nuvem (recomendação 2 da seção 8.3) são condição para a meta de 2 a 3 meses, e a retenção da web deve ser medida a partir da criação da conta (seção 7.3) **[hipótese]**.
 
-**Complexidade de produção para equipe pequena com IA: 2/5 (baixa a média).** A tecnologia é leve e a distribuição é gratuita. Os cuidados são o tamanho do pacote, o desempenho em celular fraco e o SDK de cada portal. Facções, ranking e troca exigem back-end em qualquer canal.
+**Complexidade de produção para equipe pequena com IA: 2/5 (baixa a média).** A tecnologia é leve e a distribuição é gratuita. Os cuidados são o tamanho do pacote, o desempenho em celular fraco e o SDK de cada portal. PvP, ranking e troca exigem back-end em qualquer canal.
 
 **Encaixe com o briefing: 4/5.** Casa com "web primeiro" e com orçamento mínimo: há aquisição orgânica em portais com mais de 100 mi de visitas por mês [57][58], e idle tem tradição no navegador. Perde 1 ponto porque a monetização nos portais é mais fraca e depende das regras de cada um. Além disso, segurar o jogador por 2 a 3 meses exige conta e save na nuvem, fora do padrão de partida rápida dos portais.
 
@@ -324,7 +324,7 @@ Leitura: o D1 de referência da web (10% a 15%) fica abaixo da mediana mobile, d
 |---|---|---|---|
 | Sempre farmando, inclusive offline | UGC, idle RPG, idle na Steam | Grow a Garden com cerca de 22 mi de jogadores simultâneos **[secundária]** e progresso offline [55][56]; Legend of Mushroom com cerca de US$ 270 mi de IAP até abr/2024 [82]; Bongo Cat, idle gratuito, com pico de cerca de 194 mil simultâneos na Steam **[secundária]** (sem lucro para os criadores) [83][84] | O gancho tem apelo amplo, mas não é raro: precisa da camada social para se diferenciar |
 | Classes, montagem de time e evolução de habilidades | RPG / idle RPG | AFK Journey quase dobrou a receita do AFK Arena em 2025; AFK Arena passou de US$ 1,5 bi [80]; MapleStory: Idle RPG, idle com classes de MMO, fez US$ 164 mi em poucos meses [98] | Há público, mas o gênero cai 14% [14]: produção enxuta e progressão casual |
-| Facções, ranking e temporadas | 4X casual | Last War com cerca de US$ 1,57 bi e Whiteout com mais de US$ 1,4 bi líquidos em 2025 [21]; fórmula casual ainda não saturada [38] | Trazer facção, ranking e temporada de forma assíncrona; deixar o mapa em tempo real de fora |
+| PvP, ranking e temporadas | 4X casual | Last War com cerca de US$ 1,57 bi e Whiteout com mais de US$ 1,4 bi líquidos em 2025 [21]; fórmula casual ainda não saturada [38] | Trazer PvP assíncrono por faixas de poder, ranking e temporada, sem lado escolhido pelo jogador; deixar o mapa em tempo real de fora |
 | VIP, passe, diamantes e vantagem paga | 4X e híbrido-casual | Kingshot com US$ 1,45 de IAP por usuário ativo por dia (out/2025) [32]; estratégia lidera o gasto médio por pagante [74] | A vantagem paga monetiza bem no 4X. Para o público casual: faixas de poder e progresso garantido do jogador gratuito (VIC-6) |
 | Web primeiro, celular depois | Web instantâneo | Poki com 100 mi de MAU [59]; 53% dos estúdios vão portar jogos mobile para a web [61]; mini-games na China +34% **[secundária]** [66] | Código único; aquisição orgânica em portais; loja web própria |
 | Público casual de celular | Puzzle e híbrido-casual | no 1º sem. 2026: puzzle cerca de +20% [12][14]; híbrido-casual +19% a +23% [10][17]; midcore −9% [17] | Núcleo simples, sessões curtas e progressão profunda |
@@ -332,11 +332,12 @@ Leitura: o D1 de referência da web (10% a 15%) fica abaixo da mediana mobile, d
 
 ### 6.3 Posicionamento proposto (entrada para `docs/gdd/visao.md`, a validar)
 
-> Idle RPG casual de heróis com facções: o seu time luta e farma sozinho, inclusive offline, e a cada temporada as facções disputam o ranking do servidor. Joga-se na hora, no navegador, e depois no celular.
+> Idle RPG casual com PvP assíncrono: o seu grupo de heróis luta e farma sozinho, inclusive offline, e a cada temporada você sobe no ranking do servidor enfrentando jogadores da sua faixa de poder. Joga-se na hora, no navegador, e depois no celular.
 
 O que evitar:
 
 - mapa 4X em tempo real no MVP (complexidade 5/5);
+- lado escolhido pelo jogador (como Aliança × Horda): o briefing descarta, e a competição é entre jogadores, não entre lados [B];
 - competir em puzzle;
 - produção de RPG premium (gênero em queda e dominado por grandes estúdios);
 - depender de plataforma de terceiros, como a Roblox.
@@ -365,10 +366,10 @@ Os benchmarks de idle e de RPG são os mesmos do VIC-6 (`docs/pesquisa/idle-rpg-
 
 ### 7.2 Como traduzir "2 a 3 meses por jogador"
 
-O briefing pede reter cada jogador por 2 a 3 meses [B]. Há duas leituras possíveis, e a escolha é do usuário (seção 8.4):
+O briefing pede reter cada jogador por 2 a 3 meses [B], e o usuário já decidiu como medir isso (briefing, "Decisões do usuário", 2026-10-31, tarde):
 
-- **Parcela ainda ativa no D60 e no D90**, por coorte de instalação. É a leitura que recomendo: usa a mesma forma de medir dos benchmarks públicos e casa com a temporada de 6 a 8 semanas, que termina entre o D42 e o D56. O D60 mede quem fechou a 1ª temporada, e o D90, quem seguiu na 2ª.
-- **Vida média do jogador**, em dias entre a instalação e o último acesso. Com as curvas públicas, a maior parte dos instalados sai na 1ª semana (D7 mediano abaixo de 4% [72][73]), e a média de todos fica muito abaixo de 2 meses. Essa leitura só faz sentido num recorte, como os jogadores ainda ativos no D7.
+- **Decidido: parcela de jogadores ainda ativos no D60 e no D90**, por coorte de instalação. É a leitura adotada nas metas da 7.3: usa a mesma forma de medir dos benchmarks públicos e casa com a temporada de 6 a 8 semanas, que termina entre o D42 e o D56. O D60 mede quem fechou a 1ª temporada, e o D90, quem seguiu na 2ª.
+- **Vida média do jogador**, em dias entre a instalação e o último acesso, não foi a leitura escolhida; pode ser acompanhada só como métrica complementar. Com as curvas públicas, a maior parte dos instalados sai na 1ª semana (D7 mediano abaixo de 4% [72][73]), e a média de todos fica muito abaixo de 2 meses. Essa leitura só faz sentido num recorte, como os jogadores ainda ativos no D7.
 
 Para o protótipo, além de D60 e D90, proponho acompanhar a parcela dos ativos no D7 que seguem ativos no D60, que separa o efeito das temporadas do efeito da aquisição **[hipótese]**. É a forma numérica da hipótese H3 do VIC-6 (parcela de ativos ao fim da 1ª e da 2ª temporada).
 
@@ -396,7 +397,7 @@ Notas:
 ### 8.1 Oportunidades
 
 1. **O dinheiro migra para núcleo simples com progressão profunda.** No 1º sem. 2026, o puzzle cresceu cerca de 20% e o híbrido-casual de 19% a 23%, enquanto o midcore caiu 9% [10][12][14][17]. Um idle RPG casual está do lado certo dessa curva.
-2. **A camada social do 4X é o que mais fatura no mobile e não exige mapa em tempo real.** Last War e Whiteout passaram de US$ 1,4 bi cada em 2025 [21]. Facções, temporadas e rankings podem ser assíncronos, com uma fração da complexidade.
+2. **A competição entre jogadores é o motor social do 4X, o maior gênero do mobile, e não exige mapa em tempo real.** Last War e Whiteout passaram de US$ 1,4 bi cada em 2025 [21], e a competição entre jogadores sustenta o gasto com vantagem paga (seção 4.2). PvP, ranking e temporadas podem ser assíncronos e por faixas de poder, com uma fração da complexidade.
 3. **O progresso idle e offline já provou apelo de massa fora do nicho:** Grow a Garden com cerca de 22 mi de jogadores simultâneos **[secundária]** e Bongo Cat com cerca de 194 mil na Steam **[secundária]** [55][83].
 4. **A web cresce como canal e como loja.** A Poki tem 100 mi de MAU, 53% dos estúdios planejam portar jogos mobile para a web, os mini-games na China cresceram 34% **[secundária]** e as lojas web próprias somam cerca de US$ 17 bi [59][61][66][69].
 5. **Há espaço deixado pelo RPG.** Os grandes RPGs caem e o 4X absorve as mecânicas deles [14][36], mas o idle com classes de MMO ainda vende: o MapleStory: Idle RPG fez US$ 164 mi em poucos meses [98]. Um RPG com a camada social do 4X, em formato casual e barato de operar, pode ocupar esse espaço **[hipótese]**.
@@ -412,28 +413,26 @@ Notas:
 
 ### 8.3 Três recomendações práticas para o conceito
 
-1. **Posicionar como "idle RPG casual com facções e temporadas", sem mapa em tempo real.**
-   - **O que entra:** time de heróis por classe que luta e farma sozinho, online e offline (com limite); escolha de facção no início; ranking de facção por temporada, com disputa assíncrona (por exemplo, pontos de contribuição de cada jogador). Alianças e guildas ficam para depois do MVP.
-   - **Por quê:** captura o motor social e de monetização do 4X [21][38] com uma fração da complexidade e mantém o núcleo casual que está crescendo [12][17].
-   - **Como validar:** no protótipo, comparar D1, D7 e conversão de quem entra numa facção com quem não entra.
+1. **Posicionar como "idle RPG casual com PvP assíncrono e temporadas", sem mapa em tempo real.**
+   - **O que entra:** grupo de heróis por classe que luta e farma sozinho, online e offline (com limite); PvP assíncrono por faixas de poder (o jogador enfrenta o grupo de outro jogador de poder parecido, sem os dois estarem online); ranking de jogadores por temporada; sem lado escolhido pelo jogador. Alianças e guildas ficam para depois do MVP (o VIC-6 propõe também o ranking de guildas).
+   - **Por quê:** captura o motor social e de monetização do 4X [21][38] com uma fração da complexidade, entrega o PvP, um dos melhores momentos do usuário no Magic Rush [B], e mantém o núcleo casual que está crescendo [12][17].
+   - **Como validar:** no protótipo, comparar D1, D7 e conversão de quem joga PvP com quem não joga, por coorte de instalação (quem joga PvP já tende a ser mais engajado, então vale um grupo de controle em que o PvP abre mais tarde).
 2. **Lançar como jogo web instantâneo, com conta e loja próprias, e usar portais como teste de aquisição.**
    - **O que entra:** um código só (web, depois Android e iOS); entrada como convidado com save na nuvem; loja web própria para diamantes e VIP no site (nas lojas de apps, o billing oficial); uma versão em 1 ou 2 portais para medir a aquisição orgânica antes de gastar com anúncios.
    - **Por quê:** o canal está crescendo [59][61][66], a margem da loja web é maior [69][71] e o orçamento é mínimo [B].
    - **Pendência:** o `especialista-lojas` precisa validar as regras de monetização dos portais e de assinaturas.
 3. **Fazer da temporada de 6 a 8 semanas a base da retenção e da monetização.**
-   - **O que entra:** em cada temporada, passe, ranking de facção com recompensas cosméticas e de poder com teto, eventos curtos semanais (aprendidos com puzzle e merge) e um recomeço parcial (servidor ou temporada nova) que dá uma largada justa a novos jogadores e gratuitos.
+   - **O que entra:** em cada temporada, passe, ranking de jogadores no PvP por faixas de poder, com recompensas cosméticas e de poder com teto, eventos curtos semanais (aprendidos com puzzle e merge) e um recomeço parcial (servidor ou temporada nova) que dá uma largada justa a novos jogadores e gratuitos.
    - **Por quê:** a meta do briefing é de 2 a 3 meses por jogador [B], e temporadas de 6 a 8 semanas fecham 1 a 2 ciclos completos nesse prazo.
    - **Metas iniciais:** as da seção 7.3. Mínimo para seguir: D1 30%, D7 10%, D30 4%, D60 3% e D90 2%. Meta: D1 40%, D7 15%, D30 7%, D60 5% e D90 4%.
 
 ### 8.4 Decisões que cabem ao usuário
 
-- Aprovar o posicionamento "idle RPG casual com camada social leve de 4X" ou preferir um idle RPG sem a camada de facções.
 - Definir o público-alvo por idade. Recomendação: mirar adultos no MVP, pelos riscos de vantagem paga, itens aleatórios e troca com menores e porque, no Brasil, o ECA Digital proíbe caixas de recompensa em jogos de provável acesso por menores [96][97]. Validar com o `especialista-lojas`.
 - Distribuir também em portais (Poki, CrazyGames) ou só no site próprio.
 - Troca entre jogadores no MVP: restrita a itens sem poder (por exemplo, cosméticos) ou adiada.
-- O que "reter 2 a 3 meses" quer dizer: parcela ainda ativa no D60 e no D90 (recomendado) ou vida média do jogador (seção 7.2).
 
-Três dessas decisões se sobrepõem às do VIC-6 (seção 5.4): facções (nº 5), público por idade (nº 2 e nº 4) e troca (nº 1 e nº 3). A lista única de decisões para o usuário fica com o Líder.
+Duas dessas decisões se sobrepõem às do VIC-6 (seção 5.4): público por idade (nº 2 e nº 4, que tratam do gacha no Brasil e da classificação etária) e troca (nº 1 e nº 3, que tratam da venda de itens e do VIP negociável). A lista única de decisões para o usuário fica com o Líder. A medida da retenção de 2 a 3 meses (parcela de ativos no D60 e no D90) já foi decidida pelo usuário e não entra na lista (seção 7.2).
 
 ## 9. Limitações desta pesquisa
 
