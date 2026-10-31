@@ -5,6 +5,7 @@
 - **Data:** 2026-10-31
 - **Commit testado:** `9d31bd0` (documento `docs/arte/estilo-pixel-vs-cartoon.md`; briefing em `6f6c77d`; VIC-6 em `d12eb4a`, commitado depois do `9d31bd0`)
 - **Histórico:** Ciclo 1 (`3e8e492`): REPROVADO. 37 verificações (24 passaram, 11 parciais, 2 não verificáveis), 3 checagens na web (2 falharam por host bloqueado) e 7 defeitos: D1 (maior: estilo real do Magic Rush não identificado) e D2 a D7 (menores ou cosméticos). Ciclo 2 (este): os 7 foram corrigidos; restam 3 defeitos (2 menores e 1 cosmético) que não bloqueiam.
+- **Atualização:** depois deste ciclo, os defeitos D8, D9 e D10 foram fechados (`f474260`) e o veredito APROVADO se mantém; surgiu 1 ponto cosmético novo (D11), que não bloqueia. Ver "Confirmação dos ajustes finais", ao final.
 
 ## Resumo
 
@@ -102,3 +103,21 @@ Sem achados. Escopo revisado: varredura por padrões de chave, token, senha e e-
 5. As notas do híbrido valem para a opção com a camada ilustrada, e a recomendação a faseia; o documento declara isso (limite 7 e 3.2b nº 3). Observações O1 a O3 do plano de testes (não são defeitos).
 
 **Testes adicionados ao repositório:** `docs/tarefas/VIC-7-estilo-visual/qa/evidencias/verificar-documento.py` (atualizado no ciclo 2: marcas novas, tabelas de notas e de sensibilidade, coluna "Confiança", Spine em todas as ocorrências, referências, forma das tabelas, trechos inacabados, briefing e VIC-6) e a saída em `verificar-documento.saida-ciclo2.txt`; a saída do ciclo 1 segue em `verificar-documento.saida.txt`. Para repetir, na raiz do repositório: `python3 -I docs/tarefas/VIC-7-estilo-visual/qa/evidencias/verificar-documento.py docs/arte/estilo-pixel-vs-cartoon.md docs/gdd/briefing.md docs/pesquisa/idle-rpg-referencias.md`.
+
+## Confirmação dos ajustes finais
+
+- **Data:** 2026-10-31
+- **Commit conferido:** `f474260` (altera só `docs/arte/estilo-pixel-vs-cartoon.md`: 22 inserções e 23 remoções; sha256 parcial `c07e55e4b5f9`; HEAD no início da conferência: `1ce0684`, e o documento não mudou depois, conferido em `3a76f11`). Briefing e VIC-6 sem mudança desde o ciclo 2 (sha256 parciais `e69ddfbd245e` e `27ac3253b37a`).
+- **Escopo:** só a diferença `git diff 9d31bd0 HEAD -- docs/arte/estilo-pixel-vs-cartoon.md`, a pedido do Líder, e a reexecução do script, comparada com a saída do ciclo 2. Sem web e sem reler o documento inteiro.
+- **Resultado:** D8, D9 e D10 estão fechados, sem mexer em notas, somas nem recomendação. O veredito **APROVADO** se mantém. Surgiu 1 ponto cosmético novo (D11), que não bloqueia.
+
+| Defeito | Situação | Evidência |
+|---|---|---|
+| D8 (menor) | Fechado | O Resumo (linha 13) diz "O pixel vence em custo e peso na web, empata em escala"; a 6.1, "Custo e peso na web (escala empata)" (linha 406); o motivo 1 (linha 421), "vence em custo (critério 3) e em peso na web (critério 6) e empata em escala (critério 7)". Confere com a tabela 3.2: critério 3 = 4 × 3, critério 6 = 5 × 3 e critério 7 = 4 × 4 (empate); script, bloco (3): "EMPATE" no critério 7. A heurística do script ainda lista a linha 13 por achar "vence" e "escala" na mesma frase; a leitura mostra "empata em escala" (falso positivo) |
+| D9 (menor) | Fechado | As linhas 57, 494 e 516 dizem "alinhado no VIC-6" (a 516 cita os temas, "grupos de heróis e competição", e não os números da 5.4, como sugerido); a pendência 8.7 saiu e "Medir" virou o item 7. O VIC-6 confere: 5 papéis na 1.3 (Tanque, Atirador, Mago, Suporte e Canhão) e 5.4 nº 5 "Grupos de heróis e competição" (script, bloco 7); no bloco (6), sai a linha "7. Alinhar o VIC-6" |
+| D10 (cosmético) | Fechado, nos 4 pontos | (a) O texto cita o briefing literalmente, "Arte desenhada, sem pixels visíveis" e "Câmera 3/4" (linhas 70 e 95), e o script não acha mais citação entre aspas atribuída ao usuário sem lastro; (b) "O usuário" (script: 'A usuário' = []); (c) [F-resumo, confirmar] nas linhas 16, 312 a 314, 330, 331, 408 e 513 (9 marcas novas: "confirmar" de 5 para 14); script, bloco (5): "linhas do Spine sem [F-resumo, confirmar]" vazio; (d) 48 px é o chibi barato e 64 px o nível mais detalhado em todo o documento (linhas 16, 135, 186, 237, 438, 461 e 482); a conta de memória usa 64 px e avisa que o de 48 px ocupa menos; o glossário (linha 166) mantém "48 a 64 px" só como exemplo de grade de pixel art em geral |
+| D11 (cosmético, novo) | Aberto, não bloqueia | A linha 516 (7.2 nº 12, coluna "Ligação") cita "VIC-5 (8.4, posicionamento)", mas o ciclo 3 do VIC-5 (`85fa498`, commitado antes do `f474260`) tirou da 8.4 a decisão de aprovar o posicionamento; ali restam público por idade, portais e troca. A linha 506 ("VIC-5 (8.4, público por idade)") segue válida. Correção para o `artista-visual`: trocar por "VIC-5 (6.3, posicionamento)". O Líder consolida a lista única de decisões dos três documentos |
+
+**Notas, somas e recomendação intactas.** Nenhuma célula de nota mudou: a linha do critério 3 só teve a justificativa reescrita, e as notas seguem 4, 3 e 3; as somas seguem 25, 24 e 25. A saída do script difere da do ciclo 2 só em marcas, nas frases de D8, D9 e D10 e no sha256; os blocos de notas, somas, sensibilidade, memória e escala saíram idênticos. A recomendação (Resumo item 4, híbrido faseado, opção C; "se for um estilo só: pixel art (A)", linhas 220 e 455) não está na diferença. Segurança: o commit altera 1 arquivo; a varredura de segredos nas linhas adicionadas achou 2 casos, ambos a palavra "desenhada" (contém "senha"), sem achado real.
+
+**Evidência:** `qa/evidencias/verificar-documento.saida-ajustes-finais.txt` (mesmo script do ciclo 2, sem alteração). Para repetir, na raiz do repositório: `python3 -I docs/tarefas/VIC-7-estilo-visual/qa/evidencias/verificar-documento.py docs/arte/estilo-pixel-vs-cartoon.md docs/gdd/briefing.md docs/pesquisa/idle-rpg-referencias.md`.
