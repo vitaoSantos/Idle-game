@@ -10,10 +10,10 @@
 
 1. **O estilo real do Magic Rush: Heroes é ilustração 2D pintada e saturada, não pixel art.** Nos quadros do vídeo do usuário: cenários pintados com luz e textura, heróis chibi (cabeça grande) com contorno escuro grosso e sombreado suave, retratos em ilustração de traço de quadrinho, câmera 3/4 (de cima, em diagonal) e UI de painéis escuros e bronze com botões verdes chanfrados. Confiança alta: vi nos quadros e o usuário confirmou. Se os heróis em batalha são modelos 3D, sprites pré-renderizados ou sprites 2D, os quadros parados não permitem afirmar, e isso não muda a decisão (seção 2.4).
 2. **A segunda referência, o Dead Zone — Idle Arsenal RPG, é o outro polo:** idle web em pixel art lateral, no estilo dos jogos de ação de fliperama dos anos 90, dentro de uma UI escura, plana e moderna, sem fonte pixel, com cartas de 7 raridades que reaproveitam o sprite (seções 2.6 e 2.7). Na prática, ele já é o "pixel na cena + UI limpa" que eu propunha.
-3. **Pixel art × cartoon 2D: empate técnico (25 × 24 de 35).** O pixel vence em custo, peso na web e escala; o cartoon, em apelo ao casual e legibilidade. O híbrido faseado soma 25 e nunca fica em último nos três cenários de peso (seção 3). A nota do híbrido é julgamento meu, dado depois da proposta.
+3. **Pixel art × cartoon 2D: empate técnico (25 × 24 de 35).** O pixel vence em custo e peso na web, empata em escala; o cartoon, em apelo ao casual e legibilidade. O híbrido faseado soma 25 e nunca fica em último nos três cenários de peso (seção 3). A nota do híbrido é julgamento meu, dado depois da proposta.
 4. **Recomendação: híbrido faseado (opção C).** Estrutura do Dead Zone (cena em pixel art, UI plana e escura, carta com o sprite ampliado) com a cor saturada e a proporção chibi do Magic Rush; retratos ilustrados e arte de vitrine só entram se o teste de 2 semanas justificar. **Se for um estilo só: pixel art.** Se a prioridade for o apelo imediato ao casual: cartoon (vence por 1 ponto, dentro da margem de erro das notas). Seção 6.
 5. **Custo zero ficou viável, com uma condição.** A placa de vídeo dedicada do usuário permite IA local (ComfyUI), mas as sessões na nuvem não enxergam a placa: ou o Claude Code roda no computador dele, ou ele gera e envia os arquivos. Falta o modelo e a memória (VRAM) da placa. Com a GPU, as assinaturas de IA (PixelLab, Scenario, Leonardo) deixam de ser necessárias; sobram o Aseprite (opcional) e, no cartoon com esqueleto, o Spine (seção 4).
-6. **Riscos:** nicho de idle RPG em pixel cheio, e o Dead Zone ocupa o mesmo formato; "pixel falso" da IA; cintilação em telas variadas; o detalhe "fliperama" do Dead Zone custa mais que o chibi de 48 a 64 px que propus; o Spine custa US$ 99 (69 em promoção) no Essential, US$ 439 (369) no Professional e US$ 2.499 no Enterprise, que passa a ser obrigatória acima de US$ 500 mil de receita ou captação em 12 meses; as duas referências são em paisagem e minha proposta anterior era em retrato (seções 4 e 6.6).
+6. **Riscos:** nicho de idle RPG em pixel cheio, e o Dead Zone ocupa o mesmo formato; "pixel falso" da IA; cintilação em telas variadas; o detalhe "fliperama" do Dead Zone custa mais que o chibi de 48 px que propus; o Spine custa US$ 99 (69 em promoção) no Essential, US$ 439 (369) no Professional e US$ 2.499 no Enterprise, que passa a ser obrigatória acima de US$ 500 mil de receita ou captação em 12 meses [F-resumo, confirmar]; as duas referências são em paisagem e minha proposta anterior era em retrato (seções 4 e 6.6).
 7. **Limites:** o que veio da web foi lido só por resumo de busca; o que veio dos vídeos são quadros parados e comprimidos, descritos em texto (os vídeos e as capturas não ficam no repositório). Nenhuma imagem foi gerada e nenhuma ferramenta de geração foi chamada: gasto zero.
 8. **O usuário decide:** 12 pontos na seção 7.2, dos quais 4 são para agora.
 
@@ -54,7 +54,7 @@ Dados alinhados ao VIC-6 (`docs/pesquisa/idle-rpg-referencias.md`, seções 1.1 
 |---|---|---|
 | Gênero | Híbrido: coleção de heróis (RPG), tower defense em que os heróis fazem o papel das torres e controle em tempo real; uma resenha o chama de defesa de torres e de linhas | [M1] [M10] [M12] [F-resumo] |
 | Modos vistos ou citados | Campanha em três dificuldades (Normal, Elite e Lendária) com fases de 3 estrelas; tela de fase com os botões **Varrer** e **X10**, que repetem fases vencidas sem jogar; batalha com time de 5; arena PvP com ban/pick; mapa-múndi com territórios de aliança; "Guerra do Trono" (citada numa dica de carregamento) | [V] [U] [M1] [M9] [M10] [F-resumo] |
-| Papéis de herói | **5:** Tanque, Atirador, Mago, Suporte e Canhão (filtro da tela de seleção de heróis). O VIC-6 (1.3) registra 4 papéis confirmados; o vídeo fecha em 5 | [V] [U]; guias de terceiros também listam 5 [M11] [F-resumo, fraca] |
+| Papéis de herói | **5:** Tanque, Atirador, Mago, Suporte e Canhão (filtro da tela de seleção de heróis). Alinhado no VIC-6 (1.3) | [V] [U]; guias de terceiros também listam 5 [M11] [F-resumo, fraca] |
 | Time | 5 heróis por batalha; na seleção, uma mini grade de formação aparece ao lado dos 5 retratos | [V] |
 | Lançamento | Android em 06/04/2015 (mundial, exceto China continental). iOS no fim de 2015, entre 21/10 e 03/12/2015: as fontes divergem (datas do VIC-6, 1.1) | [M4] [M13] [M15] [F-resumo, fraca] |
 | Quem fez | Desenvolvedora: Moonton (pacote Android `com.moonton.magicrush`). Publisher no lançamento: Elex. Publisher atual na App Store: Galaxy Play Technology Limited (VIC-6, 1.1) | [M1] [M2] [M3] [M4] [M12] [M15] [F-resumo] |
@@ -67,7 +67,7 @@ Dados alinhados ao VIC-6 (`docs/pesquisa/idle-rpg-referencias.md`, seções 1.1 
 
 **Ilustração 2D pintada e saturada, com heróis chibi, câmera 3/4 e UI de painéis escuros e bronze. Não é pixel art. Confiança alta: vi nos quadros do vídeo do usuário e ele confirmou.** [V] [U]
 
-Nos quadros, nenhum quadrado de pixel aparece nos personagens, nos cenários nem na UI. Os cenários são pintados, com luz, textura e profundidade; os heróis têm cabeça grande e contorno escuro; os retratos são ilustrações de traço de quadrinho; a câmera é 3/4. O usuário respondeu o mesmo: heróis "bem desenhados", sem pixels quadrados visíveis, câmera 3/4 [U]. A seção 2.3 detalha por aspecto.
+Nos quadros, nenhum quadrado de pixel aparece nos personagens, nos cenários nem na UI. Os cenários são pintados, com luz, textura e profundidade; os heróis têm cabeça grande e contorno escuro; os retratos são ilustrações de traço de quadrinho; a câmera é 3/4. O usuário respondeu o mesmo; o briefing registra "Arte desenhada, sem pixels visíveis" e "Câmera 3/4" [U]. A seção 2.3 detalha por aspecto.
 
 As fontes da busca já apontavam na mesma direção por via indireta: "arte polida, na mesma linha de Dota e Heroes Charge" (comentário de 2015 no fórum do TouchArcade) [M5]; "estilo mangá típico, misturando fantasia, tecnologia futurista e horror" (GamePressure) [M6]; "cenário bastante colorido" (VGTimes) [M7]; "vibrante e detalhado" (site de terceiros) [M8] [F-resumo, fraca]. Sozinhas, não bastavam para identificar a técnica (era o defeito D1 do QA); os quadros fecham o que faltava. A listagem do APKPure marca "Stylized" e "Realistic" sem explicar qual vale [M16] [F-resumo, fraca]; os quadros apontam "Stylized".
 
@@ -92,7 +92,7 @@ Resta uma incógnita: como os heróis em batalha são produzidos (3D, sprites pr
 
 **O que não consigo afirmar:** se os heróis em batalha são (a) modelos 3D desenhados em tempo real, (b) sprites 2D pré-renderizados a partir de modelos 3D ou (c) sprites 2D desenhados, por quadro ou por esqueleto.
 
-**O que os quadros sugerem:** o sombreado suave com brilho de borda, coerente entre as figuras da tela de fase, e o contorno escuro grosso combinam com as três hipóteses (um modelo 3D também pode ter contorno). O usuário descreve os heróis como "bem desenhados" [U], o que indica que parecem 2D, mas é percepção, não prova.
+**O que os quadros sugerem:** o sombreado suave com brilho de borda, coerente entre as figuras da tela de fase, e o contorno escuro grosso combinam com as três hipóteses (um modelo 3D também pode ter contorno). O briefing registra "Arte desenhada, sem pixels visíveis" [U], o que indica que os heróis parecem 2D, mas é percepção, não prova.
 
 **Por que não dá para fechar:** os quadros são parados e comprimidos, e em batalha cada unidade tem de 10% a 15% da altura da tela. O que decidiria é o movimento: giro contínuo ao mudar de direção indica 3D; virar de uma vez ou espelhar indica sprite; deformação suave ao "respirar" indica malha 3D ou esqueleto 2D. A busca do QA e uma busca minha (2026-10-31) não acharam fonte sobre a técnica [N]. A página do DeviantArt "Magic Rush Heroes - Lotus and Merlynn Sprite" [M14] continua sem abrir [N]; mesmo aberta, seria arte de fã ou imagem extraída, e não provaria a técnica do jogo.
 
@@ -132,7 +132,7 @@ Segunda referência do usuário: idle RPG web, gravado no navegador do computado
 ### 2.7 O que o Dead Zone mostra sobre pixel art para o nosso caso
 
 1. **"Cena em pixel art + resto em UI plana" funciona num idle web e fica coeso.** É o híbrido que eu propunha na versão anterior, já feito: só a cena, os sprites e a base são pixel; abas, painéis, botões, ícones de árvore e de passe e todo o texto são UI plana, sem fonte pixel [V]. Isso confirma a regra da seção 6.2 (UI plana e fonte sans) e reduz o peso do ponto fraco do pixel (legibilidade do texto).
-2. **O nível de detalhe é "fliperama", mais caro que o chibi de 48 a 64 px que propus.** Sprites de 3,5 a 4 cabeças, sombreado rico, chefe grande e cenário em camadas [V] custam mais por quadro. Se o usuário espera esse nível, o custo do pixel sobe e a vantagem do critério 3 diminui [I]. Convém mostrar a ele dois níveis de detalhe antes do teste (seção 6.4).
+2. **O nível de detalhe é "fliperama", mais caro que o chibi de 48 px que propus.** Sprites de 3,5 a 4 cabeças, sombreado rico, chefe grande e cenário em camadas [V] custam mais por quadro. Se o usuário espera esse nível, o custo do pixel sobe e a vantagem do critério 3 diminui [I]. Convém mostrar a ele dois níveis de detalhe antes do teste (seção 6.4): chibi de 48 px (o nível barato) e mais detalhado, de 64 px.
 3. **A vista lateral é o caso mais barato do pixel:** 2 direções (espelhar). O Magic Rush em 3/4 com movimento livre pediria de 4 a 8 [I]. Em compensação, cada zona precisa de um fundo próprio em camadas e a base em corte é uma peça grande: no Dead Zone, são os itens de arte mais pesados [I].
 4. **A carta reaproveita o sprite.** Não há retrato ilustrado: o sprite ampliado sobre fundo escuro, a moldura colorida, o selo de grau e a silhueta preta do herói não obtido são CSS [V]. O custo de arte por raridade é quase zero, e a camada de retratos ilustrados da minha proposta anterior não é necessária no MVP [I].
 5. **Raridade por cor e por símbolo.** São 7 raridades, cada uma com cor e forma diferentes [V]: legível também para quem não distingue cores. O guia de estilo deve ter uma paleta de raridade separada da do mundo, sempre com cor + forma [I].
@@ -183,7 +183,7 @@ Escala de **1 (ruim) a 5 (ótimo)** para o contexto do projeto: equipe pequena, 
 |---|---|:-:|:-:|:-:|---|
 | 1 | Apelo ao casual de celular | 3 | 4 | 4 | Blogs de estúdios de arte tratam o cartoon como padrão para público casual e o pixel como nicho retrô em alta e saturado [X5] [F-resumo, fraca]. Não achei dado quantitativo (teste A/B, instalações) [N]. Os dois chegam à massa: o Magic Rush (cartoon) tem cerca de 43,5 mi de instalações no Google Play (VIC-6, 1.1) e o Soul Knight (pixel), cerca de 93,5 mi no Android [G1] [F-resumo, fraca] |
 | 2 | Legibilidade em tela pequena | 3 | 4 | 4 | Alvo de toque de 44 pt (iOS) e 48 dp (Android) vale para os dois [X3] [F-resumo, fraca]. Pixel exige escala inteira: a fracionária cintila e a inteira deixa barras [P14] [F-resumo]; fonte pixel é ruim para texto longo [I]. Cartoon escala em qualquer tela, mas perde detalhe a 48 px sem contorno grosso [I]. Os quadros mostram as duas saídas: o Magic Rush usa unidades pequenas, com contorno e cor saturada, e põe a identidade nos retratos do HUD [V]; o Dead Zone usa UI plana com fonte sans, sem fonte pixel [V] |
-| 3 | Custo e tempo de produção (equipe pequena e IA) | 4 | 3 | 3 | Canvas pequeno: menos pixels para produzir e revisar [I]. Há IA específica (PixelLab, Retro Diffusion) e editores gratuitos maduros [P6] [P8] [P11] [P12]. No cartoon, a IA geral vai bem em ilustração estática, mas um conjunto consistente com rig e animação exige mais mão humana [I]. A nota vale para o chibi de 48 a 64 px (6.2); o detalhe "fliperama" do Dead Zone custa mais por quadro e aproxima as duas colunas [I] |
+| 3 | Custo e tempo de produção (equipe pequena e IA) | 4 | 3 | 3 | Canvas pequeno: menos pixels para produzir e revisar [I]. Há IA específica (PixelLab, Retro Diffusion) e editores gratuitos maduros [P6] [P8] [P11] [P12]. No cartoon, a IA geral vai bem em ilustração estática, mas um conjunto consistente com rig e animação exige mais mão humana [I]. A nota vale para o chibi de 48 px (6.2); o nível mais detalhado, de 64 px, e o detalhe "fliperama" do Dead Zone custam mais por quadro e aproximam as duas colunas [I] |
 | 4 | Consistência de assets gerados por IA | 3 | 3 | 3 | Pixel: a IA não constrói em grade, gerando pixels irregulares, deriva da grade e cores intermediárias; corrige-se com pós-processo (grade e paleta fixa), que não elimina o retoque manual [P13] [F-resumo]. Cartoon: consistência vem de folha de personagem, referências e LoRA só para quem se repete; não há testes independentes [C9] [F-resumo, fraca]. Falhas diferentes, risco parecido. Com a GPU do usuário, cada tentativa custa zero, o que ajuda mais quem mais rejeita (o pixel) [I] |
 | 5 | Custo de animação | 3 | 3 | 3 | Pixel: barato por quadro, mas multiplica por ação × direção × cosmético [I]; já há IA que anima por esqueleto e gira em 4 ou 8 direções (PixelLab) [P11] [F-resumo, fraca]. Cartoon: caro de montar (rig), barato de reaproveitar (skins) [C4] [F-resumo]. Detalhe na seção 3.5 |
 | 6 | Tamanho de arquivo e desempenho na web | 5 | 3 | 4 | Trinta quadros de 64×64 cabem em 0,5 MiB de memória de GPU; um atlas HD de 1024×1024 ocupa 4 MiB (cálculo, seção 3.4). WebP lossless é cerca de 26% menor que PNG e o lossy com transparência chega a cerca de 3× menor [X4] [F-resumo]. O esqueleto do Spine é leve (92 KB binário num projeto de exemplo, em tópico antigo do fórum) [C4] [F-resumo, fraca]; o peso está nas texturas |
@@ -234,7 +234,7 @@ Leitura [cálculo e I]:
 
 **Peso e memória [cálculo, ordem de grandeza].**
 - Memória de GPU de uma textura RGBA8 = largura × altura × 4 bytes, independentemente do formato do arquivo.
-- Pixel: 6 ações × 5 quadros = 30 quadros de 64×64 = 122.880 px, que cabem num atlas de 256×512 (131.072 px × 4 B = 0,5 MiB). Trinta personagens: cerca de 15 MiB.
+- Pixel: 6 ações × 5 quadros = 30 quadros de 64×64 = 122.880 px, que cabem num atlas de 256×512 (131.072 px × 4 B = 0,5 MiB). Trinta personagens: cerca de 15 MiB. A conta usa o nível de 64 px, o mais detalhado; o chibi de 48 px ocupa menos.
 - Cartoon HD (hipótese): um atlas de 1024×1024 por personagem = 4 MiB. Trinta personagens: cerca de 120 MiB se tudo ficasse carregado; na prática, carregamento sob demanda e compressão de textura reduzem muito isso [N: compressão de textura não foi pesquisada].
 - Retratos ilustrados (hipótese): 512×512 RGBA = 1 MiB cada; trinta retratos: 30 MiB em memória, carregados sob demanda.
 - Os números são hipóteses para dimensionar o risco, não medições. Medir no teste da seção 6.4.
@@ -285,7 +285,7 @@ O híbrido soma duas cadeias de arte. A estimativa abaixo é por **contagem** (c
 
 ## 4. Ferramentas gratuitas ou baratas
 
-Preços em dólares, conforme as fontes; **confirmar na página oficial antes de comprar**. A usuário tem placa de vídeo dedicada [U]: as linhas de IA local passam de "precisa de GPU" para "viável, com a ressalva da seção 4.4".
+Preços em dólares, conforme as fontes; **confirmar na página oficial antes de comprar**. O usuário tem placa de vídeo dedicada [U]: as linhas de IA local passam de "precisa de GPU" para "viável, com a ressalva da seção 4.4".
 
 ### 4.1 Pixel art
 
@@ -309,9 +309,9 @@ Preços em dólares, conforme as fontes; **confirmar na página oficial antes de
 | Vetor (ícones e UI) | Inkscape | Grátis | Sem conta; melhor para ícones e UI que para pintura [F-resumo, fraca] | [C7] |
 | Vetor e raster | Affinity | Grátis desde out/2025, exige conta Canva; recursos de IA na nuvem exigem Canva Pro; a condição pode mudar [F-resumo, fraca] | | [C7] |
 | UI e marketing | Figma e Canva | Já conectados ao projeto (planos e custos próprios) | `docs/ferramentas.md` | |
-| Animação por esqueleto | Spine Essential | US$ 99 (preço cheio); US$ 69 em promoção. Pagamento único, por usuário nomeado | Partes rígidas: não exporta malhas nem pesos [C3] [F-resumo]. Skins combináveis em tempo de execução: só as vi em discussões sobre o Professional; não confirmei se o Essential também as tem [N] | [C1] [C3] |
-| Animação por esqueleto | Spine Professional | US$ 439 (preço cheio); US$ 369 em promoção | Malhas e pesos (deformar cabelo e capa); skins combináveis em tempo de execução [C3] [C4] [F-resumo] | [C1] [C3] [C4] |
-| Animação por esqueleto | Spine Enterprise | Anual, US$ 2.499 | **Obrigatória quando a receita ou a captação passa de US$ 500 mil em 12 meses.** A redação varia entre as páginas: "receita anual" nas páginas principais; "receita, investimento ou financiamento" na página em japonês. Planejar pela mais restritiva (receita ou captação) até abrir a página oficial. Essential e Professional não valem acima do limite | [C2] |
+| Animação por esqueleto | Spine Essential | US$ 99 (preço cheio); US$ 69 em promoção. Pagamento único, por usuário nomeado [F-resumo, confirmar] | Partes rígidas: não exporta malhas nem pesos [C3] [F-resumo]. Skins combináveis em tempo de execução: só as vi em discussões sobre o Professional; não confirmei se o Essential também as tem [N] | [C1] [C3] |
+| Animação por esqueleto | Spine Professional | US$ 439 (preço cheio); US$ 369 em promoção [F-resumo, confirmar] | Malhas e pesos (deformar cabelo e capa); skins combináveis em tempo de execução [C3] [C4] [F-resumo] | [C1] [C3] [C4] |
+| Animação por esqueleto | Spine Enterprise | Anual, US$ 2.499 [F-resumo, confirmar] | **Obrigatória quando a receita ou a captação passa de US$ 500 mil em 12 meses.** A redação varia entre as páginas: "receita anual" nas páginas principais; "receita, investimento ou financiamento" na página em japonês. Planejar pela mais restritiva (receita ou captação) até abrir a página oficial. Essential e Professional não valem acima do limite [F-resumo, confirmar] | [C2] |
 | Animação por esqueleto | DragonBones | Grátis | MIT; sem sinais claros de manutenção ativa (última atividade vista: espelho de jul/2025). Não adotar sem teste [F-resumo, fraca] | [C5] |
 | Animação interativa | Rive | Plano grátis (3 arquivos, 10 MB de ativo importado); pagos de US$ 9 a 24 por mês (fontes divergem) [F-resumo, fraca] | Mais voltado a UI e animação interativa que a personagem de jogo [I] | [C6] |
 | Animação sem licença | Partes separadas + tweens no motor (Phaser, Pixi, GSAP ou CSS) | US$ 0 | Base do cut-out [I] | |
@@ -327,8 +327,8 @@ Os preços do Spine vêm do resumo de busca da página oficial feito pelo QA, se
 | Pilha | Pixel art | Cartoon 2D | Híbrido (opção C) |
 |---|---|---|---|
 | **US$ 0 (GPU local)** | Pixelorama ou LibreSprite + Lospec + ComfyUI local + Pixel Snapper | Krita + Inkscape (ou Affinity) + partes e tweens no motor + ComfyUI local | A pilha de pixel para os sprites + Krita e Inkscape para retratos e ícones, com o mesmo ComfyUI local |
-| **Barata** | Aseprite (cerca de US$ 20) + ComfyUI local | Spine Essential (US$ 99; US$ 69 em promoção) + ComfyUI local | Aseprite (cerca de US$ 20) + ComfyUI local; o Spine só se o cartoon virar plano A |
-| **Confortável** | Aseprite + Retro Diffusion completo (US$ 65) + PixelLab Artisan (US$ 24 por mês): cerca de US$ 85 pontuais + US$ 24 por mês | Spine Professional (US$ 439; US$ 369 em promoção) + Scenario com treino (cerca de US$ 45 por mês) | Aseprite + Retro Diffusion completo: cerca de US$ 85 pontuais |
+| **Barata** | Aseprite (cerca de US$ 20) + ComfyUI local | Spine Essential (US$ 99; US$ 69 em promoção) [F-resumo, confirmar] + ComfyUI local | Aseprite (cerca de US$ 20) + ComfyUI local; o Spine só se o cartoon virar plano A |
+| **Confortável** | Aseprite + Retro Diffusion completo (US$ 65) + PixelLab Artisan (US$ 24 por mês): cerca de US$ 85 pontuais + US$ 24 por mês | Spine Professional (US$ 439; US$ 369 em promoção) [F-resumo, confirmar] + Scenario com treino (cerca de US$ 45 por mês) | Aseprite + Retro Diffusion completo: cerca de US$ 85 pontuais |
 
 Notas [I]:
 
@@ -403,9 +403,9 @@ As duas referências do usuário são dois polos: o **Magic Rush** (cartoon e ch
 | Cartas e retratos | Sprite ampliado | Retrato ilustrado | Sprite no MVP; retrato ilustrado em lendários, loja e temporada, se o teste justificar |
 | Animação | Quadro a quadro e tweens | Partes e tweens (ou Spine) | Quadro a quadro e tweens |
 | Nota nos 7 critérios | 25 | 24 | 25 (nunca em último nos 3 cenários de peso) |
-| Ponto forte | Custo, peso e escala | Apelo e legibilidade | Equilíbrio e porta aberta |
+| Ponto forte | Custo e peso na web (escala empata) | Apelo e legibilidade | Equilíbrio e porta aberta |
 | Ponto fraco | Apelo ao casual sem dado | Custo de animação e peso | Duas cadeias de arte, se a camada ilustrada entrar |
-| Ferramentas pagas | US$ 0 a 20 | US$ 0 a 439 (Spine) | US$ 0 a 20 |
+| Ferramentas pagas | US$ 0 a 20 | US$ 0 a 439 (Spine) [F-resumo, confirmar] | US$ 0 a 20 |
 
 **Recomendação: C, híbrido faseado.** Começar pela estrutura do Dead Zone, com identidade própria: cena e personagens em pixel art chibi colorido, UI plana e escura, carta com o sprite ampliado. A camada de retratos ilustrados, de vitrine e de fundos pintados entra depois, só se o teste de 2 semanas e a enquete (6.4) justificarem. **Se o usuário quiser um estilo só: pixel art (A)**, pelos números da seção 3.3. **Se a prioridade for o apelo imediato ao casual e à vitrine: cartoon (B).**
 
@@ -418,7 +418,7 @@ As duas referências do usuário são dois polos: o **Magic Rush** (cartoon e ch
 
 **Motivos**
 
-1. A restrição dominante é produzir muito conteúdo (heróis, grupos de heróis, cosméticos por temporada) com equipe mínima e orçamento mínimo. É onde o pixel pontua mais: custo, peso e escala (critérios 3, 6 e 7) [I].
+1. A restrição dominante é produzir muito conteúdo (heróis, grupos de heróis, cosméticos por temporada) com equipe mínima e orçamento mínimo. É onde o pixel pontua mais: vence em custo (critério 3) e em peso na web (critério 6) e empata em escala (critério 7) [I].
 2. Web primeiro: o pixel é o mais leve (texturas minúsculas), o que reduz o risco de carregamento e de memória em celular antigo [cálculo, seção 3.4]. O Dead Zone mostra um idle web em pixel art funcionando no navegador, com UI em HTML [V].
 3. Pixel art em celular chega à massa (Soul Knight, Idle Slayer, Soda Dungeon 2) [F-resumo, fraca], mas o nicho de idle RPG em pixel está cheio e o Dead Zone ocupa o mesmo formato. A diferenciação tem de vir da direção: chibi colorido como o do Magic Rush, grupos de heróis por paleta, UI amigável [I].
 4. O ponto fraco do pixel (apelo ao casual e legibilidade de texto) é atenuado por uma UI plana e por cartas bem acabadas, como no Dead Zone [V]. A UI em HTML, CSS e SVG é barata e responsiva se a stack da Fase 2 for web ou webview [I].
@@ -435,7 +435,7 @@ Todos os valores são **[I]**, propostas para o teste, não decisões.
 |---|---|---|
 | Proporção | Chibi, 2,5 a 3 cabeças (no Magic Rush, a cabeça ocupa de 1/3 a 1/2 da altura [V]); sem o realismo do Dead Zone | Leitura de silhueta em tela pequena e apelo ao casual |
 | Câmera | Lateral, ou 3/4 oblíqua com formação fixa: heróis de um lado, virados para os inimigos; só 2 direções (espelhar). Movimento livre em 3/4 só se o game-designer provar a necessidade | Evita de 4 a 8 direções por sprite (seção 3.5) |
-| Sprite (altura nativa) | 48 a 64 px; testar os dois (o Dead Zone tem mais detalhe) | Cabe em cerca de 0,5 MiB por personagem; ampliação de 3× a 4× |
+| Sprite (altura nativa) | 48 px (chibi, o nível barato) e 64 px (mais detalhado, custa mais por quadro); testar os dois (o Dead Zone tem mais detalhe) | Cabe em cerca de 0,5 MiB por personagem; ampliação de 3× a 4× |
 | Escala | Só fator inteiro. Paisagem: canvas lógico de 640×360 (16:9), com ×2 em 720p, ×3 em 1080p, ×4 em 1440p e ×6 em 2160p; sobra de tela preenchida pelo cenário. Se a decisão 5 for retrato: cerca de 360×800 | Evita cintilação [P14]; contas na seção 3.4 |
 | Paleta | Uma paleta global saturada de 32 cores + 4 a 8 cores por grupo de heróis, com troca de paleta por shader | Consistência da IA e identidade por grupo |
 | Raridade | Paleta de raridade separada da do mundo, com 7 níveis; cada nível com cor **e** símbolo | Legível para quem não distingue cores [V] |
@@ -491,7 +491,7 @@ O Dead Cells renderiza modelos 3D como sprites 2D com uma ferramenta própria, e
 | Ponto | Resposta | Efeito neste documento |
 |---|---|---|
 | Estilo do Magic Rush | Desenhado, sem pixels quadrados visíveis, câmera 3/4 [U] | Fecha o D1 e a antiga decisão 9 (seção 2) |
-| Papéis do Magic Rush | 5: Tanque, Atirador, Mago, Suporte e Canhão [V] | Alinha a seção 2.1; o VIC-6 (1.3) cita 4 e precisa de ajuste |
+| Papéis do Magic Rush | 5: Tanque, Atirador, Mago, Suporte e Canhão [V] | Alinha a seção 2.1; alinhado no VIC-6 (1.3) |
 | "Facção" no briefing | Grupo de heróis, não lado do jogador [U] | Uso "grupo de heróis" no lugar de "facção"; paleta por grupo |
 | Hardware | Placa de vídeo dedicada: IA local a custo zero é viável [U] | Atualiza a pilha de US$ 0 (4.3 e 4.4) e abre a decisão 4 |
 | Segunda referência | Dead Zone, idle web em pixel art [U] | Seções 2.6 a 2.8 e a recomendação (seção 6) |
@@ -510,10 +510,10 @@ A coluna "Quando" separa o que destrava a Fase 1 do que é da Fase 2, da Fase 3 
 | 6 | Fase 2 | Peso do download inicial na web | Por exemplo, até 10 MB; outro limite | Até 10 MB no primeiro carregamento [I] | |
 | 7 | Fase 3 | Câmera do combate | Lateral; 3/4 com formação fixa; 3/4 com movimento livre | Lateral ou 3/4 com formação fixa (2 direções); movimento livre só se o game-designer provar a necessidade | VIC-6 (1.3 e 1.5: time de 5 em três fileiras) |
 | 8 | Fase 3 | Teste de 2 semanas e teto de gasto | US$ 0; US$ 20 a 30; outro valor | Aprovar, em US$ 0 com a GPU local | |
-| 9 | Fase 3 | Orçamento de animação | US$ 0 (quadro a quadro e tweens); Spine Essential (US$ 99; 69 em promoção); Spine Professional (US$ 439; 369 em promoção) | US$ 0; reavaliar o Spine só se o plano B ocorrer | |
+| 9 | Fase 3 | Orçamento de animação | US$ 0 (quadro a quadro e tweens); Spine Essential (US$ 99; 69 em promoção); Spine Professional (US$ 439; 369 em promoção) [F-resumo, confirmar] | US$ 0; reavaliar o Spine só se o plano B ocorrer | |
 | 10 | Fase 3 (antes do 1º asset final) | Política sobre arte de IA | IA só como rascunho; IA também no asset final | Rascunho e variações com IA; acabamento humano nos finais e em tudo que for monetizado; licença de cada modelo e LoRA conferida | |
 | 11 | Fase 3 | Fontes e idiomas | pt-BR e inglês desde o início | Exigir cobertura de acentos em toda fonte escolhida | |
-| 12 | `game-designer` | Escopo de conteúdo no lançamento | Número de heróis, grupos de heróis e cosméticos por temporada | Definir antes do teste: o custo de arte cresce linearmente | VIC-5 (8.4, posicionamento); VIC-6 (5.4 nº 5, a reformular: "facção" = grupo de heróis) |
+| 12 | `game-designer` | Escopo de conteúdo no lançamento | Número de heróis, grupos de heróis e cosméticos por temporada | Definir antes do teste: o custo de arte cresce linearmente | VIC-5 (8.4, posicionamento); VIC-6 (grupos de heróis e competição; "facção" = grupo de heróis, alinhado no VIC-6) |
 
 Pergunta opcional, que não bloqueia nada: quando um herói muda de direção em batalha no Magic Rush, ele gira de forma contínua ou vira de uma vez? E ele se mexe parado? (seção 2.4)
 
@@ -525,8 +525,7 @@ Pergunta opcional, que não bloqueia nada: quando um herói muda de direção em
 4. **Confirmar o estilo** de MapleStory: Idle RPG e Ragnarok Idle Adventure Plus nas lojas.
 5. **Abyss Hunters:** confirmar se e quando o iOS foi lançado (a data prevista, 9/2/2026, já passou).
 6. **Dead Zone:** nenhum dado de mercado (desenvolvedor, instalações, monetização) foi pesquisado.
-7. **Alinhar o VIC-6:** a seção 1.3 registra 4 papéis de herói; o vídeo do usuário confirma 5 (inclui o Canhão). O ajuste cabe ao `game-designer` ou ao Líder.
-8. **Medir** no teste da seção 6.4: horas por asset, taxa de aprovação da IA, peso e legibilidade a 48 px.
+7. **Medir** no teste da seção 6.4: horas por asset, taxa de aprovação da IA, peso e legibilidade a 48 px.
 
 ## 9. Fontes
 
