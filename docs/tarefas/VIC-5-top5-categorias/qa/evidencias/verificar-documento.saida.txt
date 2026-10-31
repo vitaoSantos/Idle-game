@@ -1,0 +1,74 @@
+== (1) notas recalculadas (peso 0,4/0,3/0,3) ==
+Puzzle                       calculado=4.700 declarado=4.7 OK
+Estratégia 4X casual         calculado=4.200 declarado=4.2 OK
+Sandbox social/UGC           calculado=3.750 declarado=3.8 OK
+Híbrido-casual               calculado=3.500 declarado=3.5 OK
+Jogos web instantâneos       calculado=3.200 declarado=3.2 OK
+Cassino/coin looter          calculado=3.000 declarado=3.0 OK
+Shooter                      calculado=3.000 declarado=3.0 OK
+RPG (inclui idle RPG)        calculado=2.500 declarado=2.5 OK
+Simulação casual             calculado=1.850 declarado=1.9 OK
+
+== (2) sensibilidade ==
+pesos iguais: Puzzle                       4.67
+pesos iguais: Estratégia 4X casual         4.33
+pesos iguais: Sandbox social/UGC           3.83
+pesos iguais: Híbrido-casual               3.33
+pesos iguais: Jogos web instantâneos       3.17
+pesos iguais: Cassino/coin looter          3.17
+pesos iguais: Shooter                      3.00
+pesos iguais: RPG (inclui idle RPG)        2.67
+pesos iguais: Simulação casual             1.83
+web x cassino com pesos iguais: 3.167 3.167
+Shooter com C2=2: 3.00 (web = 3.20) -> não passa a web
+Shooter com C2=3: 3.30 (web = 3.20) -> passa a web
+Shooter com C2=4: 3.60 (web = 3.20) -> passa a web
+Cassino com C2=3: 2.70
+Cassino com C2=4: 3.00
+Cassino com C2=5: 3.30
+só crescimento (C1):  [(5, 'Puzzle'), (5, 'Híbrido-casual'), (3.5, 'Jogos web instantâneos'), (3, 'Shooter'), (3, 'Sandbox social/UGC'), (3, 'Estratégia 4X casual')]
+
+== (3) fontes ==
+tags usadas: 83 | definidas: 85
+usadas e NÃO definidas: []
+definidas e NÃO usadas: ['7', '25']
+URLs: 87 | hosts: 43 | top: [('www.pocketgamer.biz', 14), ('sensortower.com', 6), ('gamedevreports.substack.com', 5), ('www.gamerefinery.com', 5), ('wnhub.io', 4), ('respawn.outlookindia.com', 4)]
+  host sensortower.com -> 6 URLs
+  host x.com -> 2 URLs
+  host www.sec.gov -> 1 URLs
+
+== (4) marcas ==
+[secundária                10
+[antigo]                   3
+[sem data]                 2
+estimativa                 52
+reportado pela empresa     8
+pesquisa (amostra)         2
+'Não encontrei' no corpo: 4
+'Ficaram sem levantamento' (seção 9): True
+
+== (5) contas derivadas ==
+H1 2026 IAP: 39,8 / 40,6 = -1.97% (documento: -2%)
+AppMagic puzzle: 6,3 -> 7,6 = 20.6% (documento: ~+20%)
+Sensor Tower: estratégia 9,3 - puzzle 8,1 = 1.2 (documento: 1,2)
+RPG: 11,6 / 13,7 = -15.33% (documento: -15,4%; diferença de arredondamento das entradas)
+Roblox 2025: bookings 6,8 (+55%) -> base 2024 = 4.39 | receita 4,9 (+36%) -> base 2024 = 3.6
+Roblox 4T25: 2,22 (+63%) -> base = 1.36 | DAU 144 (+69%) -> base = 85.2
+D7 meta 8% / mediana 3,4–3,9% = 2.1x a 2.4x (documento: ~2x)
+temporada 6–8 semanas em 2–3 meses (8,7–13 semanas): 1.1 a 2.2 ciclos
+
+== (6) fontes por linha de sinal (tabelas com coluna Fonte) ==
+linhas de sinais: 59 | com 2+ fontes: 29 | com 1 fonte: 30
+linhas com 1 só fonte: ['Crescimento da receita (AppMagic)', 'Mercado total de jogos (Newzoo, escopo próprio)', 'Maiores jogos de 2025', 'Gasto em apps × jogos', 'IAP de jogos mobile', 'Renovação do topo', 'Topo de receita de setembro', 'Receita do gênero (Sensor Tower)', 'Receita bruta do gênero (AppMagic)', 'Gossip Harbor', 'Gossip Harbor no ranking mundial', 'Gasto com anúncios por gênero', 'Maior ganho regional (Sensor Tower)', 'Estratégia (Sensor Tower)', 'Estratégia (AppMagic, bruto)', 'Receita de IAP por usuário ativo por dia', 'Ranking dos 4X', 'IAP dos jogos de monetização híbrida (Sensor Tower)', 'Comparação (Sensor Tower)', 'Tendência', 'Capybara Go!', 'Archero 2', 'Downloads', 'Poki', 'Crescimento da Poki', 'Tráfego (Semrush)', 'Ranking de sites de jogos (Similarweb)', 'Oferta', 'Mini-games na China', 'Ocidente em 2026']
+
+== (7) sinais sem fonte e números soltos na prosa ==
+linhas de sinais: 59 | com tag de fonte: 59
+linhas de prosa com número de mercado e sem tag [n] ou [B]:
+  L8: - Ranking (crescimento 40%, escala 30%, presença nos rankings 30%): **1. Puzzle** · **2. Estratégia 4X casual*
+  L78: **Leitura:** a receita está parada e os downloads caem. Crescer agora significa tirar participação de alguém, 
+  L223: - onde jogam: em casa no tempo livre (80%), em pausas curtas (34%), no trajeto (22%) e na escola ou no trabalh
+  L224: - por que jogam: 58% por ser grátis e 56% pela facilidade de acesso;
+  L225: - frequência e gasto: 37% jogam várias vezes por dia, e 27% gastam mais de US$ 50 por mês com jogos;
+  L226: - 28% dizem que o tempo de jogo na web cresce à custa das redes sociais.
+  L342: - **Metas iniciais:** as da seção 7 (D1 ≥ 30%, D7 ≥ 8%, D30 ≥ 6%).
+total sinalizadas: 7 (revisadas à mão: método do ranking, leitura que resume a tabela, itens da pesquisa da Poki com fonte na linha de abertura e meta que remete à seção 7)

@@ -1,0 +1,79 @@
+== (1) tags de fonte ==
+família M: esperadas 38 | definidas 38 | usadas 38
+família C: esperadas 97 | definidas 97 | usadas 96
+família P: esperadas 21 | definidas 21 | usadas 21
+família T: esperadas 23 | definidas 23 | usadas 23
+família L: esperadas 25 | definidas 25 | usadas 25
+família R: esperadas 5 | definidas 5 | usadas 5
+usadas e NÃO definidas: []
+definidas e NÃO usadas: ['C31']
+total definidas: 209
+
+== (2) campos por jogo comparável (seções 2.2 a 2.10) ==
+2.1 Tabela comparativa                         campos=0/4 social_sem_detalhe_ou_inexistente=False
+2.2 AFK Arena (Lilith Games, abr/2019)         campos=4/4 social_sem_detalhe_ou_inexistente=True
+2.3 AFK Journey (Farlight Games / Lilith, 2024 campos=4/4 social_sem_detalhe_ou_inexistente=False
+2.4 Idle Heroes (DHGames, nov/2016)            campos=4/4 social_sem_detalhe_ou_inexistente=False
+2.5 MapleStory: Idle RPG (Nexon e AbleGames, 0 campos=4/4 social_sem_detalhe_ou_inexistente=False
+2.6 Legend of Mushroom (Joy Nice Games, do gru campos=4/4 social_sem_detalhe_ou_inexistente=False
+2.7 Legends of IdleOn (LavaFlame2, desenvolved campos=3/4 social_sem_detalhe_ou_inexistente=False
+2.8 Melvor Idle (Games by Malcs, publicado pel campos=4/4 social_sem_detalhe_ou_inexistente=True
+2.9 IdleMMO (Galahad Creative, criadores do Si campos=4/4 social_sem_detalhe_ou_inexistente=False
+2.10 Idle Clans (Isam Games, desenvolvedor solo campos=4/4 social_sem_detalhe_ou_inexistente=False
+
+== (3) fontes por reclamação (seção 4) ==
+# 1 fontes= 8  Pay-to-win e distância entre baleias e F2P
+# 2 fontes= 3  Paredes de progressão ("fiquei preso")
+# 3 fontes= 5  Gacha: sorte, falta de pity e probabilidade errada
+# 4 fontes= 5  Anúncios forçados ou que não pagam
+# 5 fontes= 4  Corte de recompensas e "devs gananciosos"
+# 6 fontes= 4  Power creep e conteúdo novo que anula o antigo
+# 7 fontes= 1  Compra presa a personagem ou servidor
+# 8 fontes= 1  Monetização que cresce num jogo que começou justo
+# 9 fontes= 1  Social fraco nos idle MMOs
+#10 fontes= 1  Offline muito mais lento que o ativo
+#11 fontes= 1  Problemas técnicos e de login
+
+== (4) marcas de confiança e ressalvas ==
+confiança baixa        6
+Confiança              5
+| Alta |               3
+| Média |              21
+| Baixa |              7
+não verificado         3
+não confirmad          6
+atribuição provável    0
+cálculo nosso          3
+Cálculo nosso          2
+Não encontramos        4
+não encontramos        2
+não detalhad           1
+
+== (5) hosts ==
+URLs: 209 | hosts: 138
+   apps.apple.com 5
+   play.google.com 0
+   reddit.com 15
+   sensortower.com 3
+   toucharcade.com 3
+   supercheats.com 4
+   support.google.com 2
+   developer.apple.com 1
+
+== (6) contagens ==
+jogos na tabela 2.1: 9
+oportunidades (5.1): 9
+riscos (5.2): 7
+hipóteses (5.3): 6 | perguntas (5.4): 5
+
+== (7) contas citadas ==
+pontos de habilidade: 20 x 10 min = 200 min = (3, 20) | VIP 4 (40): (6, 40)
+8 h fora: gera 48 | perde 28 (58%)
+  30 diamantes por US$ 0.99: 30.30 por dólar
+  150 diamantes por US$ 4.99: 30.06 por dólar
+  300 diamantes por US$ 9.99: 30.03 por dólar
+  600 diamantes por US$ 19.99: 30.02 por dólar
+  3000 diamantes por US$ 99.99: 30.00 por dólar
+lendário: 15.000 / 30 = 500.0 dólares | por soul stone (80): 187.5 diamantes
+Nexon KFTC: ₩ 11,6 bi ~ US$ 8,9 mi => câmbio implícito 1303 ₩/US$
+ECA Digital: 17/03/2026 cai numa terça (fontes: 'terça-feira, 17')
