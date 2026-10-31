@@ -1,0 +1,20 @@
+tags usadas no corpo: 60 | definidas na seção 9: 60
+usadas e NÃO definidas: []
+definidas e NÃO usadas no corpo: []
+marcas de confiança (corpo): {'N': 9, 'F': 29, 'F fraca': 31, 'I': 45, 'F + cálculo': 1, 'cálculo': 2, 'F + I': 2} | total: 119 | F fraca + I + N: 85 (71%)
+URLs: 120 | hosts distintos: 88
+   apps.apple.com 8
+   appgoblin.info 4
+   dev.to 4
+   github.com 3
+   esotericsoftware.com 3
+   www.mobygames.com 3
+   www.pocketgamer.com 3
+   play.google.com 2
+soma simples (pixel, cartoon): (25, 24) (documento: 25 e 24)
+peso 2 nos critérios 1 e 2: (31, 32) (documento: 31 e 32)
+peso 2 nos critérios 3 e 6: (34, 30) (documento: 34 e 30)
+30 quadros 64x64 = 122880 px; atlas 256x512 = 131072 px = 0.5 MiB; 30 classes = 15.0 MiB
+atlas 1024x1024 = 4.0 MiB; 30 classes = 120 MiB
+1080x2400: /3 = (360.0, 800.0) /4 = (270.0, 600.0) | 1440x3200 /4 = (360.0, 800.0)
+pilha confortável de pixel: 20 + 65 = 85
