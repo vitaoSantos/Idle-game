@@ -1,10 +1,10 @@
 # Plano de testes — VIC-5 Pesquisa: top 5 categorias de jogos em alta
 
 - **Documento revisado:** `docs/pesquisa/top5-categorias.md` (autor: `game-designer`)
-- **Commit testado:** `562b2de` (último commit que toca o documento; árvore limpa no início da revisão)
+- **Commit testado:** `562b2de` no ciclo 1 (último commit que toca o documento; árvore limpa no início da revisão) e `5b51f26` no ciclo 2
 - **Data:** 2026-10-31
 - **Responsável por todos os casos:** `qa-analista` (card só de documentos: não há automação, balanceamento nem segurança de código a testar)
-- **Ciclo de QA:** 1
+- **Ciclo de QA:** 1 (checklist e seções até "Evidências") e 2 (seção "Ciclo 2", ao final)
 
 ## Como ler
 
@@ -87,3 +87,54 @@ Total de chamadas de rede neste documento: 3, para 3 afirmações.
 ## Evidências
 
 - `qa/evidencias/verificar-documento.py` e `qa/evidencias/verificar-documento.saida.txt`: notas do ranking, sensibilidade e testes de robustez, tags de fonte, marcas, contas derivadas e fontes por linha. Para repetir, na raiz do repositório: `python3 -I docs/tarefas/VIC-5-top5-categorias/qa/evidencias/verificar-documento.py docs/pesquisa/top5-categorias.md`.
+
+---
+
+# Ciclo 2
+
+- **Commit testado:** `5b51f26` (corrige D1 a D7 do ciclo 1; altera só `docs/pesquisa/top5-categorias.md`). Briefing em `6f6c77d`. VIC-6 em `f64c33c`, com edição paralela em andamento durante a revisão (sha256 parcial do arquivo na execução do script: `1df337222f27`).
+- **Data:** 2026-10-31
+- **Escopo:** só os casos tocados pelos defeitos do ciclo 1, a consistência do que mudou e o cruzamento com o briefing atualizado depois do ciclo 1 (a pedido do Líder). Os demais casos do ciclo 1 não foram refeitos e seguem como estavam.
+- **Responsável por todos os casos:** `qa-analista`
+- **Resultados:** PASSOU, PARCIAL, FALHOU e INCONCLUSIVO (checagem na web sem confirmar nem refutar).
+
+## Casos reexecutados
+
+| ID | Verificação | Critério | Resultado no ciclo 2 |
+|---|---|---|---|
+| V5-05 | Notas de escala sem número e sensibilidade (D2) | 1 | PASSOU. A tabela "Sensibilidade às notas sem número" tem 6 linhas, todas recalculadas pelo script (bloco 2): shooter 3,00, 3,30 e 3,60; cassino 2,70, 3,00 e 3,30; os efeitos citados (fora do top 5; passa o web; shooter em 4º, híbrido-casual em 5º e web fora) conferem. O asterisco do ranking marca as duas notas sem total de gênero e remete à seção 9. O Resumo e a "Leitura" ("um ponto a mais na escala tira o web do top 5") conferem: o web cai para o 6º lugar nos dois casos. Com C2 = 5 o shooter chega a 3,90 e passa o UGC; o documento descarta esse cenário por um limite por diferença (20,6 − 9,3 − 6,1 = 5,2 bi no semestre), declarado como cálculo próprio e com a suposição sobre o "midcore". Nota de redação: 5,2 bi no semestre dá 10,4 bi por ano e o texto diz "abaixo de cerca de US$ 10 bi" (aceitável) |
+| V5-08 | 4X casual: os 7 campos (D1) | 2 | PASSOU. Público com dado: Last War com cerca de 75% de homens [86] (Audience Insights, jan–jun/2025), GameRefinery com 76% a 84% de homens [85] **[antigo]** e um sinal contrário fraco [87] **[secundária]**. Retenção: gênero amplo [88] **[antigo]** e dois títulos [89][90] (D1, D7 e D30 do Last War e do Whiteout Survival); D60 e D90 "sem dado público" com a busca registrada (linha 180). Ressalva: [86] e [89] não puderam ser confirmados na checagem na web (INCONCLUSIVO, abaixo) |
+| V5-10 | Híbrido-casual: os 7 campos (D1) | 2 | PASSOU. Público e retenção "sem dado público" e "sem benchmark público" com a busca registrada na própria linha (231 e 238); indícios indiretos separados do que é hipótese (marca [hipótese]); a fonte [93] leva a marca [secundária], coerente com a classe S |
+| V5-11 | Jogos web: os 7 campos (D1) | 2 | PASSOU. Retenção: D1 de 10% a 15% [94] **[sem data]**; D7 e D30 "sem dado público" com a busca registrada (linha 276) e leitura do D1 contra a mediana mobile. Público: pesquisa da Poki (hábitos e gasto); a seção 9 declara que idade e gênero da web "não foram buscados" (observação O1) |
+| V5-14 | "Não encontrei" no corpo × seção 9 (honestidade) (D1) | 2 | PASSOU. 0 ocorrências de "Não encontrei" e de "sem levantamento" no corpo (no ciclo 1 eram 4 e 1). As 18 ocorrências de lacuna declarada ("sem dado público", "sem benchmark público", "sem resultado", "sem total") registram a busca na própria linha ou na seção que a linha referencia (bloco 4 do script). As 11 linhas da tabela da seção 9 conferem com o corpo (4.2, 4.4, 4.5, 7.1 e seção 2). A busca foi feita de verdade: a 2ª rodada (15 buscas, declarada no corpo e na mensagem do commit) trouxe 11 fontes novas, [85] a [95], e a checagem na web encontrou o [86] (URL devolvida pela busca) e o [89] (artigo existente, de 22/01/2025) |
+| V5-17 | A tabela 6.2 cobre os pilares do briefing (reexecutado porque o briefing mudou em `6f6c77d`) | 3 | PARCIAL. As 7 linhas continuam, mas "Facções, ranking e temporadas" usa um pilar que o briefing atual não tem ("Não há facção escolhida pelo jogador") e falta o PvP, que o briefing cita entre os elementos de MMO e como o melhor momento do Magic Rush. Ver D8 |
+| V5-18 | Posicionamento (6.3) e recomendações (8.3) respeitam o briefing atual (reexecutado) | 3, 5 | FALHOU. 12 linhas do documento tratam "facção" como lado escolhido pelo jogador (Resumo, 4.2, 4.5, 6.2, 6.3, 8.1, 8.3 nº 1 e nº 3, 8.4); a recomendação nº 1 inclui "escolha de facção no início" e "ranking de facção". Ver D8 |
+| V5-19 | Tags de fonte usadas × definidas (D6) | 4 | PASSOU. 98 usadas e 98 definidas (1 a 99 sem 7 e 25, mais B), 0 órfãs; [7] e [25] saíram da lista e a seção 10 explica a numeração mantida. Classes: P 29, I 44, S 22 e 2 mistas (P e I) |
+| V5-22 | Critério da marca [secundária] e "acessadas" (D4, D6) | 4 | PASSOU. Critério escrito na 1.1 (classes P, I e S; só leva a marca o número cujas fontes são todas de classe S). Script, bloco 4b: 74 linhas de tabela conferidas, 0 só com fonte S sem a marca; 2 linhas mistas por desenho, com a marca ao lado do número da fonte S (linhas 196 e 289); prosa: 0 com marca sem fonte S. A prosa da linha 248 ([66], classe S, sem marca) não traz número. "Acessadas" saiu do cabeçalho e da seção 10 ("consultadas por resumo de busca ... sem abrir as páginas") |
+| V5-30 | Resumo executivo × corpo (D3) | 5 | PASSOU. Os 3 pontos do D3 foram corrigidos: "Puzzle e híbrido-casual" aceleram (+20% e +19% a +23%, ambos com C1 = 5); merge-2 "de 74% a 95%, conforme a leitura do mesmo relatório" (1,24 ÷ 0,636 = +95,0%); o −7% do 3º tri, o −15% do RPG, os 22 mi do Grow a Garden e "nenhum lançamento de 2026 entre os 20" mantêm a marca [secundária]. Os 9 itens do Resumo conferem com o corpo, inclusive o item novo de público e retenção |
+| V5-31 | Metas de retenção × meta do briefing (D5) | 5 | PASSOU. A 7.3 vai do D1 ao D90 (mínimo e meta) com D60 e D90 declarados "sem benchmark público"; a 7.2 traduz "2 a 3 meses" em parcela ativa no D60 e no D90 (recomendada) ou vida média; as perdas citadas conferem (bloco 5): 25% na versão do ciclo 1, 53% no Whiteout, 82% nas medianas do GameAnalytics de 2026, 60% no mínimo e 53% na meta; as curvas decrescem; a 8.3 nº 3 repete a tabela 7.3. Ressalva: D9 |
+| V5-35 | Contradições com o VIC-6 (D7) | 3, 5 | PASSOU, com ressalva. ECA Digital no risco 4, na decisão do público (8.4), no Resumo e na 4.3; benchmarks de idle do VIC-6 na 7.1 e na 7.3 (D1 de 42% do quartil superior dos idles, D30 do RPG de 3,48%, top 1% com 10% de D30, AFK Journey com 7% de D60); MapleStory: Idle RPG na 5.1, no Resumo, na 6.2 e na 8.1; sobreposição das decisões sinalizada na 8.4. As 6 fontes trazidas do VIC-6 (R2, C33, L15, L17, C11 e R5) têm a mesma URL nos dois documentos e os fatos citados existem no VIC-6 (US$ 164 mi, 7,6 mi de instalações, reembolso total, H3, art. 20 e risco 7). Ressalva: o VIC-6 está em edição paralela, e a 8.4 cita a numeração da 5.4 dele (nº 1 a 5), que pode mudar. A consistência com o VIC-7 não foi reexecutada (fora do pedido) |
+| V5-37 (novo) | Decisões já tomadas pelo usuário não aparecem como pendentes (7.2 e 8.4 × briefing atual) | 3, 5 | PARCIAL. O briefing registra a decisão "medir a porcentagem de jogadores ainda ativos no dia 60 e no dia 90" (2026-10-31, tarde). A 7.2 diz que "a escolha é do usuário (seção 8.4)" e a 8.4 repete a pergunta. A leitura recomendada pelo documento coincide com a decisão; só o enquadramento está desatualizado. Ver D9 |
+| V5-32 | O commit toca só o arquivo previsto (escopo) | todos | PASSOU. `5b51f26` altera apenas `docs/pesquisa/top5-categorias.md` |
+| V5-33 | Sem segredos, chaves ou e-mails no documento alterado (privacidade) | todos | PASSOU. Varredura por chave, token, senha, e-mail e parâmetros de autenticação, sem achados |
+| V5-34 | A referência a `docs/pesquisa/idle-rpg-referencias.md` aponta para um arquivo existente | 3 | PASSOU |
+
+## Checagens por amostragem na web (ciclo 2)
+
+Pedido do Líder: no máximo 2, de preferência [86] e [89]. As duas por WebSearch (resumos de busca; nenhuma página aberta), em 2026-10-31. Nenhuma chamada falhou.
+
+| # | Afirmação do documento | O que voltou | Conclusão |
+|---|---|---|---|
+| 1 | [86]: Last War com cerca de 75% de homens e 25% de mulheres; 35 a 44 anos é a maior faixa (cerca de 40% na Coreia do Sul e no Japão) (Sensor Tower Audience Insights, jan–jun/2025) | A URL do [86] (`sensortower.com/ja/blog/last-war-survival-JP`) foi devolvida pela busca. Nenhum resumo trouxe o 75/25 nem o 35 a 44. Direção compatível: a Udonis (citando Sensor Tower e Naavik) diz "predominantemente masculino" e faixa mais numerosa de 25 a 44, sem percentuais; a Famitsu (citando Sensor Tower) diz que, no Japão, 35 anos ou mais passam de 60% | INCONCLUSIVO. Não confirma nem refuta; a direção é compatível e a fonte existe |
+| 2 | [89]: iOS dos EUA, Last War com D1 34%, D7 11% e D30 4%; Whiteout Survival com D1 42%, D7 17% e D30 8% (Naavik, 22/01/2025) | O artigo existe, com a data de 22/01/2025, citado por uma wiki com o título "Why Last War Is Winning the 4X Game" (o documento usa "How ..."). Nenhum resumo trouxe D1, D7 ou D30 | INCONCLUSIVO. Existência e data confirmadas; os números não |
+
+Total de chamadas de rede neste ciclo: 2, para 2 afirmações. As metas da 7.3 se ancoram no [89]; por isso a confirmação na página fica como pendência (relatório, seção "Cobertura e lacunas").
+
+## Observações (não são defeitos)
+
+- **O1.** Público da web: a seção 9 diz que idade e gênero "não foram buscados"; a 4.5 só descreve hábitos e gasto e não repete essa lacuna no corpo. O critério 2 pede "público" e o corpo entrega comportamento (já aceito no ciclo 1). Sugestão cosmética: repetir a frase na 4.5.
+- **O2.** O −7% dos downloads de 2025 segue sem confirmação (já era assim no ciclo 1); a nota sobre 52 bi (total) × cerca de 50 bi (mobile) foi acrescentada e a conta de 95 mil por minuto fecha (49,9 bi).
+
+## Evidências do ciclo 2
+
+- `qa/evidencias/verificar-documento.py` (atualizado: blocos 1 e 2 leem as tabelas do próprio documento; o bloco 5 deixou de testar "D7 de 8%" e passou a testar as metas de 10% e 15% e as perdas; novos blocos 3 (classes), 4b (critério da marca) e 8 (briefing e VIC-6)) e `qa/evidencias/verificar-documento.saida-ciclo2.txt`. A saída do ciclo 1 segue em `qa/evidencias/verificar-documento.saida.txt` (gerada pela versão do script do commit `3e51fde`). Para repetir, na raiz do repositório: `python3 -I docs/tarefas/VIC-5-top5-categorias/qa/evidencias/verificar-documento.py docs/pesquisa/top5-categorias.md docs/gdd/briefing.md docs/pesquisa/idle-rpg-referencias.md`.
