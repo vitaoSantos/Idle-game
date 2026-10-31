@@ -15,7 +15,7 @@ Este guia mostra o que cada equipe usa, o que você já tem e o que vale instala
 
 | Skill | Uso no projeto |
 |---|---|
-| `openrouter-img` | Gerar e editar imagens em vários modelos (`artista-visual`) |
+| `openrouter-img` | Gerar e editar imagens em vários modelos (`artista-visual`). Precisa da chave `OPENROUTER_API_KEY` em `~/.env` (fora do repositório) |
 | `to-wireframe` | Wireframes tipados em ASCII ou SVG (`ui-ux-designer`, Fase 3) |
 | `img-to-html` | Transformar um mock em HTML estático para protótipo rápido (Fase 3) |
 | `deep-research` | Pesquisa de mercado de jogos idle, concorrentes e referências (Fase 1) |
@@ -81,6 +81,8 @@ claude plugin install claude-md-management@claude-plugins-official --scope proje
 | `session-report` | Relatório de consumo de tokens por sessão e por subagente, para controlar custos |
 | `claude-md-management` | Mantém o `CLAUDE.md` atualizado com o que as sessões aprenderam |
 
+O `session-report` só existe no marketplace do Claude Code: instale pelo `/plugin` dentro de uma sessão do Claude Code ou pelo comando acima no terminal. Ele não aparece no diretório de plugins do claude.ai e é opcional.
+
 Plugins `engineering` e `design` da Anthropic (as skills da tabela da seção 1):
 
 ```bash
@@ -110,7 +112,7 @@ Opcionais: `skill-creator` (criar skills do projeto), `hookify` (criar hooks des
 | Monetização e live ops | `stripe` ou `mercadopago` (pagamentos na versão web), `growthbook` (feature flags e testes A/B de balanceamento) |
 | Segurança extra | `semgrep`, `claude-security` |
 | Vídeo e mídia | `runway-api` (trailer e vídeo de loja), `cloudinary` (CDN e otimização de imagens) |
-| Kanban alternativo | `linear`, `notion` (se preferir a outro painel que não o GitHub Projects) |
+| Kanban alternativo | `linear`, `notion` (se preferir a outro painel que não o GitHub Projects). O Jira aparece na lista de conectores com o nome **Atlassian** |
 
 Use `/plugin` para navegar pelo catálogo completo, que muda com frequência.
 
@@ -120,7 +122,7 @@ Use `/plugin` para navegar pelo catálogo completo, que muda com frequência.
 - Conectores da conta do claude.ai (Figma, Canva) funcionam no claude.ai e nas sessões do Claude Code logadas na mesma conta.
 - Conectores só de um projeto ficam em `.mcp.json` na raiz do repositório.
 - Para restringir um conector a um agente (ex.: só o `qa-automacao` usa Playwright), use o campo `mcpServers` no arquivo do agente.
-- Em sessões na nuvem (claude.ai/code), o acesso à internet segue a política de rede do ambiente. Se um conector não conectar, libere o domínio em **Network access** nas configurações do ambiente.
+- Uma sessão na nuvem (claude.ai/code) roda num container na nuvem, mesmo quando aberta pelo app desktop. Nela, os conectores do claude.ai funcionam, mas servidores de plugins que acessam a internet direto (ex.: `context7`, em `mcp.context7.com`) seguem a política de rede do ambiente. Se um deles não conectar, libere o domínio em **Network access** nas configurações do ambiente. Em sessões locais, tudo conecta normalmente.
 
 ## 6. Permissões recomendadas (opcional)
 
