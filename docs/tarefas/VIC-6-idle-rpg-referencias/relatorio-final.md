@@ -2,7 +2,7 @@
 
 - **Status:** pronto para revisão
 - **PR:** https://github.com/vitaoSantos/Idle-game/pull/2
-- **Veredito do QA:** APROVADO (ciclo 1)
+- **Veredito do QA:** APROVADO (ciclo 1), mantido na revalidação dos ajustes
 - **Data:** 2026-10-31
 
 ## Resumo executivo
@@ -25,19 +25,28 @@ O Magic Rush: Heroes (Moonton, 2015) continua ativo, mas obriga a jogar para far
 ## Qualidade
 
 - Critérios de aceite: 6 de 6 atendidos.
-- Verificações: 29 (21 passaram, 7 parciais, 1 não verificável: a validade dos links).
+- Verificações do ciclo 1: 29 (21 passaram, 7 parciais, 1 não verificável: a validade dos links).
 - Checagens na web: o ECA Digital e o reembolso do MapleStory: Idle RPG pela Nexon se confirmaram no essencial; os números do Old School RuneScape Bonds, só em parte.
-- Defeitos: nenhum bloqueante, crítico ou maior; 6 menores e 1 cosmético.
+- Defeitos do ciclo 1: nenhum bloqueante, crítico ou maior; os 6 menores e o cosmético foram **corrigidos** com as suas respostas e os vídeos (commit `d12eb4a`).
+- **Revalidação dos ajustes:** APROVADO mantido. O QA conferiu que os fatos novos do Magic Rush e a seção do Dead Zone batem com o briefing, sem contradições nem fontes órfãs.
 - Relatório completo: `docs/tarefas/VIC-6-idle-rpg-referencias/relatorio-qa.md`
+
+## O que mudou depois da primeira entrega
+
+- **Com as suas respostas e o vídeo:** zero anúncios no Magic Rush, nenhuma facção escolhida (só grupos de heróis), 5 papéis de herói (o documento dizia 4), botões Varrer e X10, e PvP e evolução dos heróis como os pontos que você mais gostava.
+- **"Facção" = grupo de heróis:** a oportunidade de "facções em guerra" virou competição entre jogadores e guildas, com PvP assíncrono e rankings por temporada.
+- **Base legal citada:** Lei 15.211/2025 (art. 20) e Decreto 12.880/2026 (art. 23).
+- **Dead Zone — Idle Arsenal RPG** entrou como décimo jogo comparável (seção 2.12).
+- **Este PR também leva o briefing e o `CLAUDE.md` atualizados** com as suas respostas, já que eles são a base desses ajustes.
 
 ## Pendências e riscos
 
-- **Defeitos menores**, a corrigir num ajuste posterior junto com as suas respostas sobre o Magic Rush: o resumo afirma mais que o corpo em 4 pontos; falta citar o Decreto 12.880/2026; alguns fatos do Magic Rush vêm de guias antigos; a seção de reclamações não tem coluna de confiança; "facção" não separa o lado escolhido pelo jogador do grupo de heróis; os números do Old School RuneScape Bonds diferem da fonte.
+- **4 detalhes cosméticos** apontados na revalidação (duas datas de lançamento do MapleStory: Idle RPG, a redação da fonte [L19], duas frases sobre o que você confirmou e leituras do Dead Zone que vão um passo além do vídeo). Nenhum muda conclusão; ficam para a próxima revisão do documento.
 - **Fontes por resumo de busca:** a rede da sessão bloqueia lojas e Reddit, então nenhuma página foi aberta direto. O documento marca a confiança de cada afirmação.
-- **Jurídico:** o `especialista-lojas` precisa ler a Lei 15.211/2025 (ECA Digital) e o Decreto 12.880/2026 antes da decisão sobre gacha no Brasil. Isso entrou no card VIC-10.
+- **Jurídico:** o `especialista-lojas` precisa ler a Lei 15.211/2025 (ECA Digital) e o Decreto 12.880/2026 no texto oficial antes da decisão sobre gacha no Brasil. Isso entrou no card VIC-10.
 
 ## Precisa de você
 
 - [ ] Revisar e fazer o merge do PR
-- [ ] Responder às perguntas sobre o Magic Rush (comentário no card VIC-7)
 - [ ] Decidir sobre caixas aleatórias e público por idade no Brasil, depois da análise jurídica do VIC-10
+- [ ] Opcional, se lembrar: quanto a stamina recarregava e qual era o teto (com e sem VIP), se a Wishing Pool só abria no VIP 8 e em que época você jogou
