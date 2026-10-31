@@ -55,7 +55,7 @@ O Kanban fica no Linear. Status, rótulos e IDs estão em `docs/kanban.md`; use 
 
 ## 5. QA — obrigatório
 
-1. Mova o card para **Em QA**. Se esse status ainda não existir no Linear, mantenha In Progress e adicione o rótulo **Em QA**.
+1. Mova o card para **Em QA**.
 2. Acione o `qa-analista` em modo **PLANEJAR** (ID do card, pasta da tarefa, critérios de aceite, diff `git diff main...HEAD`).
 3. Conforme o plano, acione em paralelo:
    - `qa-automacao`: sempre que houver código;
@@ -76,7 +76,7 @@ O Kanban fica no Linear. Status, rótulos e IDs estão em `docs/kanban.md`; use 
 1. Commit final e `git push -u origin tarefa/<id>-<slug>`. Abra o PR para a `main` com `Closes <ID>` no corpo.
 2. Escreva `docs/tarefas/<ID>-<slug>/relatorio-final.md` a partir de `docs/templates/relatorio-final.md`.
 3. Comente no card (`save_comment`) o resumo do relatório final, com o link do PR e dos arquivos.
-4. Mova o card para **In Review** e retire o rótulo provisório **Em QA**, se usado.
+4. Mova o card para **In Review**.
 5. Responda ao usuário com o relatório final: resumo executivo, o que foi entregue, resultado do QA (com números), pendências e riscos, e **o que ele precisa decidir ou revisar**.
 
 Quem aprova e faz o merge é o usuário. Depois do merge, o card vai para Done (pela integração com o GitHub, pelo usuário ou pela skill `/status`).
