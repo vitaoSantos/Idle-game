@@ -66,6 +66,16 @@ O usuário gravou dois vídeos de referência. Os quadros foram analisados pelo 
 - **Retenção:** medir a porcentagem de jogadores ainda ativos no **dia 60 e no dia 90**, já que a meta é reter de 2 a 3 meses.
 - **Arte:** o usuário tem placa de vídeo dedicada, então a geração de arte com IA **no computador dele, a custo zero**, é viável.
 
+## Decisões do usuário após as pesquisas (2026-11-01)
+
+Tomadas a partir das pesquisas VIC-5, VIC-6 e VIC-7 (`docs/pesquisa/` e `docs/arte/estilo-pixel-vs-cartoon.md`):
+
+1. **Posicionamento aprovado:** idle RPG casual com grupos de heróis, PvP assíncrono, ranking e temporadas.
+2. **Direção visual: híbrido faseado (opção C do VIC-7).** Cena e personagens em pixel art chibi colorido, com a cor saturada e a proporção do Magic Rush; interface plana; retratos ilustrados só se o teste de arte justificar.
+3. **Público da arte:** casual amplo.
+4. **Do Dead Zone:** levar a **interface plana** e as **cartas com raridade**. A **base em corte** fica para depois do MVP.
+5. **Placa de vídeo:** modelo e memória (VRAM) ainda não informados, mas a geração local com IA está autorizada assim mesmo.
+
 ## Pedidos do usuário para a Fase 1
 
 - Pesquisa detalhada das **5 categorias de jogos em alta**, em paralelo à definição do conceito.
